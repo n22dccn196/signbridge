@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Language Translator</title>
+    <script>
+      const origFetch = window.fetch;
+      window.fetch = async function() {
+          let args = Array.prototype.slice.call(arguments);
+          if (typeof args[0] === 'string') {
+              args[0] = args[0].replace(/http:\/\/(localhost|127\.0\.0\.1):8000/g, "https://gelid-rylee-womanishly.ngrok-free.dev");
+          }
+          if (args[1]) {
+              args[1].headers = { ...args[1].headers, "ngrok-skip-browser-warning": "69420" };
+          } else {
+              args[1] = { headers: { "ngrok-skip-browser-warning": "69420" } };
+          }
+          return origFetch.apply(this, args);
+      };
+
+      const OrigWebSocket = window.WebSocket;
+      window.WebSocket = function(url, protocols) {
+          if (typeof url === 'string') {
+              url = url.replace(/ws:\/\/(localhost|127\.0\.0\.1):8000/g, "wss://gelid-rylee-womanishly.ngrok-free.dev");
+          }
+          return new OrigWebSocket(url, protocols);
+      };
+    </script>
+    <link rel="stylesheet" crossorigin href="/signbridge/assets/index-DPWRYGZV.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" crossorigin src="/signbridge/assets/index-zG5upcG4.js"></script>
+  </body>
+</html>
