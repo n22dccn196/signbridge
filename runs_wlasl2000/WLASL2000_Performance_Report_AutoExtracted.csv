@@ -1,0 +1,9 @@
+﻿Nhóm / Phương pháp,Mô hình,Top-1 Acc (%),Top-5 Acc (%),Top-10 Acc (%),Nguồn Dữ Liệu
+I. Baseline Bài Báo (OpenPose 55),I3D (Image-based),32.48,57.31,66.31,Báo cáo gốc (PDF)
+I. Baseline Bài Báo (OpenPose 55),Pose-TGCN,23.65,51.75,62.24,Báo cáo gốc (PDF)
+II. Chạy lại Bài Báo (MediaPipe 75),Retrained Pose-TGCN,25.75,52.65,63.45,Trích xuất trực tiếp JSON
+III. Mô hình của bạn (Lightweight),Ensemble (Kết hợp 4),29.37,57.72,68.36,Trích xuất trực tiếp JSON
+III. Mô hình của bạn (Lightweight),Hybrid (CNN+LSTM+Attn),19.84,46.86,0.0,Trích xuất trực tiếp JSON
+III. Mô hình của bạn (Lightweight),TCN,24.33,54.04,0.0,Trích xuất trực tiếp JSON
+III. Mô hình của bạn (Lightweight),Transformer,22.57,50.15,0.0,Trích xuất trực tiếp JSON
+III. Mô hình của bạn (Lightweight),BiLSTM,22.06,49.21,0.0,Trích xuất trực tiếp JSON

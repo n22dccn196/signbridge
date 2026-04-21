@@ -1,0 +1,7089 @@
+{
+  "optimized_weights": {
+    "hybrid": 0.15,
+    "tcn": 0.35,
+    "bilstm": 0.15,
+    "transformer": 0.35
+  },
+  "optimized_weights_list": [
+    0.15,
+    0.35,
+    0.15,
+    0.35
+  ],
+  "optimization_source": "grid",
+  "val_top1": 30.71,
+  "test_top1": 29.37,
+  "test_top5": 57.72,
+  "equal_test_top1": 30.06,
+  "equal_test_top5": 58.23,
+  "tcn_only_test_top1": 26.29,
+  "slsqp_weights": [
+    0.1251,
+    0.3501,
+    0.1474,
+    0.3773
+  ],
+  "slsqp_val_acc": 30.57,
+  "grid_weights": [
+    0.15,
+    0.35,
+    0.15,
+    0.35
+  ],
+  "grid_val_acc": 30.71,
+  "individual": {
+    "hybrid": {
+      "val_t1": 20.646268129348755,
+      "test_t1": 20.649850368499756,
+      "test_t5": 45.3185111284256
+    },
+    "tcn": {
+      "val_t1": 28.16700041294098,
+      "test_t1": 26.293286681175232,
+      "test_t5": 58.272767066955566
+    },
+    "bilstm": {
+      "val_t1": 23.2199028134346,
+      "test_t1": 22.060710191726685,
+      "test_t5": 49.209064245224
+    },
+    "transformer": {
+      "val_t1": 23.87760877609253,
+      "test_t1": 22.573749721050262,
+      "test_t5": 50.14963746070862
+    }
+  },
+  "per_class_acc": {
+    "book": {
+      "acc": 75.0,
+      "n": 4
+    },
+    "drink": {
+      "acc": 50.0,
+      "n": 4
+    },
+    "computer": {
+      "acc": 50.0,
+      "n": 4
+    },
+    "before": {
+      "acc": 0.0,
+      "n": 4
+    },
+    "chair": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "go": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "clothes": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "who": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "candy": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "cousin": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "deaf": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "fine": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "help": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "no": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "thin": {
+      "acc": 66.7,
+      "n": 3
+    },
+    "walk": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "year": {
+      "acc": 66.7,
+      "n": 3
+    },
+    "yes": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "all": {
+      "acc": 66.7,
+      "n": 3
+    },
+    "black": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "cool": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "finish": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hot": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "like": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "many": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "mother": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "now": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "orange": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "table": {
+      "acc": 66.7,
+      "n": 3
+    },
+    "thanksgiving": {
+      "acc": 66.7,
+      "n": 3
+    },
+    "what": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "woman": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "bed": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "blue": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "bowling": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "can": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "dog": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "family": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "fish": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "graduate": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "hat": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "hearing": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "kiss": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "language": {
+      "acc": 66.7,
+      "n": 3
+    },
+    "later": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "man": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "shirt": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "study": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "tall": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "white": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "wrong": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "accident": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "apple": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "bird": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "change": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "color": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "corn": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "cow": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "dance": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dark": {
+      "acc": 66.7,
+      "n": 3
+    },
+    "doctor": {
+      "acc": 66.7,
+      "n": 3
+    },
+    "eat": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "enjoy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "forget": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "give": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "last": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "meet": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "pink": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "pizza": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "play": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "school": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "secretary": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "short": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "time": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "want": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "work": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "africa": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "basketball": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "birthday": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "brown": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "but": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "cheat": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "city": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "full": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "how": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "jacket": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "letter": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "medicine": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "paint": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "paper": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pull": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "purple": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "right": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "same": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "son": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "tell": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "visit": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "wait": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "water": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "yellow": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "backpack": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "bar": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "brother": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cat": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "check": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "class": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "cry": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "different": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "green": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hair": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "have": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "headache": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "inform": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "laugh": {
+      "acc": 66.7,
+      "n": 3
+    },
+    "learn": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "movie": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "rabbit": {
+      "acc": 33.3,
+      "n": 3
+    },
+    "read": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "red": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "room": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "run": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "show": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "sick": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "snow": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "take": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "tea": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "teacher": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "week": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "with": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "write": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "yesterday": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "again": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "bad": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "ball": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "bathroom": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "blanket": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "buy": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "call": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "cold": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "college": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "copy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cute": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "example": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "far": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "first": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "friend": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "good": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "happy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "home": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "know": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "leave": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "list": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "losear": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "name": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "old": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "person": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "problem": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "remember": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "share": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "soon": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "stay": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "test": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "tired": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "trade": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "travel": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "window": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "you": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "about": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "approve": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "arrive": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "balance": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "banana": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "beard": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "because": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "boy": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "business": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "careful": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "center": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "chat": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "children": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "christmas": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "clock": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "close": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "convince": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "country": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "crash": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "day": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "discuss": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "dress": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "drive": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "drop": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "fat": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "feel": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "football": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "future": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "game": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "girl": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "government": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "hear": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "here": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "hope": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "house": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "husband": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "interest": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "join": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "light": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "live": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "make": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "mean": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "more": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "most": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "music": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "new": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "none": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "office": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "order": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "pants": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "party": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "past": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "pencil": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "plan": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "please": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "practice": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "president": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "restaurant": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "ride": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "russia": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "salt": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "sandwich": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "sign": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "since": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "small": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "some": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "south": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "student": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "teach": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "theory": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "tomato": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "train": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "ugly": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "war": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "where": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "your": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "always": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "animal": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "argue": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "baby": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "back": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "bake": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "bath": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "behind": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "bring": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "catch": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "cereal": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "champion": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "cheese": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "cough": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "crazy": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "delay": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "delicious": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "disappear": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "divorce": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "draw": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "east": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "easy": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "egg": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "environment": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "father": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "fault": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "flower": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "friendly": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "glasses": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "halloween": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "hard": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "heart": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hour": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "humble": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "hurry": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "improve": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "internet": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "jump": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "kill": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "law": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "match": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "meat": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "milk": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "money": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "month": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "moon": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "move": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "near": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "nephew": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "nice": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "niece": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "noon": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "north": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "not": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "nurse": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "off": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "ok": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "patient": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "pay": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "perspective": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "potato": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "sad": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "saturday": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "save": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "scissors": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "secret": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "shoes": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "shop": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "silly": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "sister": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "sleep": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "sorry": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "straight": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "sweet": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "talk": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "temperature": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "tent": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "thank you": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "think": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "throw": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "today": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "traffic": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "understand": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "use": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "voice": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "vomit": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "vote": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "wednesday": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "west": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "wet": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "when": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "which": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "win": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "word": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "afternoon": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "age": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "alone": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "appointment": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "australia": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "avoid": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "balloon": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "basement": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "bear": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "believe": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "better": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "blind": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "bored": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "bowl": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "box": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "bracelet": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "bread": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "cafeteria": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "car": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "chicken": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "child": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "choose": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "church": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "cookie": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "cup": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "cut": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "decorate": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "deep": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "deer": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "dentist": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "dirty": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "dive": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "down": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "dry": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "ear": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "earn": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "earring": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "elephant": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "english": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "escape": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "expensive": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "explain": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "fast": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "fight": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "find": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "fishing": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "floor": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "fly": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "follow": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "from": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "get": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "happen": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "hello": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "hit": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "hospital": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "idea": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "important": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "investigate": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "japan": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "jealous": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "king": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "kitchen": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "large": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "last year": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "lemon": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "lettuce": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "marry": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "meeting": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "minute": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "mirror": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "miss": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "monkey": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "morning": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "motorcycle": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "necklace": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "never": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "newspaper": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "night": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "onion": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "people": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "pepper": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "phone": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "picture": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "plus": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "point": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "poor": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "possible": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "quiet": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "rain": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "ready": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "research": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "scared": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "science": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "score": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "sentence": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "shape": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "sit": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "slow": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "snake": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "soap": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "soda": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "speech": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "star": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "stink": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "struggle": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "stubborn": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "sunset": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "surgery": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "there": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "tiger": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "toast": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "toilet": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "tomorrow": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "town": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "transfer": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "tree": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "truck": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "uncle": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "vacation": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "weather": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "weekend": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "accept": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "adult": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "after": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "ago": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "allow": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "america": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "angel": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "answer": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "any": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "area": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "art": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "asl": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "aunt": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "awful": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "awkward": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "bacon": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "bark": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "bedroom": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "beer": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "belt": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "big": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "bitter": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "both": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "cake": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "california": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "canada": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "carrot": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "cause": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "challenge": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "cheap": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "chocolate": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "clean": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "cloud": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "compare": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "complex": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "contact": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "continue": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "corner": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "correct": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "curse": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "dead": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "demand": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "depend": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "desert": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "desk": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "develop": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "dictionary": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "doll": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "duty": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "easter": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "egypt": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "elevator": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "email": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "end": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "enter": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "europe": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "event": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "exchange": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "experience": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "face": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "fail": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "feed": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "few": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "flag": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "food": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "for": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "form": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "freeze": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "friday": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "front": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "giraffe": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "god": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "grammar": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "grandfather": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "great": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "greece": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "guess": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "guitar": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "hammer": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "helicopter": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "high": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "history": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "hungry": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "hurt": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "introduce": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "invest": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "lazy": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "library": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "lie": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "lobster": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "love": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "lucky": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "magazine": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "measure": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "microwave": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "my": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "neighbor": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "number": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "one": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "outside": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "peach": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "pig": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "polite": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "postpone": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "power": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "present": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "price": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "prison": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "push": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "raccoon": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "really": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "reason": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "religion": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "respect": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "rule": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "salad": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "schedule": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "sell": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "serious": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "shower": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "single": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "smart": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "smile": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "soft": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "sound": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "soup": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "spain": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "spray": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "squirrel": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "stomach": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "story": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "strange": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "street": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "stress": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "strict": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "strong": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "sugar": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "summer": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "suspect": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "sweetheart": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "tease": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "that": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "themselves": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "therapy": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "thirsty": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "ticket": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "top": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "tuesday": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "turkey": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "university": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "until": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "watch": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "weak": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "wedding": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "will": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "wind": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "world": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "worry": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "wow": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "young": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "add": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "airplane": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "already": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "also": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "analyze": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "and": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "angry": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "appear": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "arm": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "army": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "arrest": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "asia": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "ask": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "attitude": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "attract": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bald": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "barely": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "baseball": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "beg": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "benefit": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "bite": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "blame": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "boat": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "body": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "borrow": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "boss": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bother": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bottle": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "bottom": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "brag": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "build": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bus": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "butter": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "calm": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "cancel": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "candle": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "cards": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "choice": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "comb": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "comfortable": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "conflict": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "cover": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "deodorant": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dessert": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "destroy": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "diamond": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "dollar": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "drawer": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "dream": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "drunk": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "duck": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "during": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "eagle": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "early": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "equal": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "every": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "excited": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "exercise": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "experiment": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "expert": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fact": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fear": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "feedback": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fold": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "forest": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "france": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "frog": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "funny": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "garage": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "goal": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "golf": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "gone": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gossip": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "grandmother": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "grapes": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "group": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "guilty": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "hamburger": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "head": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "her": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "horse": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "ignore": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "impossible": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "in": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "independent": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "inside": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "insurance": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "island": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lecture": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lesson": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "limit": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lion": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "listen": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "march": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "math": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "maybe": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "mechanic": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "mom": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "mouse": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "much": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "muscle": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "museum": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "must": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "mustache": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "negative": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "nervous": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "neutral": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "nose": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "often": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "operate": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "opinion": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "other": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pass": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "pillow": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "prepare": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "pretty": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "priest": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "program": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "promise": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "put": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "queen": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "quit": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "radio": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rat": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "reject": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "require": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rest": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "retire": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rise": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "river": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rough": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "see": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "seem": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "send": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sew": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sheep": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "shine": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "shock": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "should": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "silent": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "skinny": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "skirt": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sky": {
+      "acc": 100.0,
+      "n": 2
+    },
+    "sour": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "special": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "spirit": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "staff": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "stand": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "steal": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "stop": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "stupid": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "summon": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sunrise": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "swallow": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "television": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "to": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "together": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "translate": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "triangle": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "turtle": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "underwear": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "up": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "upset": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "violin": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "volunteer": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "warm": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "warn": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wash": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wine": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "witness": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wood": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "zero": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "across": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "actor": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "agree": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "alarm": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "allergy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "almost": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "announce": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "apartment": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "attention": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "audience": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "august": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "autumn": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "away": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "beautiful": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "become": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "below": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "best": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bet": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bicycle": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "biology": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "boyfriend": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "break": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "bridge": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "brush": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "building": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "busy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "camera": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "camp": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "caption": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "care": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "carry": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "celebrate": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "certificate": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "chain": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "chance": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "character": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "chase": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "classroom": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "clear": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "climb": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "command": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "community": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "complain": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "compromise": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "contribute": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cop": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "cost": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "couch": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cracker": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "curious": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "curriculum": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "dad": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "deny": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "describe": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "diaper": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "diarrhea": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "disagree": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dissolve": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "divide": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dolphin": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "double": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "doubt": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dumb": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "earth": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "earthquake": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "eight": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "embarrass": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "emotion": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "encourage": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "energy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "enough": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "evaluate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "evidence": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "exact": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "exaggerate": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "expect": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fancy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "favorite": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "finally": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fox": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "french": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fruit": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "function": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "gather": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "germany": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gloves": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "goat": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "goodbye": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "grow": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gum": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "half": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hawaii": {
+      "acc": 50.0,
+      "n": 2
+    },
+    "herself": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "highway": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "homework": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "honor": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "ice cream": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "if": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "increase": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "india": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "information": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "interpret": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "interview": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "invite": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "israel": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "jesus": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "keep": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "keyboard": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "land": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lawyer": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lead": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lesbian": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "line": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "lock": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "loud": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lousy": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "lunch": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "machine": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "mad": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "memorize": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "minus": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "monday": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "mountain": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "mouth": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "mushroom": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "napkin": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "neck": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "next": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "ocean": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "open": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "overwhelm": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "owe": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "page": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pain": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "parade": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "parents": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "perfect": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "period": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "philosophy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "photographer": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "place": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "policy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "popular": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pray": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "predict": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "presentation": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "print": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "printer": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "private": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "procrastinate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "project": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "protect": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "prove": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "provide": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "psychology": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "punish": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "puzzled": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "question": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "quick": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rainbow": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "rake": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rehearse": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "remove": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "revenge": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "review": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rich": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "roof": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rooster": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rude": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "say": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "scientist": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "scotland": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "screwdriver": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "second": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "senate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "separate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "service": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "shrimp": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "shy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "side": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "situation": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "slave": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "soccer": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "socks": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "solid": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sometimes": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "spider": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "spin": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "square": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "stairs": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "stare": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "start": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "store": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "straw": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "structure": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "suggest": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sun": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "support": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "suppose": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sure": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "surprise": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sweater": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "swim": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "symbol": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "taste": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "team": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "telephone": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tennis": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "their": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "then": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "thermometer": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "thing": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "third": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "thousand": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "three": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tie": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "topic": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "touch": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tournament": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "try": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "two": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "type": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "umbrella": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "vegetable": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "vocabulary": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "waste": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "we": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wear": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "weekly": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "welcome": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "winter": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "without": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "wolf": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "worm": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "wristwatch": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "yourself": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "above": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "accomplish": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "adopt": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "advantage": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "alphabet": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "anniversary": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "another": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "appropriate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "arrogant": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "artist": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "background": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bee": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "behavior": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bell": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "birth": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bless": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "blood": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "boots": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "brave": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "breathe": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bright": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bull": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "butterfly": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "card": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "category": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "catholic": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "cent": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "chemistry": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "cherry": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "china": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "chop": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "christian": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cigarette": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "clever": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "clown": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "coach": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "coat": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cochlear implant": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "coconut": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "common": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "commute": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "control": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "count": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "culture": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "daily": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "defend": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "degree": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "demonstrate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "department": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "die": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dig": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dinner": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "dinosaur": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "diploma": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "director": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "disconnect": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "discover": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "don't want": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "drum": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "each": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "educate": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "electrician": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "empty": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "england": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "establish": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "excuse": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "eyeglasses": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "faculty": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fall in love": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "famous": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "farm": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "fence": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fix": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "flexible": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "flirt": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "flood": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "fork": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "four": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "fun": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "funeral": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "furniture": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gallaudet": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "general": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "ghost": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "give up": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "glass": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gorilla": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gray": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "guide": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "habit": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "health": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hearing aid": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "heaven": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "heavy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "helmet": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hide": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "high school": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hockey": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hold": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "honest": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hug": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hunt": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "image": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "influence": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "interesting": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "interpreter": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "iran": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "italy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "jewish": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "judge": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "key": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "label": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "leaf": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "left": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lend": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "less": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "linguistics": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lonely": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "long": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "magic": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "mainstream": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "major": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "manager": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "maximum": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "me": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "mexico": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "middle": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "mind": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "misunderstand": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "monster": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "multiply": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "myself": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "nothing": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "october": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "odd": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "offer": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "on": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "only": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "opposite": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "out": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "overlook": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "path": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "percent": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "physics": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "piano": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pick": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pie": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "plate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pocket": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "popcorn": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "positive": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pregnant": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "prevent": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "proof": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pumpkin": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "purpose": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "race": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "realize": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "recognize": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "refuse": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "relationship": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "repeat": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "replace": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "report": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "represent": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "request": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "responsibility": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "result": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "reveal": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "ring": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rob": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rock": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "role": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rope": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "rush": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "salute": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "satisfy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "search": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "selfish": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sensitive": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "serve": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "seven": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "shampoo": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "she": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "shelf": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "shopping": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sign language": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "similar": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sing": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "six": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "skeleton": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sketch": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "skill": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "sleepy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "slip": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "smell": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "sneeze": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "snob": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "specific": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "stamp": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "steel": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "strawberry": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "subtract": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "subway": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "suffer": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "surface": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sweep": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "swing": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "switzerland": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "tale": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tan": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "teeth": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "terrible": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "thankful": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "they": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "through": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tiptoe": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "title": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tooth": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "toothbrush": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "total": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tough": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tradition": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "trophy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "trouble": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "true": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "trust": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "under": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "verb": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wall": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "watermelon": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "way": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "weird": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "while": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wide": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "willing": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wish": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "wonderful": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "workshop": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "worse": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "wrench": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "a": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "a lot": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "abdomen": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "able": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "accountant": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "action": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "active": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "activity": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "address": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "affect": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "afraid": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "against": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "agenda": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "ahead": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "aim": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "alcohol": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "algebra": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "all day": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "amazing": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "angle": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "apart": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "apostrophe": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "appetite": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "appreciate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "april": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "archery": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "around": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "article": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "assistant": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "attend": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "auction": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "authority": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "average": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "awake": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "b": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "babysitter": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "battle": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "beginning": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "belief": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bible": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bike": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "blend": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bone": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bra": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "brief": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "broke": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bug": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bully": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "button": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "cabbage": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cabinet": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "calculate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "calculator": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "calculus": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "camping": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "canoe": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "ceiling": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cemetery": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "chapter": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "choir": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "circle": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "come": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "come here": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "company": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "complete": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "concept": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "concern": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "confront": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "confused": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "congress": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "connect": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "conquer": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "constitution": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "contract": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "crab": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cross": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cruel": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "crush": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "date": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "december": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "decrease": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "deduct": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "defeat": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "deposit": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "detach": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "determine": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "diabetes": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dime": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "disgust": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dismiss": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "dizzy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "document": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dorm": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "dormitory": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "downstairs": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "economy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "education": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "effort": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "eighteen": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "engage": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "engagement": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "engineer": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "envelope": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "erase": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "eternity": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "evening": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "everyday": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "expand": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "eye": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "eyes": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fake": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "farmer": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "february": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "federal": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "final": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "florida": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "flute": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "forbid": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "forever": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fourth": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "free": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "french fries": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "gamble": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gas": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gasoline": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "generation": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "geography": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "german": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "girlfriend": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "gold": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "grandma": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "grass": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "grow up": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gun": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "haircut": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hard of hearing": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hippopotamus": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "his": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "honey": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hurricane": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "identify": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "include": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "infection": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "innocent": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "insect": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "instead": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "institute": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "international": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "interrupt": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "involve": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "jail": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "january": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "joke": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "june": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "kangaroo": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "karate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "kick": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "kneel": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "knock": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "laptop": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lift": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "lightning": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lip": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "lipstick": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "local": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "manage": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "mature": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "member": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "message": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "metal": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "microphone": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "mix": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "monthly": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "motor": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "nation": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "network": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "nickel": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "nineteen": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "normal": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "november": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "nut": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "octopus": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "once": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "organize": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "over": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "owl": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "p": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "parachute": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "paragraph": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "parallel": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pay attention": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "peace": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "peanut butter": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "perfume": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "personality": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pet": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "physician": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "piece": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pity": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "plant": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "plenty": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pneumonia": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "politics": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "position": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pound": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pour": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "praise": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "preach": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "preacher": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "prefer": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pressure": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "principal": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "priority": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "professional": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "professor": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "promote": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "prostitute": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "proud": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "quote": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "receive": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "recent": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "reduce": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "refer": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "referee": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "relate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "relax": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "remote control": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "rent": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "reputation": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "resign": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "responsible": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "ridiculous": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "road": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "robot": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rubber": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "safe": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sauce": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sausage": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "scold": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "senior": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "september": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "shame": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "shave": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "shoot": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "shoulder": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "silver": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "simple": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "siren": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "size": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "skate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "skin": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "skunk": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "slice": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "smooth": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "snack": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "snowman": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "society": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "song": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sore throat": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "south america": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "spanish": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "speak": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "speed": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "spell": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "spoon": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "spring": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "standard": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "statistics": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sticky": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "still": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "stretch": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "surgeon": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sweden": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "swimsuit": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sympathy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "take turns": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "take up": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "technology": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tender": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "thailand": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "theater": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "them": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "theme": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "thick": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "this": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "throat": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tissue": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tongue": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tonight": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tornado": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tower": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "tranquil": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "transform": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tutor": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "twin": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "united states": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "value": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "visitor": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "wake up": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wallet": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wander": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "wash face": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "weight": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "whale": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "whatever": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "within": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wonder": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "worker": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "worthless": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "wrap": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "act": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "adapt": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "adjust": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "admire": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "admit": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "agreement": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "aid": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "alligator": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "amputate": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "austria": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bank": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "battery": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "blow": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "boast": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bookshelf": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "braid": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "breakfast": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "breeze": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "buffalo": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bush": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "bye": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "camel": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cannot": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "captain": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "click": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "closet": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "clueless": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "clumsy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "collect": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "comment": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "commit": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "compete": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "congratulations": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "construct": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "consume": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "conversation": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "convert": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "crave": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "create": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "crocodile": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "cuba": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "d": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "damage": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dangerous": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "death": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "debt": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dice": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "discipline": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "disgusted": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "disturb": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "done": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dragon": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "drama": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "drug": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dull": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "dusk": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "dvd": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "e": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "electricity": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "enormous": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "eraser": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "exhibit": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "f": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fairy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "festival": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fingerspell": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fire": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "firefighter": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "five": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "fool": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "freeway": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "from now on": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "g": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gay": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "geometry": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "get up": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "graduation": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "grey": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "gymnastics": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "h": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hang up": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hanukkah": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "heap": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "holy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "hot dog": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "i": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "ill": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "impact": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "inspect": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "inspire": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "intersection": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "iron": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "j": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "joy": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "k": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "kid": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "kindergarten": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "lady": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "leak": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "m": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "meaning": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "microscope": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "midnight": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "mine": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "moose": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "mosquito": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "motivate": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "n": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "nine": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "not yet": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "notice": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "numerous": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "o": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "objective": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "obsess": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "obtain": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pack": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "pause": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "peaceful": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "penny": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "phrase": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "polar bear": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "policeman": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "poop": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "post": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "precipitation": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pride": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "publish": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "purchase": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "pure": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "q": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "quality": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "quarter": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "r": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "recliner": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "regular": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "release": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "roommate": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "rose": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "s": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "saw": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "scan": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sea": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sixteen": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "smoking": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "soldier": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "someday": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "soul": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "spread": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "sprint": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "stadium": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "superman": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "swimming": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "t": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "telescope": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "ten": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "text": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "trip": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "truth": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "tv": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "u": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "v": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "vacant": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "vampire": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "very": {
+      "acc": 100.0,
+      "n": 1
+    },
+    "vlog": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "w": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "wheelchair": {
+      "acc": 0.0,
+      "n": 1
+    }
+  },
+  "worst_10": {
+    "before": {
+      "acc": 0.0,
+      "n": 4
+    },
+    "clothes": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "who": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "candy": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "help": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "yes": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "black": {
+      "acc": 0.0,
+      "n": 2
+    },
+    "finish": {
+      "acc": 0.0,
+      "n": 1
+    },
+    "like": {
+      "acc": 0.0,
+      "n": 3
+    },
+    "bed": {
+      "acc": 0.0,
+      "n": 1
+    }
+  },
+  "avg_worst_10": 0.0,
+  "slsqp_iterations": 8,
+  "slsqp_converged": true,
+  "timestamp": "2026-03-21 13:53:23"
+}

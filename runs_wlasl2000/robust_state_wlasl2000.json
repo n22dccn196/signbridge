@@ -1,0 +1,32 @@
+{
+  "variant": "wlasl2000",
+  "models": [
+    "hybrid",
+    "tcn",
+    "bilstm",
+    "transformer"
+  ],
+  "tuned": {
+    "hybrid": "ok",
+    "tcn": "ok",
+    "bilstm": "ok",
+    "transformer": "ok"
+  },
+  "trained": {
+    "hybrid": "ok",
+    "tcn": "ok",
+    "bilstm": "ok",
+    "transformer": "ok"
+  },
+  "optimized": true,
+  "evaluated": true,
+  "started_at": "2026-03-21 01:26:45",
+  "weights_applied": true,
+  "completed_at": "2026-03-21 13:53:27",
+  "successful_models": [
+    "hybrid",
+    "tcn",
+    "bilstm",
+    "transformer"
+  ]
+}

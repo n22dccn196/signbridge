@@ -1,0 +1,5 @@
+Model,Latency Mean (ms),Latency Std (ms),FPS
+BILSTM,0.88,0.7,1130.1
+TCN,1.23,0.43,812.5
+TRANSFORMER,0.59,0.19,1708.1
+HYBRID,1.33,0.36,751.0

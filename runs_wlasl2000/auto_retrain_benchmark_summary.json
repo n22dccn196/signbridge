@@ -1,0 +1,92 @@
+{
+  "timestamp": "2026-03-21 16:41:43",
+  "models": {
+    "hybrid": {
+      "best_val_acc": 20.646268229911353,
+      "test_acc": 20.649850363403164,
+      "test_top5": 45.31851218469431,
+      "best_epoch": 168,
+      "total_time_s": 2512.0706601142883,
+      "num_params": 515576,
+      "best_params": null,
+      "checkpoint": null
+    },
+    "tcn": {
+      "best_val_acc": 28.167000285959393,
+      "test_acc": 26.293287729799058,
+      "test_top5": 58.272766139375804,
+      "best_epoch": 273,
+      "total_time_s": 4002.768400669098,
+      "num_params": 1909072,
+      "best_params": null,
+      "checkpoint": null
+    },
+    "bilstm": {
+      "best_val_acc": 23.21990277380612,
+      "test_acc": 22.060709705002136,
+      "test_top5": 49.209063702436936,
+      "best_epoch": 243,
+      "total_time_s": 3532.2718131542206,
+      "num_params": 578428,
+      "best_params": null,
+      "checkpoint": null
+    },
+    "transformer": {
+      "best_val_acc": 23.877609379468115,
+      "test_acc": 22.57374946558358,
+      "test_top5": 50.14963659683625,
+      "best_epoch": 259,
+      "total_time_s": 3966.33167052269,
+      "num_params": 310160,
+      "best_params": null,
+      "checkpoint": null
+    }
+  },
+  "ensemble": {
+    "test_acc": 29.37152629328773,
+    "test_top5": 57.71697306541257,
+    "weights": [
+      0.15,
+      0.35,
+      0.15,
+      0.35
+    ]
+  },
+  "optimized_weights": [
+    0.15,
+    0.35,
+    0.15,
+    0.35
+  ],
+  "optimized_acc": null,
+  "pipeline": {
+    "pipeline": "robust_wlasl",
+    "variant": "wlasl2000",
+    "models": [
+      "hybrid",
+      "tcn",
+      "bilstm",
+      "transformer"
+    ],
+    "successful_models": [
+      "hybrid",
+      "tcn",
+      "bilstm",
+      "transformer"
+    ],
+    "tune_trials": 50,
+    "trial_epochs": 20,
+    "train_epochs": 300,
+    "skip_tune": false,
+    "skip_train": false,
+    "skip_optimize": false,
+    "skip_eval": false,
+    "dry_run": false,
+    "optimized": true,
+    "evaluated": true,
+    "weights_applied": true,
+    "state_file": "g:\\HK2N4\\BOBSL_Lightweight\\dl_model_wlasl\\runs_wlasl2000\\robust_state_wlasl2000.json",
+    "log_file": "g:\\HK2N4\\BOBSL_Lightweight\\dl_model_wlasl\\runs_wlasl2000\\robust_pipeline_wlasl2000.log",
+    "updated_at": "2026-03-21 13:53:27"
+  }
+}

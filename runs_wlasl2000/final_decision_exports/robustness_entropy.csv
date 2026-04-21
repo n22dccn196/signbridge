@@ -1,0 +1,5 @@
+Model,Raw Entropy,Normalized Entropy (%)
+BILSTM,3.7487,49.32
+TCN,1.6586,21.82
+TRANSFORMER,2.0877,27.47
+HYBRID,1.8486,24.32

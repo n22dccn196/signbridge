@@ -1,0 +1,30 @@
+{
+  "pipeline": "robust_wlasl",
+  "variant": "wlasl2000",
+  "models": [
+    "hybrid",
+    "tcn",
+    "bilstm",
+    "transformer"
+  ],
+  "successful_models": [
+    "hybrid",
+    "tcn",
+    "bilstm",
+    "transformer"
+  ],
+  "tune_trials": 50,
+  "trial_epochs": 20,
+  "train_epochs": 300,
+  "skip_tune": false,
+  "skip_train": false,
+  "skip_optimize": false,
+  "skip_eval": false,
+  "dry_run": false,
+  "optimized": true,
+  "evaluated": true,
+  "weights_applied": true,
+  "state_file": "g:\\HK2N4\\BOBSL_Lightweight\\dl_model_wlasl\\runs_wlasl2000\\robust_state_wlasl2000.json",
+  "log_file": "g:\\HK2N4\\BOBSL_Lightweight\\dl_model_wlasl\\runs_wlasl2000\\robust_pipeline_wlasl2000.log",
+  "updated_at": "2026-03-21 13:53:27"
+}

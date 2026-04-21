@@ -1,0 +1,17 @@
+{
+  "model": "hybrid",
+  "val_top1": 12.78238490134401,
+  "lr": 0.001759440086713024,
+  "weight_decay": 6.059896118836892e-06,
+  "batch_size": 64,
+  "label_smoothing": 0.08362736242865573,
+  "grad_clip": 2.4091556157349894,
+  "cnn_channels": 64,
+  "lstm_hidden": 64,
+  "lstm_layers": 1,
+  "attn_heads": 8,
+  "drop_cnn": 0.1856983436750943,
+  "drop_lstm": 0.21277464267520696,
+  "drop_cls": 0.21163554346164548,
+  "fc_hidden": 256
+}

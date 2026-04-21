@@ -1,0 +1,13 @@
+{
+  "model": "transformer",
+  "best_val": 23.877609379468115,
+  "best_epoch": 259,
+  "test_top1": 22.57374946558358,
+  "test_top5": 50.14963659683625,
+  "total_time_s": 6170.534522294998,
+  "num_classes": 2000,
+  "num_params": 310160,
+  "dataset": "wlasl2000",
+  "dry_run": false,
+  "timestamp": "2026-04-13 16:02:36"
+}

@@ -1,0 +1,43 @@
+{
+    "run_id": "20260413_115443",
+    "dataset": "WLASL2000",
+    "start_time": "Mon Apr 13 11:54:43 2026",
+    "models_planned": [
+        "bilstm",
+        "tcn",
+        "transformer",
+        "hybrid"
+    ],
+    "status": "completed",
+    "end_time": "Mon Apr 13 17:30:22 2026",
+    "results": [
+        {
+            "model": "bilstm",
+            "status": "SUCCESS",
+            "return_code": 0,
+            "wall_time_seconds": 4347.6847541332245,
+            "log_file": "G:\\HK2N4\\BOBSL_Lightweight\\dl_model_wlasl\\runs_wlasl2000\\full_train_20260413_115443\\bilstm_training.log"
+        },
+        {
+            "model": "tcn",
+            "status": "SUCCESS",
+            "return_code": 0,
+            "wall_time_seconds": 2337.5089597702026,
+            "log_file": "G:\\HK2N4\\BOBSL_Lightweight\\dl_model_wlasl\\runs_wlasl2000\\full_train_20260413_115443\\tcn_training.log"
+        },
+        {
+            "model": "transformer",
+            "status": "SUCCESS",
+            "return_code": 0,
+            "wall_time_seconds": 6176.269924879074,
+            "log_file": "G:\\HK2N4\\BOBSL_Lightweight\\dl_model_wlasl\\runs_wlasl2000\\full_train_20260413_115443\\transformer_training.log"
+        },
+        {
+            "model": "hybrid",
+            "status": "SUCCESS",
+            "return_code": 0,
+            "wall_time_seconds": 5265.710337162018,
+            "log_file": "G:\\HK2N4\\BOBSL_Lightweight\\dl_model_wlasl\\runs_wlasl2000\\full_train_20260413_115443\\hybrid_training.log"
+        }
+    ]
+}

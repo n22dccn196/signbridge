@@ -1,0 +1,3960 @@
+[config_selector] Activated 'wlasl2000' config  (2000 classes, G:\HK2N4\HK2N4\TTNM\features_npy_wlasl2000)
+
+============================================================
+  WLASL Training Pipeline (wlasl2000)
+  Models: ['tcn']
+  Classes: 2000
+  Epochs: 300 (patience=40)
+  Data: G:\HK2N4\HK2N4\TTNM\features_npy_wlasl2000
+  Dry-run: False
+  Start: 2026-04-13 13:40:44
+============================================================
+  CUDA warm-up...
+  CUDA warm-up OK
+
+============================================================
+  TRAINING [WLASL2000]: TCN
+============================================================
+  GPU: NVIDIA GeForce RTX 3060 Ti
+  Classes: 2000, Data: G:\HK2N4\HK2N4\TTNM\features_npy_wlasl2000
+  lr=0.001223 bs=32 ls=0.171 gc=2.17
+[Dataset] WLASL data detected (19273 files) -> using embedded splits
+[Dataset] train= 13437  val= 3497  test= 2339
+  Data: train=13437 val=3497 test=2339
+
+  [train] Class distribution (13437 samples):
+               book:   29 samples  w=0.0333  #####
+              drink:   25 samples  w=0.0385  #####
+           computer:   20 samples  w=0.0476  ####
+             before:   16 samples  w=0.0588  ###
+              chair:   17 samples  w=0.0556  ###
+                 go:   19 samples  w=0.0500  ###
+            clothes:   18 samples  w=0.0526  ###
+                who:   18 samples  w=0.0526  ###
+              candy:   15 samples  w=0.0625  ###
+             cousin:   15 samples  w=0.0625  ###
+               deaf:   14 samples  w=0.0667  ##
+               fine:   15 samples  w=0.0625  ###
+               help:   15 samples  w=0.0625  ###
+                 no:   15 samples  w=0.0625  ###
+               thin:   14 samples  w=0.0667  ##
+               walk:   15 samples  w=0.0625  ###
+               year:   14 samples  w=0.0667  ##
+                yes:   15 samples  w=0.0625  ###
+                all:   14 samples  w=0.0667  ##
+              black:   14 samples  w=0.0667  ##
+               cool:   14 samples  w=0.0667  ##
+             finish:   14 samples  w=0.0667  ##
+                hot:   15 samples  w=0.0625  ###
+               like:   13 samples  w=0.0714  ##
+               many:   15 samples  w=0.0625  ###
+             mother:   15 samples  w=0.0625  ###
+                now:   14 samples  w=0.0667  ##
+             orange:   14 samples  w=0.0667  ##
+              table:   15 samples  w=0.0625  ###
+       thanksgiving:   15 samples  w=0.0625  ###
+               what:   14 samples  w=0.0667  ##
+              woman:   15 samples  w=0.0625  ###
+                bed:   15 samples  w=0.0625  ###
+               blue:   15 samples  w=0.0625  ###
+            bowling:   15 samples  w=0.0625  ###
+                can:   15 samples  w=0.0625  ###
+                dog:   13 samples  w=0.0714  ##
+             family:   15 samples  w=0.0625  ###
+               fish:   13 samples  w=0.0714  ##
+           graduate:   15 samples  w=0.0625  ###
+                hat:   15 samples  w=0.0625  ###
+            hearing:   15 samples  w=0.0625  ###
+               kiss:   13 samples  w=0.0714  ##
+           language:   12 samples  w=0.0769  ##
+              later:   13 samples  w=0.0714  ##
+                man:   15 samples  w=0.0625  ###
+              shirt:   13 samples  w=0.0714  ##
+              study:   15 samples  w=0.0625  ###
+               tall:   13 samples  w=0.0714  ##
+              white:   14 samples  w=0.0667  ##
+              wrong:   13 samples  w=0.0714  ##
+           accident:   12 samples  w=0.0769  ##
+              apple:   13 samples  w=0.0714  ##
+               bird:   13 samples  w=0.0714  ##
+             change:   14 samples  w=0.0667  ##
+              color:   14 samples  w=0.0667  ##
+               corn:   13 samples  w=0.0714  ##
+                cow:   13 samples  w=0.0714  ##
+              dance:   13 samples  w=0.0714  ##
+               dark:   13 samples  w=0.0714  ##
+             doctor:   11 samples  w=0.0833  ##
+                eat:   14 samples  w=0.0667  ##
+              enjoy:   13 samples  w=0.0714  ##
+             forget:   13 samples  w=0.0714  ##
+               give:   13 samples  w=0.0714  ##
+               last:   13 samples  w=0.0714  ##
+               meet:   14 samples  w=0.0667  ##
+               pink:   11 samples  w=0.0833  ##
+              pizza:   13 samples  w=0.0714  ##
+               play:   14 samples  w=0.0667  ##
+             school:   13 samples  w=0.0714  ##
+          secretary:   13 samples  w=0.0714  ##
+              short:   11 samples  w=0.0833  ##
+               time:   13 samples  w=0.0714  ##
+               want:   14 samples  w=0.0667  ##
+               work:   14 samples  w=0.0667  ##
+             africa:   12 samples  w=0.0769  ##
+         basketball:   13 samples  w=0.0714  ##
+           birthday:   10 samples  w=0.0909  ##
+              brown:   12 samples  w=0.0769  ##
+                but:   12 samples  w=0.0769  ##
+              cheat:   11 samples  w=0.0833  ##
+               city:   13 samples  w=0.0714  ##
+               cook:   13 samples  w=0.0714  ##
+             decide:   13 samples  w=0.0714  ##
+               full:   12 samples  w=0.0769  ##
+                how:   11 samples  w=0.0833  ##
+             jacket:   13 samples  w=0.0714  ##
+             letter:   12 samples  w=0.0769  ##
+           medicine:   13 samples  w=0.0714  ##
+               need:   13 samples  w=0.0714  ##
+              paint:   13 samples  w=0.0714  ##
+              paper:   12 samples  w=0.0769  ##
+               pull:   12 samples  w=0.0769  ##
+             purple:   12 samples  w=0.0769  ##
+              right:   12 samples  w=0.0769  ##
+               same:   12 samples  w=0.0769  ##
+                son:   12 samples  w=0.0769  ##
+               tell:   13 samples  w=0.0714  ##
+           thursday:   13 samples  w=0.0714  ##
+              visit:   13 samples  w=0.0714  ##
+               wait:   13 samples  w=0.0714  ##
+              water:   12 samples  w=0.0769  ##
+               wife:   13 samples  w=0.0714  ##
+             yellow:   12 samples  w=0.0769  ##
+           backpack:   11 samples  w=0.0833  ##
+                bar:   11 samples  w=0.0833  ##
+            brother:   12 samples  w=0.0769  ##
+                cat:   12 samples  w=0.0769  ##
+              check:   11 samples  w=0.0833  ##
+              class:   12 samples  w=0.0769  ##
+                cry:   12 samples  w=0.0769  ##
+          different:   12 samples  w=0.0769  ##
+               door:   12 samples  w=0.0769  ##
+              green:   11 samples  w=0.0833  ##
+               hair:   12 samples  w=0.0769  ##
+               have:   11 samples  w=0.0833  ##
+           headache:   12 samples  w=0.0769  ##
+             inform:   10 samples  w=0.0909  ##
+              knife:   12 samples  w=0.0769  ##
+              laugh:   10 samples  w=0.0909  ##
+              learn:   11 samples  w=0.0833  ##
+              movie:   12 samples  w=0.0769  ##
+             rabbit:   11 samples  w=0.0833  ##
+               read:   11 samples  w=0.0833  ##
+                red:   11 samples  w=0.0833  ##
+               room:   11 samples  w=0.0833  ##
+                run:   12 samples  w=0.0769  ##
+               show:   12 samples  w=0.0769  ##
+               sick:   12 samples  w=0.0769  ##
+               snow:   11 samples  w=0.0833  ##
+               take:   10 samples  w=0.0909  ##
+                tea:   11 samples  w=0.0833  ##
+            teacher:   12 samples  w=0.0769  ##
+               week:   11 samples  w=0.0833  ##
+                why:   12 samples  w=0.0769  ##
+               with:   12 samples  w=0.0769  ##
+              write:   11 samples  w=0.0833  ##
+          yesterday:   11 samples  w=0.0833  ##
+              again:   10 samples  w=0.0909  ##
+                bad:   11 samples  w=0.0833  ##
+               ball:   11 samples  w=0.0833  ##
+           bathroom:   11 samples  w=0.0833  ##
+            blanket:   11 samples  w=0.0833  ##
+                buy:   11 samples  w=0.0833  ##
+               call:   11 samples  w=0.0833  ##
+             coffee:   10 samples  w=0.0909  ##
+               cold:   11 samples  w=0.0833  ##
+            college:   10 samples  w=0.0909  ##
+               copy:   11 samples  w=0.0833  ##
+               cute:   11 samples  w=0.0833  ##
+           daughter:   11 samples  w=0.0833  ##
+            example:   10 samples  w=0.0909  ##
+                far:   10 samples  w=0.0909  ##
+              first:   10 samples  w=0.0909  ##
+             friend:   10 samples  w=0.0909  ##
+               good:    9 samples  w=0.1000  #
+              happy:   10 samples  w=0.0909  ##
+               home:   10 samples  w=0.0909  ##
+               know:   11 samples  w=0.0833  ##
+               late:   11 samples  w=0.0833  ##
+              leave:   10 samples  w=0.0909  ##
+               list:   11 samples  w=0.0833  ##
+             losear:   11 samples  w=0.0833  ##
+               name:   11 samples  w=0.0833  ##
+                old:   11 samples  w=0.0833  ##
+             person:   11 samples  w=0.0833  ##
+             police:   11 samples  w=0.0833  ##
+            problem:   11 samples  w=0.0833  ##
+           remember:   10 samples  w=0.0909  ##
+              share:   11 samples  w=0.0833  ##
+               soon:   10 samples  w=0.0909  ##
+               stay:   11 samples  w=0.0833  ##
+             sunday:   11 samples  w=0.0833  ##
+               test:   11 samples  w=0.0833  ##
+              tired:   11 samples  w=0.0833  ##
+              trade:   11 samples  w=0.0833  ##
+             travel:   11 samples  w=0.0833  ##
+             window:   10 samples  w=0.0909  ##
+                you:   11 samples  w=0.0833  ##
+              about:   10 samples  w=0.0909  ##
+            approve:    9 samples  w=0.1000  #
+             arrive:    9 samples  w=0.1000  #
+            balance:   10 samples  w=0.0909  ##
+             banana:   10 samples  w=0.0909  ##
+              beard:    9 samples  w=0.1000  #
+            because:   10 samples  w=0.0909  ##
+                boy:   10 samples  w=0.0909  ##
+           business:   10 samples  w=0.0909  ##
+            careful:    9 samples  w=0.1000  #
+             center:   10 samples  w=0.0909  ##
+               chat:   10 samples  w=0.0909  ##
+           children:   10 samples  w=0.0909  ##
+          christmas:   10 samples  w=0.0909  ##
+              clock:   10 samples  w=0.0909  ##
+              close:   10 samples  w=0.0909  ##
+           convince:    9 samples  w=0.1000  #
+            country:   10 samples  w=0.0909  ##
+              crash:    9 samples  w=0.1000  #
+                day:   10 samples  w=0.0909  ##
+            discuss:   10 samples  w=0.0909  ##
+              dress:   10 samples  w=0.0909  ##
+              drive:    9 samples  w=0.1000  #
+               drop:   10 samples  w=0.0909  ##
+                fat:   10 samples  w=0.0909  ##
+               feel:   10 samples  w=0.0909  ##
+           football:    9 samples  w=0.1000  #
+             future:   10 samples  w=0.0909  ##
+               game:   10 samples  w=0.0909  ##
+               girl:   10 samples  w=0.0909  ##
+         government:   10 samples  w=0.0909  ##
+               hear:    9 samples  w=0.1000  #
+               here:   10 samples  w=0.0909  ##
+               hope:    9 samples  w=0.1000  #
+              house:    9 samples  w=0.1000  #
+            husband:   10 samples  w=0.0909  ##
+           interest:   10 samples  w=0.0909  ##
+               join:   10 samples  w=0.0909  ##
+              light:   10 samples  w=0.0909  ##
+               live:   10 samples  w=0.0909  ##
+               make:    9 samples  w=0.1000  #
+               mean:   10 samples  w=0.0909  ##
+               more:    9 samples  w=0.1000  #
+               most:   10 samples  w=0.0909  ##
+              music:   10 samples  w=0.0909  ##
+                new:   10 samples  w=0.0909  ##
+               none:   10 samples  w=0.0909  ##
+             office:    9 samples  w=0.1000  #
+              order:   10 samples  w=0.0909  ##
+              pants:   10 samples  w=0.0909  ##
+              party:    9 samples  w=0.1000  #
+               past:    9 samples  w=0.1000  #
+             pencil:    8 samples  w=0.1111  #
+               plan:    9 samples  w=0.1000  #
+             please:    9 samples  w=0.1000  #
+           practice:   10 samples  w=0.0909  ##
+          president:   10 samples  w=0.0909  ##
+         restaurant:    9 samples  w=0.1000  #
+               ride:   10 samples  w=0.0909  ##
+             russia:    9 samples  w=0.1000  #
+               salt:   10 samples  w=0.0909  ##
+           sandwich:   10 samples  w=0.0909  ##
+               sign:    9 samples  w=0.1000  #
+              since:    9 samples  w=0.1000  #
+              small:   10 samples  w=0.0909  ##
+               some:   10 samples  w=0.0909  ##
+              south:    9 samples  w=0.1000  #
+            student:    9 samples  w=0.1000  #
+              teach:    9 samples  w=0.1000  #
+             theory:   10 samples  w=0.0909  ##
+             tomato:   10 samples  w=0.0909  ##
+              train:   10 samples  w=0.0909  ##
+               ugly:    9 samples  w=0.1000  #
+                war:   10 samples  w=0.0909  ##
+              where:   10 samples  w=0.0909  ##
+               your:   10 samples  w=0.0909  ##
+             always:    8 samples  w=0.1111  #
+             animal:    9 samples  w=0.1000  #
+              argue:    9 samples  w=0.1000  #
+               baby:    9 samples  w=0.1000  #
+               back:    8 samples  w=0.1111  #
+               bake:    8 samples  w=0.1111  #
+               bath:    9 samples  w=0.1000  #
+             behind:    9 samples  w=0.1000  #
+              bring:    9 samples  w=0.1000  #
+              catch:   10 samples  w=0.0909  ##
+             cereal:    8 samples  w=0.1111  #
+           champion:    9 samples  w=0.1000  #
+             cheese:    8 samples  w=0.1111  #
+              cough:    9 samples  w=0.1000  #
+              crazy:    8 samples  w=0.1111  #
+              delay:    9 samples  w=0.1000  #
+          delicious:   10 samples  w=0.0909  ##
+          disappear:    8 samples  w=0.1111  #
+            divorce:    8 samples  w=0.1111  #
+               draw:   10 samples  w=0.0909  ##
+               east:    9 samples  w=0.1000  #
+               easy:    8 samples  w=0.1111  #
+                egg:    8 samples  w=0.1111  #
+        environment:    9 samples  w=0.1000  #
+             father:    9 samples  w=0.1000  #
+              fault:    8 samples  w=0.1111  #
+             flower:    9 samples  w=0.1000  #
+           friendly:    8 samples  w=0.1111  #
+            glasses:    9 samples  w=0.1000  #
+          halloween:    9 samples  w=0.1000  #
+               hard:    9 samples  w=0.1000  #
+              heart:   10 samples  w=0.0909  ##
+               hour:    8 samples  w=0.1111  #
+             humble:    9 samples  w=0.1000  #
+              hurry:    9 samples  w=0.1000  #
+            improve:    9 samples  w=0.1000  #
+           internet:    9 samples  w=0.1000  #
+               jump:   10 samples  w=0.0909  ##
+               kill:    9 samples  w=0.1000  #
+                law:    9 samples  w=0.1000  #
+              match:    9 samples  w=0.1000  #
+               meat:    8 samples  w=0.1111  #
+               milk:    9 samples  w=0.1000  #
+              money:    8 samples  w=0.1111  #
+              month:    8 samples  w=0.1111  #
+               moon:    9 samples  w=0.1000  #
+               move:   10 samples  w=0.0909  ##
+               near:    8 samples  w=0.1111  #
+             nephew:    8 samples  w=0.1111  #
+               nice:    7 samples  w=0.1250  #
+              niece:    8 samples  w=0.1111  #
+               noon:    8 samples  w=0.1111  #
+              north:    8 samples  w=0.1111  #
+                not:    9 samples  w=0.1000  #
+              nurse:    9 samples  w=0.1000  #
+                off:    8 samples  w=0.1111  #
+                 ok:    9 samples  w=0.1000  #
+            patient:    9 samples  w=0.1000  #
+                pay:    9 samples  w=0.1000  #
+        perspective:    9 samples  w=0.1000  #
+             potato:    8 samples  w=0.1111  #
+                sad:   10 samples  w=0.0909  ##
+           saturday:    9 samples  w=0.1000  #
+               save:    8 samples  w=0.1111  #
+           scissors:    9 samples  w=0.1000  #
+             secret:    9 samples  w=0.1000  #
+              shoes:    9 samples  w=0.1000  #
+               shop:    9 samples  w=0.1000  #
+              silly:    9 samples  w=0.1000  #
+             sister:    9 samples  w=0.1000  #
+              sleep:    9 samples  w=0.1000  #
+              sorry:    8 samples  w=0.1111  #
+           straight:    9 samples  w=0.1000  #
+              sweet:   10 samples  w=0.0909  ##
+               talk:    9 samples  w=0.1000  #
+        temperature:    9 samples  w=0.1000  #
+               tent:    9 samples  w=0.1000  #
+          thank you:    9 samples  w=0.1000  #
+              think:    9 samples  w=0.1000  #
+              throw:    8 samples  w=0.1111  #
+              today:    8 samples  w=0.1111  #
+            traffic:    7 samples  w=0.1250  #
+         understand:    8 samples  w=0.1111  #
+                use:    9 samples  w=0.1000  #
+              voice:    9 samples  w=0.1000  #
+              vomit:    9 samples  w=0.1000  #
+               vote:    9 samples  w=0.1000  #
+          wednesday:    9 samples  w=0.1000  #
+               west:    8 samples  w=0.1111  #
+                wet:    9 samples  w=0.1000  #
+               when:    9 samples  w=0.1000  #
+              which:    9 samples  w=0.1000  #
+                win:   10 samples  w=0.0909  ##
+               word:    9 samples  w=0.1000  #
+          afternoon:    8 samples  w=0.1111  #
+                age:    9 samples  w=0.1000  #
+              alone:    9 samples  w=0.1000  #
+        appointment:    8 samples  w=0.1111  #
+          australia:    9 samples  w=0.1000  #
+              avoid:    9 samples  w=0.1000  #
+            balloon:    9 samples  w=0.1000  #
+           basement:    8 samples  w=0.1111  #
+               bear:    9 samples  w=0.1000  #
+            believe:    9 samples  w=0.1000  #
+             better:    8 samples  w=0.1111  #
+              blind:    9 samples  w=0.1000  #
+              bored:    9 samples  w=0.1000  #
+               bowl:    8 samples  w=0.1111  #
+                box:    8 samples  w=0.1111  #
+           bracelet:    9 samples  w=0.1000  #
+              bread:    8 samples  w=0.1111  #
+          cafeteria:    8 samples  w=0.1111  #
+                car:    8 samples  w=0.1111  #
+            chicken:    8 samples  w=0.1111  #
+              child:    9 samples  w=0.1000  #
+             choose:    9 samples  w=0.1000  #
+             church:    9 samples  w=0.1000  #
+             cookie:    9 samples  w=0.1000  #
+                cup:    9 samples  w=0.1000  #
+                cut:    8 samples  w=0.1111  #
+           decorate:    8 samples  w=0.1111  #
+               deep:    9 samples  w=0.1000  #
+               deer:    9 samples  w=0.1000  #
+            dentist:    8 samples  w=0.1111  #
+              dirty:    9 samples  w=0.1000  #
+               dive:    8 samples  w=0.1111  #
+               down:    8 samples  w=0.1111  #
+                dry:    9 samples  w=0.1000  #
+                ear:    9 samples  w=0.1000  #
+               earn:    9 samples  w=0.1000  #
+            earring:    8 samples  w=0.1111  #
+           elephant:    9 samples  w=0.1000  #
+            english:    9 samples  w=0.1000  #
+             escape:    9 samples  w=0.1000  #
+          expensive:    9 samples  w=0.1000  #
+            explain:    8 samples  w=0.1111  #
+               fast:    9 samples  w=0.1000  #
+              fight:    9 samples  w=0.1000  #
+               find:    8 samples  w=0.1111  #
+            fishing:    9 samples  w=0.1000  #
+              floor:    8 samples  w=0.1111  #
+                fly:    8 samples  w=0.1111  #
+             follow:    8 samples  w=0.1111  #
+               from:    8 samples  w=0.1111  #
+                get:    8 samples  w=0.1111  #
+             happen:    8 samples  w=0.1111  #
+              hello:    8 samples  w=0.1111  #
+                hit:    9 samples  w=0.1000  #
+           hospital:    8 samples  w=0.1111  #
+               idea:    9 samples  w=0.1000  #
+          important:    9 samples  w=0.1000  #
+        investigate:    9 samples  w=0.1000  #
+              japan:    8 samples  w=0.1111  #
+            jealous:    9 samples  w=0.1000  #
+               king:    9 samples  w=0.1000  #
+            kitchen:    8 samples  w=0.1111  #
+              large:    9 samples  w=0.1000  #
+          last year:    9 samples  w=0.1000  #
+              lemon:    9 samples  w=0.1000  #
+            lettuce:    9 samples  w=0.1000  #
+              marry:    9 samples  w=0.1000  #
+            meeting:    9 samples  w=0.1000  #
+             minute:    9 samples  w=0.1000  #
+             mirror:    9 samples  w=0.1000  #
+               miss:    8 samples  w=0.1111  #
+             monkey:    9 samples  w=0.1000  #
+            morning:    8 samples  w=0.1111  #
+         motorcycle:    9 samples  w=0.1000  #
+           necklace:    8 samples  w=0.1111  #
+              never:    8 samples  w=0.1111  #
+          newspaper:    8 samples  w=0.1111  #
+              night:    8 samples  w=0.1111  #
+              onion:    9 samples  w=0.1000  #
+             people:    8 samples  w=0.1111  #
+             pepper:    8 samples  w=0.1111  #
+              phone:    9 samples  w=0.1000  #
+            picture:    9 samples  w=0.1000  #
+               plus:    9 samples  w=0.1000  #
+              point:    9 samples  w=0.1000  #
+               poor:    9 samples  w=0.1000  #
+           possible:    9 samples  w=0.1000  #
+              quiet:    9 samples  w=0.1000  #
+               rain:    8 samples  w=0.1111  #
+              ready:    9 samples  w=0.1000  #
+           research:    9 samples  w=0.1000  #
+             scared:    9 samples  w=0.1000  #
+            science:    8 samples  w=0.1111  #
+              score:    8 samples  w=0.1111  #
+           sentence:    9 samples  w=0.1000  #
+              shape:    9 samples  w=0.1000  #
+                sit:    9 samples  w=0.1000  #
+               slow:    9 samples  w=0.1000  #
+              snake:    9 samples  w=0.1000  #
+               soap:    9 samples  w=0.1000  #
+               soda:    8 samples  w=0.1111  #
+             speech:    7 samples  w=0.1250  #
+               star:    9 samples  w=0.1000  #
+              stink:    8 samples  w=0.1111  #
+           struggle:    8 samples  w=0.1111  #
+           stubborn:    8 samples  w=0.1111  #
+             sunset:    9 samples  w=0.1000  #
+            surgery:    9 samples  w=0.1000  #
+              there:    8 samples  w=0.1111  #
+              tiger:    8 samples  w=0.1111  #
+              toast:    8 samples  w=0.1111  #
+             toilet:    9 samples  w=0.1000  #
+           tomorrow:    8 samples  w=0.1111  #
+               town:    8 samples  w=0.1111  #
+           transfer:    9 samples  w=0.1000  #
+               tree:    9 samples  w=0.1000  #
+              truck:    9 samples  w=0.1000  #
+              uncle:    8 samples  w=0.1111  #
+           vacation:    9 samples  w=0.1000  #
+            weather:    8 samples  w=0.1111  #
+            weekend:    8 samples  w=0.1111  #
+             accept:    7 samples  w=0.1250  #
+              adult:    8 samples  w=0.1111  #
+              after:    7 samples  w=0.1250  #
+                ago:    7 samples  w=0.1250  #
+              allow:    7 samples  w=0.1250  #
+            america:    7 samples  w=0.1250  #
+              angel:    7 samples  w=0.1250  #
+             answer:    6 samples  w=0.1429  #
+                any:    6 samples  w=0.1429  #
+               area:    8 samples  w=0.1111  #
+                art:    6 samples  w=0.1429  #
+                asl:    7 samples  w=0.1250  #
+               aunt:    7 samples  w=0.1250  #
+              awful:    7 samples  w=0.1250  #
+            awkward:    7 samples  w=0.1250  #
+              bacon:    7 samples  w=0.1250  #
+               bark:    8 samples  w=0.1111  #
+            bedroom:    7 samples  w=0.1250  #
+               beer:    7 samples  w=0.1250  #
+               belt:    7 samples  w=0.1250  #
+                big:    7 samples  w=0.1250  #
+             bitter:    7 samples  w=0.1250  #
+               both:    7 samples  w=0.1250  #
+               cake:    7 samples  w=0.1250  #
+         california:    7 samples  w=0.1250  #
+             canada:    7 samples  w=0.1250  #
+             carrot:    8 samples  w=0.1111  #
+              cause:    7 samples  w=0.1250  #
+          challenge:    7 samples  w=0.1250  #
+              cheap:    7 samples  w=0.1250  #
+          chocolate:    7 samples  w=0.1250  #
+              clean:    7 samples  w=0.1250  #
+              cloud:    7 samples  w=0.1250  #
+            compare:    7 samples  w=0.1250  #
+            complex:    7 samples  w=0.1250  #
+            contact:    7 samples  w=0.1250  #
+           continue:    7 samples  w=0.1250  #
+             corner:    6 samples  w=0.1429  #
+            correct:    7 samples  w=0.1250  #
+              curse:    7 samples  w=0.1250  #
+               dead:    7 samples  w=0.1250  #
+             demand:    7 samples  w=0.1250  #
+             depend:    7 samples  w=0.1250  #
+             desert:    8 samples  w=0.1111  #
+               desk:    6 samples  w=0.1429  #
+            develop:    7 samples  w=0.1250  #
+         dictionary:    7 samples  w=0.1250  #
+               doll:    7 samples  w=0.1250  #
+               duty:    8 samples  w=0.1111  #
+             easter:    7 samples  w=0.1250  #
+              egypt:    7 samples  w=0.1250  #
+           elevator:    6 samples  w=0.1429  #
+              email:    8 samples  w=0.1111  #
+                end:    7 samples  w=0.1250  #
+              enter:    6 samples  w=0.1429  #
+             europe:    7 samples  w=0.1250  #
+              event:    8 samples  w=0.1111  #
+           exchange:    6 samples  w=0.1429  #
+         experience:    7 samples  w=0.1250  #
+               face:    8 samples  w=0.1111  #
+               fail:    6 samples  w=0.1429  #
+               feed:    7 samples  w=0.1250  #
+                few:    7 samples  w=0.1250  #
+               flag:    7 samples  w=0.1250  #
+               food:    7 samples  w=0.1250  #
+                for:    6 samples  w=0.1429  #
+               form:    8 samples  w=0.1111  #
+             freeze:    7 samples  w=0.1250  #
+             friday:    6 samples  w=0.1429  #
+              front:    7 samples  w=0.1250  #
+            giraffe:    7 samples  w=0.1250  #
+                god:    7 samples  w=0.1250  #
+            grammar:    7 samples  w=0.1250  #
+        grandfather:    6 samples  w=0.1429  #
+              great:    8 samples  w=0.1111  #
+             greece:    7 samples  w=0.1250  #
+              guess:    8 samples  w=0.1111  #
+             guitar:    7 samples  w=0.1250  #
+             hammer:    7 samples  w=0.1250  #
+         helicopter:    7 samples  w=0.1250  #
+               high:    7 samples  w=0.1250  #
+            history:    7 samples  w=0.1250  #
+             hungry:    7 samples  w=0.1250  #
+               hurt:    6 samples  w=0.1429  #
+          introduce:    7 samples  w=0.1250  #
+             invest:    8 samples  w=0.1111  #
+               lazy:    7 samples  w=0.1250  #
+            library:    6 samples  w=0.1429  #
+                lie:    8 samples  w=0.1111  #
+            lobster:    7 samples  w=0.1250  #
+               love:    7 samples  w=0.1250  #
+              lucky:    8 samples  w=0.1111  #
+           magazine:    7 samples  w=0.1250  #
+            measure:    7 samples  w=0.1250  #
+          microwave:    7 samples  w=0.1250  #
+                 my:    7 samples  w=0.1250  #
+           neighbor:    7 samples  w=0.1250  #
+             number:    7 samples  w=0.1250  #
+                one:    7 samples  w=0.1250  #
+            outside:    8 samples  w=0.1111  #
+              peach:    6 samples  w=0.1429  #
+                pig:    7 samples  w=0.1250  #
+             polite:    7 samples  w=0.1250  #
+           postpone:    7 samples  w=0.1250  #
+              power:    8 samples  w=0.1111  #
+            present:    8 samples  w=0.1111  #
+              price:    8 samples  w=0.1111  #
+             prison:    7 samples  w=0.1250  #
+               push:    7 samples  w=0.1250  #
+            raccoon:    7 samples  w=0.1250  #
+             really:    6 samples  w=0.1429  #
+             reason:    7 samples  w=0.1250  #
+           religion:    7 samples  w=0.1250  #
+            respect:    7 samples  w=0.1250  #
+               rule:    6 samples  w=0.1429  #
+              salad:    6 samples  w=0.1429  #
+           schedule:    7 samples  w=0.1250  #
+               sell:    7 samples  w=0.1250  #
+            serious:    7 samples  w=0.1250  #
+             shower:    7 samples  w=0.1250  #
+             single:    7 samples  w=0.1250  #
+              smart:    7 samples  w=0.1250  #
+              smile:    7 samples  w=0.1250  #
+               soft:    7 samples  w=0.1250  #
+              sound:    7 samples  w=0.1250  #
+               soup:    6 samples  w=0.1429  #
+              spain:    7 samples  w=0.1250  #
+              spray:    7 samples  w=0.1250  #
+           squirrel:    7 samples  w=0.1250  #
+            stomach:    7 samples  w=0.1250  #
+              story:    7 samples  w=0.1250  #
+            strange:    7 samples  w=0.1250  #
+             street:    6 samples  w=0.1429  #
+             stress:    7 samples  w=0.1250  #
+             strict:    7 samples  w=0.1250  #
+             strong:    7 samples  w=0.1250  #
+              sugar:    7 samples  w=0.1250  #
+             summer:    7 samples  w=0.1250  #
+            suspect:    7 samples  w=0.1250  #
+         sweetheart:    7 samples  w=0.1250  #
+              tease:    7 samples  w=0.1250  #
+               that:    7 samples  w=0.1250  #
+         themselves:    7 samples  w=0.1250  #
+            therapy:    7 samples  w=0.1250  #
+            thirsty:    7 samples  w=0.1250  #
+             ticket:    7 samples  w=0.1250  #
+                top:    6 samples  w=0.1429  #
+            tuesday:    6 samples  w=0.1429  #
+             turkey:    8 samples  w=0.1111  #
+         university:    7 samples  w=0.1250  #
+              until:    7 samples  w=0.1250  #
+              watch:    8 samples  w=0.1111  #
+               weak:    6 samples  w=0.1429  #
+            wedding:    7 samples  w=0.1250  #
+               will:    6 samples  w=0.1429  #
+               wind:    6 samples  w=0.1429  #
+              world:    7 samples  w=0.1250  #
+              worry:    6 samples  w=0.1429  #
+                wow:    7 samples  w=0.1250  #
+              young:    6 samples  w=0.1429  #
+                add:    7 samples  w=0.1250  #
+           airplane:    7 samples  w=0.1250  #
+            already:    7 samples  w=0.1250  #
+               also:    7 samples  w=0.1250  #
+            analyze:    7 samples  w=0.1250  #
+                and:    7 samples  w=0.1250  #
+              angry:    7 samples  w=0.1250  #
+             appear:    7 samples  w=0.1250  #
+                arm:    7 samples  w=0.1250  #
+               army:    7 samples  w=0.1250  #
+             arrest:    7 samples  w=0.1250  #
+               asia:    7 samples  w=0.1250  #
+                ask:    7 samples  w=0.1250  #
+           attitude:    7 samples  w=0.1250  #
+            attract:    7 samples  w=0.1250  #
+               bald:    7 samples  w=0.1250  #
+             barely:    7 samples  w=0.1250  #
+           baseball:    6 samples  w=0.1429  #
+                beg:    7 samples  w=0.1250  #
+            benefit:    7 samples  w=0.1250  #
+               bite:    7 samples  w=0.1250  #
+              blame:    7 samples  w=0.1250  #
+               boat:    7 samples  w=0.1250  #
+               body:    7 samples  w=0.1250  #
+             borrow:    7 samples  w=0.1250  #
+               boss:    7 samples  w=0.1250  #
+             bother:    7 samples  w=0.1250  #
+             bottle:    7 samples  w=0.1250  #
+             bottom:    7 samples  w=0.1250  #
+               brag:    7 samples  w=0.1250  #
+              build:    7 samples  w=0.1250  #
+                bus:    7 samples  w=0.1250  #
+             butter:    7 samples  w=0.1250  #
+               calm:    7 samples  w=0.1250  #
+             cancel:    7 samples  w=0.1250  #
+             candle:    7 samples  w=0.1250  #
+              cards:    7 samples  w=0.1250  #
+             choice:    7 samples  w=0.1250  #
+               comb:    7 samples  w=0.1250  #
+        comfortable:    7 samples  w=0.1250  #
+           conflict:    6 samples  w=0.1429  #
+              cover:    7 samples  w=0.1250  #
+          deodorant:    7 samples  w=0.1250  #
+            dessert:    7 samples  w=0.1250  #
+            destroy:    7 samples  w=0.1250  #
+            diamond:    7 samples  w=0.1250  #
+             dollar:    7 samples  w=0.1250  #
+             drawer:    7 samples  w=0.1250  #
+              dream:    7 samples  w=0.1250  #
+              drunk:    7 samples  w=0.1250  #
+               duck:    7 samples  w=0.1250  #
+             during:    6 samples  w=0.1429  #
+              eagle:    7 samples  w=0.1250  #
+              early:    7 samples  w=0.1250  #
+              equal:    7 samples  w=0.1250  #
+              every:    7 samples  w=0.1250  #
+            excited:    6 samples  w=0.1429  #
+           exercise:    7 samples  w=0.1250  #
+         experiment:    7 samples  w=0.1250  #
+             expert:    7 samples  w=0.1250  #
+               fact:    7 samples  w=0.1250  #
+               fear:    7 samples  w=0.1250  #
+           feedback:    7 samples  w=0.1250  #
+               fold:    6 samples  w=0.1429  #
+             forest:    7 samples  w=0.1250  #
+             france:    7 samples  w=0.1250  #
+               frog:    7 samples  w=0.1250  #
+              funny:    7 samples  w=0.1250  #
+             garage:    6 samples  w=0.1429  #
+               goal:    7 samples  w=0.1250  #
+               golf:    7 samples  w=0.1250  #
+               gone:    6 samples  w=0.1429  #
+             gossip:    7 samples  w=0.1250  #
+        grandmother:    6 samples  w=0.1429  #
+             grapes:    6 samples  w=0.1429  #
+              group:    6 samples  w=0.1429  #
+             guilty:    7 samples  w=0.1250  #
+          hamburger:    7 samples  w=0.1250  #
+               hate:    7 samples  w=0.1250  #
+               head:    7 samples  w=0.1250  #
+                her:    6 samples  w=0.1429  #
+              horse:    6 samples  w=0.1429  #
+             ignore:    7 samples  w=0.1250  #
+         impossible:    7 samples  w=0.1250  #
+                 in:    7 samples  w=0.1250  #
+        independent:    7 samples  w=0.1250  #
+             inside:    6 samples  w=0.1429  #
+          insurance:    7 samples  w=0.1250  #
+             island:    7 samples  w=0.1250  #
+            lecture:    7 samples  w=0.1250  #
+             lesson:    7 samples  w=0.1250  #
+              limit:    7 samples  w=0.1250  #
+               lion:    6 samples  w=0.1429  #
+             listen:    6 samples  w=0.1429  #
+              march:    7 samples  w=0.1250  #
+               math:    7 samples  w=0.1250  #
+              maybe:    7 samples  w=0.1250  #
+           mechanic:    7 samples  w=0.1250  #
+                mom:    7 samples  w=0.1250  #
+              mouse:    7 samples  w=0.1250  #
+               much:    7 samples  w=0.1250  #
+             muscle:    7 samples  w=0.1250  #
+             museum:    7 samples  w=0.1250  #
+               must:    6 samples  w=0.1429  #
+           mustache:    6 samples  w=0.1429  #
+           negative:    7 samples  w=0.1250  #
+            nervous:    7 samples  w=0.1250  #
+            neutral:    7 samples  w=0.1250  #
+               nose:    6 samples  w=0.1429  #
+              often:    6 samples  w=0.1429  #
+            operate:    7 samples  w=0.1250  #
+            opinion:    7 samples  w=0.1250  #
+              other:    7 samples  w=0.1250  #
+               pass:    7 samples  w=0.1250  #
+             pillow:    7 samples  w=0.1250  #
+            prepare:    7 samples  w=0.1250  #
+             pretty:    6 samples  w=0.1429  #
+             priest:    7 samples  w=0.1250  #
+            program:    7 samples  w=0.1250  #
+            promise:    6 samples  w=0.1429  #
+                put:    7 samples  w=0.1250  #
+              queen:    7 samples  w=0.1250  #
+               quit:    7 samples  w=0.1250  #
+              radio:    7 samples  w=0.1250  #
+                rat:    7 samples  w=0.1250  #
+             reject:    7 samples  w=0.1250  #
+            require:    7 samples  w=0.1250  #
+               rest:    6 samples  w=0.1429  #
+             retire:    7 samples  w=0.1250  #
+               rise:    7 samples  w=0.1250  #
+              river:    7 samples  w=0.1250  #
+              rough:    7 samples  w=0.1250  #
+                see:    7 samples  w=0.1250  #
+               seem:    6 samples  w=0.1429  #
+               send:    7 samples  w=0.1250  #
+                sew:    7 samples  w=0.1250  #
+              sheep:    7 samples  w=0.1250  #
+              shine:    6 samples  w=0.1429  #
+              shock:    7 samples  w=0.1250  #
+             should:    6 samples  w=0.1429  #
+             silent:    7 samples  w=0.1250  #
+             skinny:    7 samples  w=0.1250  #
+              skirt:    7 samples  w=0.1250  #
+                sky:    7 samples  w=0.1250  #
+               sour:    7 samples  w=0.1250  #
+            special:    7 samples  w=0.1250  #
+             spirit:    7 samples  w=0.1250  #
+              staff:    7 samples  w=0.1250  #
+              stand:    7 samples  w=0.1250  #
+              steal:    7 samples  w=0.1250  #
+               stop:    7 samples  w=0.1250  #
+             stupid:    7 samples  w=0.1250  #
+             summon:    7 samples  w=0.1250  #
+            sunrise:    7 samples  w=0.1250  #
+            swallow:    7 samples  w=0.1250  #
+         television:    7 samples  w=0.1250  #
+                 to:    7 samples  w=0.1250  #
+           together:    7 samples  w=0.1250  #
+          translate:    7 samples  w=0.1250  #
+           triangle:    7 samples  w=0.1250  #
+             turtle:    7 samples  w=0.1250  #
+          underwear:    7 samples  w=0.1250  #
+                 up:    7 samples  w=0.1250  #
+              upset:    7 samples  w=0.1250  #
+             violin:    7 samples  w=0.1250  #
+          volunteer:    7 samples  w=0.1250  #
+               warm:    7 samples  w=0.1250  #
+               warn:    7 samples  w=0.1250  #
+               wash:    7 samples  w=0.1250  #
+               wine:    6 samples  w=0.1429  #
+            witness:    7 samples  w=0.1250  #
+               wood:    7 samples  w=0.1250  #
+               zero:    7 samples  w=0.1250  #
+             across:    6 samples  w=0.1429  #
+              actor:    6 samples  w=0.1429  #
+              agree:    5 samples  w=0.1667  #
+              alarm:    6 samples  w=0.1429  #
+            allergy:    7 samples  w=0.1250  #
+             almost:    6 samples  w=0.1429  #
+           announce:    6 samples  w=0.1429  #
+          apartment:    6 samples  w=0.1429  #
+          attention:    6 samples  w=0.1429  #
+           audience:    6 samples  w=0.1429  #
+             august:    6 samples  w=0.1429  #
+             autumn:    6 samples  w=0.1429  #
+               away:    6 samples  w=0.1429  #
+          beautiful:    6 samples  w=0.1429  #
+             become:    5 samples  w=0.1667  #
+              below:    6 samples  w=0.1429  #
+               best:    6 samples  w=0.1429  #
+                bet:    6 samples  w=0.1429  #
+            bicycle:    6 samples  w=0.1429  #
+            biology:    6 samples  w=0.1429  #
+          boyfriend:    6 samples  w=0.1429  #
+              break:    5 samples  w=0.1667  #
+             bridge:    6 samples  w=0.1429  #
+              brush:    7 samples  w=0.1250  #
+           building:    6 samples  w=0.1429  #
+               busy:    5 samples  w=0.1667  #
+             camera:    6 samples  w=0.1429  #
+               camp:    6 samples  w=0.1429  #
+            caption:    7 samples  w=0.1250  #
+               care:    7 samples  w=0.1250  #
+              carry:    6 samples  w=0.1429  #
+          celebrate:    6 samples  w=0.1429  #
+        certificate:    6 samples  w=0.1429  #
+              chain:    6 samples  w=0.1429  #
+             chance:    6 samples  w=0.1429  #
+          character:    6 samples  w=0.1429  #
+              chase:    6 samples  w=0.1429  #
+          classroom:    6 samples  w=0.1429  #
+              clear:    6 samples  w=0.1429  #
+              climb:    6 samples  w=0.1429  #
+            command:    6 samples  w=0.1429  #
+          community:    6 samples  w=0.1429  #
+           complain:    6 samples  w=0.1429  #
+         compromise:    6 samples  w=0.1429  #
+         contribute:    6 samples  w=0.1429  #
+                cop:    7 samples  w=0.1250  #
+               cost:    5 samples  w=0.1667  #
+              couch:    6 samples  w=0.1429  #
+            cracker:    6 samples  w=0.1429  #
+            curious:    6 samples  w=0.1429  #
+         curriculum:    6 samples  w=0.1429  #
+                dad:    7 samples  w=0.1250  #
+               deny:    6 samples  w=0.1429  #
+           describe:    6 samples  w=0.1429  #
+             diaper:    6 samples  w=0.1429  #
+           diarrhea:    5 samples  w=0.1667  #
+           disagree:    5 samples  w=0.1667  #
+           dissolve:    6 samples  w=0.1429  #
+             divide:    6 samples  w=0.1429  #
+            dolphin:    7 samples  w=0.1250  #
+             double:    6 samples  w=0.1429  #
+              doubt:    6 samples  w=0.1429  #
+               dumb:    5 samples  w=0.1667  #
+              earth:    6 samples  w=0.1429  #
+         earthquake:    6 samples  w=0.1429  #
+              eight:    7 samples  w=0.1250  #
+          embarrass:    6 samples  w=0.1429  #
+            emotion:    6 samples  w=0.1429  #
+          encourage:    6 samples  w=0.1429  #
+             energy:    6 samples  w=0.1429  #
+             enough:    6 samples  w=0.1429  #
+           evaluate:    6 samples  w=0.1429  #
+           evidence:    6 samples  w=0.1429  #
+              exact:    5 samples  w=0.1667  #
+         exaggerate:    6 samples  w=0.1429  #
+             expect:    6 samples  w=0.1429  #
+              fancy:    6 samples  w=0.1429  #
+           favorite:    6 samples  w=0.1429  #
+            finally:    6 samples  w=0.1429  #
+                fox:    6 samples  w=0.1429  #
+             french:    7 samples  w=0.1250  #
+              fruit:    7 samples  w=0.1250  #
+           function:    7 samples  w=0.1250  #
+             gather:    5 samples  w=0.1667  #
+            germany:    6 samples  w=0.1429  #
+             gloves:    7 samples  w=0.1250  #
+               goat:    6 samples  w=0.1429  #
+            goodbye:    6 samples  w=0.1429  #
+               grow:    7 samples  w=0.1250  #
+                gum:    6 samples  w=0.1429  #
+               half:    6 samples  w=0.1429  #
+             hawaii:    5 samples  w=0.1667  #
+            herself:    5 samples  w=0.1667  #
+            highway:    6 samples  w=0.1429  #
+           homework:    6 samples  w=0.1429  #
+              honor:    7 samples  w=0.1250  #
+          ice cream:    7 samples  w=0.1250  #
+                 if:    6 samples  w=0.1429  #
+           increase:    5 samples  w=0.1667  #
+              india:    6 samples  w=0.1429  #
+        information:    6 samples  w=0.1429  #
+          interpret:    6 samples  w=0.1429  #
+          interview:    6 samples  w=0.1429  #
+             invite:    6 samples  w=0.1429  #
+             israel:    6 samples  w=0.1429  #
+              jesus:    6 samples  w=0.1429  #
+               keep:    6 samples  w=0.1429  #
+           keyboard:    6 samples  w=0.1429  #
+               land:    7 samples  w=0.1250  #
+             lawyer:    6 samples  w=0.1429  #
+               lead:    7 samples  w=0.1250  #
+            lesbian:    6 samples  w=0.1429  #
+               line:    7 samples  w=0.1250  #
+               lock:    6 samples  w=0.1429  #
+               loud:    6 samples  w=0.1429  #
+              lousy:    6 samples  w=0.1429  #
+              lunch:    6 samples  w=0.1429  #
+            machine:    7 samples  w=0.1250  #
+                mad:    6 samples  w=0.1429  #
+           memorize:    6 samples  w=0.1429  #
+              minus:    6 samples  w=0.1429  #
+             monday:    6 samples  w=0.1429  #
+           mountain:    6 samples  w=0.1429  #
+              mouth:    6 samples  w=0.1429  #
+           mushroom:    6 samples  w=0.1429  #
+             napkin:    7 samples  w=0.1250  #
+               neck:    6 samples  w=0.1429  #
+               next:    6 samples  w=0.1429  #
+              ocean:    5 samples  w=0.1667  #
+               open:    7 samples  w=0.1250  #
+          overwhelm:    6 samples  w=0.1429  #
+                owe:    6 samples  w=0.1429  #
+               page:    7 samples  w=0.1250  #
+               pain:    7 samples  w=0.1250  #
+             parade:    6 samples  w=0.1429  #
+            parents:    6 samples  w=0.1429  #
+            perfect:    7 samples  w=0.1250  #
+             period:    7 samples  w=0.1250  #
+         philosophy:    6 samples  w=0.1429  #
+       photographer:    6 samples  w=0.1429  #
+              place:    5 samples  w=0.1667  #
+             policy:    6 samples  w=0.1429  #
+            popular:    6 samples  w=0.1429  #
+               pray:    6 samples  w=0.1429  #
+            predict:    6 samples  w=0.1429  #
+       presentation:    6 samples  w=0.1429  #
+              print:    6 samples  w=0.1429  #
+            printer:    6 samples  w=0.1429  #
+            private:    6 samples  w=0.1429  #
+      procrastinate:    6 samples  w=0.1429  #
+            project:    6 samples  w=0.1429  #
+            protect:    6 samples  w=0.1429  #
+              prove:    6 samples  w=0.1429  #
+            provide:    6 samples  w=0.1429  #
+         psychology:    6 samples  w=0.1429  #
+             punish:    6 samples  w=0.1429  #
+            puzzled:    6 samples  w=0.1429  #
+           question:    6 samples  w=0.1429  #
+              quick:    6 samples  w=0.1429  #
+            rainbow:    6 samples  w=0.1429  #
+               rake:    6 samples  w=0.1429  #
+           rehearse:    6 samples  w=0.1429  #
+             remove:    6 samples  w=0.1429  #
+            revenge:    6 samples  w=0.1429  #
+             review:    6 samples  w=0.1429  #
+               rich:    6 samples  w=0.1429  #
+               roof:    5 samples  w=0.1667  #
+            rooster:    6 samples  w=0.1429  #
+               rude:    7 samples  w=0.1250  #
+                say:    6 samples  w=0.1429  #
+          scientist:    6 samples  w=0.1429  #
+           scotland:    6 samples  w=0.1429  #
+        screwdriver:    6 samples  w=0.1429  #
+             second:    7 samples  w=0.1250  #
+             senate:    6 samples  w=0.1429  #
+           separate:    6 samples  w=0.1429  #
+            service:    6 samples  w=0.1429  #
+             shrimp:    7 samples  w=0.1250  #
+                shy:    6 samples  w=0.1429  #
+               side:    6 samples  w=0.1429  #
+          situation:    6 samples  w=0.1429  #
+              slave:    6 samples  w=0.1429  #
+             soccer:    6 samples  w=0.1429  #
+              socks:    7 samples  w=0.1250  #
+              solid:    6 samples  w=0.1429  #
+          sometimes:    5 samples  w=0.1667  #
+             spider:    6 samples  w=0.1429  #
+               spin:    6 samples  w=0.1429  #
+             square:    6 samples  w=0.1429  #
+             stairs:    7 samples  w=0.1250  #
+              stare:    6 samples  w=0.1429  #
+              start:    6 samples  w=0.1429  #
+              store:    7 samples  w=0.1250  #
+              straw:    6 samples  w=0.1429  #
+          structure:    6 samples  w=0.1429  #
+            suggest:    6 samples  w=0.1429  #
+                sun:    7 samples  w=0.1250  #
+            support:    6 samples  w=0.1429  #
+            suppose:    5 samples  w=0.1667  #
+               sure:    6 samples  w=0.1429  #
+           surprise:    6 samples  w=0.1429  #
+            sweater:    7 samples  w=0.1250  #
+               swim:    5 samples  w=0.1667  #
+             symbol:    6 samples  w=0.1429  #
+              taste:    6 samples  w=0.1429  #
+               team:    6 samples  w=0.1429  #
+          telephone:    6 samples  w=0.1429  #
+             tennis:    6 samples  w=0.1429  #
+              their:    6 samples  w=0.1429  #
+               then:    6 samples  w=0.1429  #
+        thermometer:    5 samples  w=0.1667  #
+              thing:    5 samples  w=0.1667  #
+              third:    6 samples  w=0.1429  #
+           thousand:    6 samples  w=0.1429  #
+              three:    7 samples  w=0.1250  #
+                tie:    7 samples  w=0.1250  #
+              topic:    6 samples  w=0.1429  #
+              touch:    5 samples  w=0.1667  #
+         tournament:    6 samples  w=0.1429  #
+                try:    6 samples  w=0.1429  #
+                two:    7 samples  w=0.1250  #
+               type:    6 samples  w=0.1429  #
+           umbrella:    6 samples  w=0.1429  #
+          vegetable:    6 samples  w=0.1429  #
+         vocabulary:    6 samples  w=0.1429  #
+              waste:    6 samples  w=0.1429  #
+                 we:    6 samples  w=0.1429  #
+               wear:    5 samples  w=0.1667  #
+             weekly:    6 samples  w=0.1429  #
+            welcome:    6 samples  w=0.1429  #
+             winter:    6 samples  w=0.1429  #
+            without:    6 samples  w=0.1429  #
+               wolf:    6 samples  w=0.1429  #
+               worm:    7 samples  w=0.1250  #
+         wristwatch:    6 samples  w=0.1429  #
+           yourself:    6 samples  w=0.1429  #
+              above:    4 samples  w=0.2000  #
+         accomplish:    5 samples  w=0.1667  #
+              adopt:    5 samples  w=0.1667  #
+          advantage:    5 samples  w=0.1667  #
+           alphabet:    5 samples  w=0.1667  #
+        anniversary:    5 samples  w=0.1667  #
+            another:    5 samples  w=0.1667  #
+        appropriate:    5 samples  w=0.1667  #
+           arrogant:    5 samples  w=0.1667  #
+             artist:    5 samples  w=0.1667  #
+         background:    5 samples  w=0.1667  #
+                bee:    5 samples  w=0.1667  #
+           behavior:    5 samples  w=0.1667  #
+               bell:    5 samples  w=0.1667  #
+              birth:    5 samples  w=0.1667  #
+              bless:    5 samples  w=0.1667  #
+              blood:    5 samples  w=0.1667  #
+              boots:    6 samples  w=0.1429  #
+              brave:    5 samples  w=0.1667  #
+            breathe:    6 samples  w=0.1429  #
+             bright:    6 samples  w=0.1429  #
+               bull:    6 samples  w=0.1429  #
+          butterfly:    5 samples  w=0.1667  #
+               card:    6 samples  w=0.1429  #
+           category:    5 samples  w=0.1667  #
+           catholic:    5 samples  w=0.1667  #
+               cent:    6 samples  w=0.1429  #
+          chemistry:    5 samples  w=0.1667  #
+             cherry:    5 samples  w=0.1667  #
+              china:    5 samples  w=0.1667  #
+               chop:    6 samples  w=0.1429  #
+          christian:    5 samples  w=0.1667  #
+          cigarette:    6 samples  w=0.1429  #
+             clever:    5 samples  w=0.1667  #
+              clown:    5 samples  w=0.1667  #
+              coach:    6 samples  w=0.1429  #
+               coat:    5 samples  w=0.1667  #
+    cochlear implant:    5 samples  w=0.1667  #
+            coconut:    6 samples  w=0.1429  #
+             common:    5 samples  w=0.1667  #
+            commute:    5 samples  w=0.1667  #
+            control:    5 samples  w=0.1667  #
+              count:    5 samples  w=0.1667  #
+            culture:    5 samples  w=0.1667  #
+              daily:    6 samples  w=0.1429  #
+             defend:    4 samples  w=0.2000  #
+             degree:    5 samples  w=0.1667  #
+        demonstrate:    5 samples  w=0.1667  #
+         department:    5 samples  w=0.1667  #
+                die:    5 samples  w=0.1667  #
+                dig:    5 samples  w=0.1667  #
+             dinner:    6 samples  w=0.1429  #
+           dinosaur:    5 samples  w=0.1667  #
+            diploma:    5 samples  w=0.1667  #
+           director:    5 samples  w=0.1667  #
+         disconnect:    6 samples  w=0.1429  #
+           discover:    6 samples  w=0.1429  #
+         don't want:    6 samples  w=0.1429  #
+               drum:    5 samples  w=0.1667  #
+               each:    6 samples  w=0.1429  #
+            educate:    6 samples  w=0.1429  #
+        electrician:    5 samples  w=0.1667  #
+              empty:    5 samples  w=0.1667  #
+            england:    5 samples  w=0.1667  #
+          establish:    5 samples  w=0.1667  #
+             excuse:    5 samples  w=0.1667  #
+         eyeglasses:    5 samples  w=0.1667  #
+            faculty:    5 samples  w=0.1667  #
+       fall in love:    6 samples  w=0.1429  #
+             famous:    5 samples  w=0.1667  #
+               farm:    6 samples  w=0.1429  #
+              fence:    5 samples  w=0.1667  #
+                fix:    6 samples  w=0.1429  #
+           flexible:    5 samples  w=0.1667  #
+              flirt:    5 samples  w=0.1667  #
+              flood:    5 samples  w=0.1667  #
+               fork:    4 samples  w=0.2000  #
+               four:    6 samples  w=0.1429  #
+                fun:    5 samples  w=0.1667  #
+            funeral:    5 samples  w=0.1667  #
+          furniture:    4 samples  w=0.2000  #
+          gallaudet:    6 samples  w=0.1429  #
+            general:    6 samples  w=0.1429  #
+              ghost:    5 samples  w=0.1667  #
+            give up:    5 samples  w=0.1667  #
+              glass:    6 samples  w=0.1429  #
+            gorilla:    5 samples  w=0.1667  #
+               gray:    4 samples  w=0.2000  #
+              guide:    5 samples  w=0.1667  #
+              habit:    6 samples  w=0.1429  #
+             health:    5 samples  w=0.1667  #
+        hearing aid:    5 samples  w=0.1667  #
+             heaven:    6 samples  w=0.1429  #
+              heavy:    5 samples  w=0.1667  #
+             helmet:    5 samples  w=0.1667  #
+               hide:    6 samples  w=0.1429  #
+        high school:    5 samples  w=0.1667  #
+             hockey:    6 samples  w=0.1429  #
+               hold:    6 samples  w=0.1429  #
+             honest:    5 samples  w=0.1667  #
+                hug:    5 samples  w=0.1667  #
+               hunt:    5 samples  w=0.1667  #
+              image:    5 samples  w=0.1667  #
+          influence:    6 samples  w=0.1429  #
+        interesting:    6 samples  w=0.1429  #
+        interpreter:    5 samples  w=0.1667  #
+               iran:    6 samples  w=0.1429  #
+              italy:    6 samples  w=0.1429  #
+             jewish:    5 samples  w=0.1667  #
+              judge:    5 samples  w=0.1667  #
+                key:    6 samples  w=0.1429  #
+              label:    6 samples  w=0.1429  #
+               leaf:    5 samples  w=0.1667  #
+               left:    6 samples  w=0.1429  #
+               lend:    5 samples  w=0.1667  #
+               less:    5 samples  w=0.1667  #
+        linguistics:    5 samples  w=0.1667  #
+             lonely:    5 samples  w=0.1667  #
+               long:    6 samples  w=0.1429  #
+              magic:    5 samples  w=0.1667  #
+         mainstream:    4 samples  w=0.2000  #
+              major:    6 samples  w=0.1429  #
+            manager:    5 samples  w=0.1667  #
+            maximum:    5 samples  w=0.1667  #
+                 me:    5 samples  w=0.1667  #
+             mexico:    6 samples  w=0.1429  #
+             middle:    5 samples  w=0.1667  #
+               mind:    6 samples  w=0.1429  #
+      misunderstand:    5 samples  w=0.1667  #
+            monster:    5 samples  w=0.1667  #
+           multiply:    5 samples  w=0.1667  #
+             myself:    6 samples  w=0.1429  #
+            nothing:    5 samples  w=0.1667  #
+            october:    5 samples  w=0.1667  #
+                odd:    5 samples  w=0.1667  #
+              offer:    5 samples  w=0.1667  #
+                 on:    4 samples  w=0.2000  #
+               only:    5 samples  w=0.1667  #
+           opposite:    4 samples  w=0.2000  #
+                out:    5 samples  w=0.1667  #
+           overlook:    5 samples  w=0.1667  #
+               path:    5 samples  w=0.1667  #
+            percent:    5 samples  w=0.1667  #
+            physics:    5 samples  w=0.1667  #
+              piano:    5 samples  w=0.1667  #
+               pick:    5 samples  w=0.1667  #
+                pie:    5 samples  w=0.1667  #
+              plate:    5 samples  w=0.1667  #
+             pocket:    5 samples  w=0.1667  #
+            popcorn:    5 samples  w=0.1667  #
+           positive:    4 samples  w=0.2000  #
+           pregnant:    5 samples  w=0.1667  #
+            prevent:    5 samples  w=0.1667  #
+              proof:    6 samples  w=0.1429  #
+            pumpkin:    5 samples  w=0.1667  #
+            purpose:    5 samples  w=0.1667  #
+               race:    6 samples  w=0.1429  #
+            realize:    4 samples  w=0.2000  #
+          recognize:    5 samples  w=0.1667  #
+             refuse:    5 samples  w=0.1667  #
+       relationship:    5 samples  w=0.1667  #
+             repeat:    5 samples  w=0.1667  #
+            replace:    4 samples  w=0.2000  #
+             report:    5 samples  w=0.1667  #
+          represent:    5 samples  w=0.1667  #
+            request:    5 samples  w=0.1667  #
+     responsibility:    4 samples  w=0.2000  #
+             result:    5 samples  w=0.1667  #
+             reveal:    5 samples  w=0.1667  #
+               ring:    6 samples  w=0.1429  #
+                rob:    5 samples  w=0.1667  #
+               rock:    6 samples  w=0.1429  #
+               role:    5 samples  w=0.1667  #
+               rope:    5 samples  w=0.1667  #
+               rush:    5 samples  w=0.1667  #
+             salute:    5 samples  w=0.1667  #
+            satisfy:    5 samples  w=0.1667  #
+             search:    6 samples  w=0.1429  #
+            selfish:    5 samples  w=0.1667  #
+          sensitive:    5 samples  w=0.1667  #
+              serve:    5 samples  w=0.1667  #
+              seven:    6 samples  w=0.1429  #
+            shampoo:    5 samples  w=0.1667  #
+                she:    5 samples  w=0.1667  #
+              shelf:    5 samples  w=0.1667  #
+           shopping:    5 samples  w=0.1667  #
+      sign language:    5 samples  w=0.1667  #
+            similar:    6 samples  w=0.1429  #
+               sing:    5 samples  w=0.1667  #
+                six:    6 samples  w=0.1429  #
+           skeleton:    5 samples  w=0.1667  #
+             sketch:    5 samples  w=0.1667  #
+              skill:    5 samples  w=0.1667  #
+             sleepy:    5 samples  w=0.1667  #
+               slip:    6 samples  w=0.1429  #
+              smell:    5 samples  w=0.1667  #
+             sneeze:    5 samples  w=0.1667  #
+               snob:    5 samples  w=0.1667  #
+           specific:    5 samples  w=0.1667  #
+              stamp:    6 samples  w=0.1429  #
+              steel:    5 samples  w=0.1667  #
+         strawberry:    6 samples  w=0.1429  #
+           subtract:    6 samples  w=0.1429  #
+             subway:    5 samples  w=0.1667  #
+             suffer:    5 samples  w=0.1667  #
+            surface:    5 samples  w=0.1667  #
+              sweep:    6 samples  w=0.1429  #
+              swing:    6 samples  w=0.1429  #
+        switzerland:    5 samples  w=0.1667  #
+               tale:    6 samples  w=0.1429  #
+                tan:    5 samples  w=0.1667  #
+              teeth:    5 samples  w=0.1667  #
+           terrible:    5 samples  w=0.1667  #
+           thankful:    5 samples  w=0.1667  #
+               they:    5 samples  w=0.1667  #
+            through:    5 samples  w=0.1667  #
+             tiptoe:    5 samples  w=0.1667  #
+              title:    5 samples  w=0.1667  #
+              tooth:    5 samples  w=0.1667  #
+         toothbrush:    5 samples  w=0.1667  #
+              total:    5 samples  w=0.1667  #
+              tough:    5 samples  w=0.1667  #
+          tradition:    5 samples  w=0.1667  #
+             trophy:    5 samples  w=0.1667  #
+            trouble:    5 samples  w=0.1667  #
+               true:    5 samples  w=0.1667  #
+              trust:    5 samples  w=0.1667  #
+              under:    4 samples  w=0.2000  #
+               verb:    5 samples  w=0.1667  #
+               wall:    5 samples  w=0.1667  #
+         watermelon:    5 samples  w=0.1667  #
+                way:    5 samples  w=0.1667  #
+              weird:    5 samples  w=0.1667  #
+              while:    5 samples  w=0.1667  #
+               wide:    5 samples  w=0.1667  #
+            willing:    5 samples  w=0.1667  #
+               wish:    5 samples  w=0.1667  #
+          wonderful:    4 samples  w=0.2000  #
+           workshop:    5 samples  w=0.1667  #
+              worse:    5 samples  w=0.1667  #
+             wrench:    5 samples  w=0.1667  #
+                  a:    5 samples  w=0.1667  #
+              a lot:    5 samples  w=0.1667  #
+            abdomen:    5 samples  w=0.1667  #
+               able:    5 samples  w=0.1667  #
+         accountant:    5 samples  w=0.1667  #
+             action:    5 samples  w=0.1667  #
+             active:    5 samples  w=0.1667  #
+           activity:    5 samples  w=0.1667  #
+            address:    5 samples  w=0.1667  #
+             affect:    5 samples  w=0.1667  #
+             afraid:    5 samples  w=0.1667  #
+            against:    5 samples  w=0.1667  #
+             agenda:    5 samples  w=0.1667  #
+              ahead:    5 samples  w=0.1667  #
+                aim:    5 samples  w=0.1667  #
+            alcohol:    5 samples  w=0.1667  #
+            algebra:    5 samples  w=0.1667  #
+            all day:    5 samples  w=0.1667  #
+            amazing:    5 samples  w=0.1667  #
+              angle:    5 samples  w=0.1667  #
+              apart:    5 samples  w=0.1667  #
+         apostrophe:    5 samples  w=0.1667  #
+           appetite:    5 samples  w=0.1667  #
+         appreciate:    5 samples  w=0.1667  #
+              april:    5 samples  w=0.1667  #
+            archery:    5 samples  w=0.1667  #
+             around:    5 samples  w=0.1667  #
+            article:    5 samples  w=0.1667  #
+          assistant:    5 samples  w=0.1667  #
+             attend:    5 samples  w=0.1667  #
+            auction:    5 samples  w=0.1667  #
+          authority:    5 samples  w=0.1667  #
+            average:    5 samples  w=0.1667  #
+              awake:    5 samples  w=0.1667  #
+                  b:    4 samples  w=0.2000  #
+         babysitter:    5 samples  w=0.1667  #
+             battle:    5 samples  w=0.1667  #
+          beginning:    5 samples  w=0.1667  #
+             belief:    5 samples  w=0.1667  #
+              bible:    5 samples  w=0.1667  #
+               bike:    5 samples  w=0.1667  #
+              blend:    5 samples  w=0.1667  #
+               bone:    5 samples  w=0.1667  #
+                bra:    5 samples  w=0.1667  #
+              brief:    5 samples  w=0.1667  #
+              broke:    5 samples  w=0.1667  #
+                bug:    5 samples  w=0.1667  #
+              bully:    5 samples  w=0.1667  #
+             button:    5 samples  w=0.1667  #
+            cabbage:    5 samples  w=0.1667  #
+            cabinet:    5 samples  w=0.1667  #
+          calculate:    5 samples  w=0.1667  #
+         calculator:    5 samples  w=0.1667  #
+           calculus:    5 samples  w=0.1667  #
+            camping:    5 samples  w=0.1667  #
+              canoe:    5 samples  w=0.1667  #
+           careless:    5 samples  w=0.1667  #
+            ceiling:    5 samples  w=0.1667  #
+           cemetery:    5 samples  w=0.1667  #
+            chapter:    5 samples  w=0.1667  #
+              choir:    5 samples  w=0.1667  #
+             circle:    5 samples  w=0.1667  #
+               come:    5 samples  w=0.1667  #
+          come here:    5 samples  w=0.1667  #
+            company:    5 samples  w=0.1667  #
+           complete:    5 samples  w=0.1667  #
+            concept:    5 samples  w=0.1667  #
+            concern:    5 samples  w=0.1667  #
+           confront:    5 samples  w=0.1667  #
+           confused:    5 samples  w=0.1667  #
+           congress:    5 samples  w=0.1667  #
+            connect:    5 samples  w=0.1667  #
+            conquer:    5 samples  w=0.1667  #
+       constitution:    5 samples  w=0.1667  #
+           contract:    5 samples  w=0.1667  #
+              court:    5 samples  w=0.1667  #
+               crab:    5 samples  w=0.1667  #
+              cross:    5 samples  w=0.1667  #
+              cruel:    5 samples  w=0.1667  #
+              crush:    5 samples  w=0.1667  #
+               date:    5 samples  w=0.1667  #
+           december:    5 samples  w=0.1667  #
+           decrease:    5 samples  w=0.1667  #
+             deduct:    5 samples  w=0.1667  #
+             defeat:    5 samples  w=0.1667  #
+            deposit:    5 samples  w=0.1667  #
+          depressed:    5 samples  w=0.1667  #
+             detach:    5 samples  w=0.1667  #
+          determine:    5 samples  w=0.1667  #
+           diabetes:    5 samples  w=0.1667  #
+               dime:    5 samples  w=0.1667  #
+               dirt:    5 samples  w=0.1667  #
+            disgust:    5 samples  w=0.1667  #
+            dismiss:    5 samples  w=0.1667  #
+              dizzy:    5 samples  w=0.1667  #
+           document:    5 samples  w=0.1667  #
+               dorm:    5 samples  w=0.1667  #
+          dormitory:    5 samples  w=0.1667  #
+         downstairs:    5 samples  w=0.1667  #
+            economy:    5 samples  w=0.1667  #
+          education:    5 samples  w=0.1667  #
+             effort:    5 samples  w=0.1667  #
+           eighteen:    5 samples  w=0.1667  #
+             engage:    5 samples  w=0.1667  #
+         engagement:    5 samples  w=0.1667  #
+           engineer:    5 samples  w=0.1667  #
+           envelope:    5 samples  w=0.1667  #
+              erase:    5 samples  w=0.1667  #
+           eternity:    5 samples  w=0.1667  #
+            evening:    5 samples  w=0.1667  #
+           everyday:    4 samples  w=0.2000  #
+             expand:    5 samples  w=0.1667  #
+                eye:    5 samples  w=0.1667  #
+               eyes:    5 samples  w=0.1667  #
+               fake:    5 samples  w=0.1667  #
+             farmer:    5 samples  w=0.1667  #
+           february:    5 samples  w=0.1667  #
+            federal:    5 samples  w=0.1667  #
+              final:    5 samples  w=0.1667  #
+            florida:    5 samples  w=0.1667  #
+              flute:    5 samples  w=0.1667  #
+             forbid:    5 samples  w=0.1667  #
+            forever:    5 samples  w=0.1667  #
+             fourth:    5 samples  w=0.1667  #
+               free:    5 samples  w=0.1667  #
+       french fries:    5 samples  w=0.1667  #
+             gamble:    5 samples  w=0.1667  #
+                gas:    5 samples  w=0.1667  #
+           gasoline:    5 samples  w=0.1667  #
+         generation:    5 samples  w=0.1667  #
+          geography:    5 samples  w=0.1667  #
+             german:    5 samples  w=0.1667  #
+         girlfriend:    5 samples  w=0.1667  #
+               gold:    5 samples  w=0.1667  #
+            grandma:    5 samples  w=0.1667  #
+              grass:    5 samples  w=0.1667  #
+            grow up:    5 samples  w=0.1667  #
+                gun:    5 samples  w=0.1667  #
+            haircut:    5 samples  w=0.1667  #
+    hard of hearing:    5 samples  w=0.1667  #
+       hippopotamus:    5 samples  w=0.1667  #
+                his:    5 samples  w=0.1667  #
+              honey:    5 samples  w=0.1667  #
+          hurricane:    5 samples  w=0.1667  #
+           identify:    5 samples  w=0.1667  #
+            include:    5 samples  w=0.1667  #
+          infection:    5 samples  w=0.1667  #
+           innocent:    5 samples  w=0.1667  #
+             insect:    5 samples  w=0.1667  #
+            instead:    5 samples  w=0.1667  #
+          institute:    5 samples  w=0.1667  #
+      international:    5 samples  w=0.1667  #
+          interrupt:    5 samples  w=0.1667  #
+            involve:    5 samples  w=0.1667  #
+               jail:    5 samples  w=0.1667  #
+            january:    5 samples  w=0.1667  #
+               joke:    5 samples  w=0.1667  #
+               june:    5 samples  w=0.1667  #
+           kangaroo:    5 samples  w=0.1667  #
+             karate:    5 samples  w=0.1667  #
+               kick:    5 samples  w=0.1667  #
+              kneel:    5 samples  w=0.1667  #
+              knock:    5 samples  w=0.1667  #
+             laptop:    5 samples  w=0.1667  #
+               lift:    5 samples  w=0.1667  #
+          lightning:    5 samples  w=0.1667  #
+                lip:    5 samples  w=0.1667  #
+           lipstick:    5 samples  w=0.1667  #
+              local:    5 samples  w=0.1667  #
+             manage:    5 samples  w=0.1667  #
+             mature:    5 samples  w=0.1667  #
+             member:    5 samples  w=0.1667  #
+            message:    5 samples  w=0.1667  #
+              metal:    5 samples  w=0.1667  #
+         microphone:    5 samples  w=0.1667  #
+                mix:    5 samples  w=0.1667  #
+            monthly:    5 samples  w=0.1667  #
+              motor:    4 samples  w=0.2000  #
+             nation:    5 samples  w=0.1667  #
+            network:    5 samples  w=0.1667  #
+             nickel:    5 samples  w=0.1667  #
+           nineteen:    5 samples  w=0.1667  #
+             normal:    5 samples  w=0.1667  #
+           november:    5 samples  w=0.1667  #
+                nut:    5 samples  w=0.1667  #
+            octopus:    5 samples  w=0.1667  #
+               once:    5 samples  w=0.1667  #
+           organize:    5 samples  w=0.1667  #
+               over:    5 samples  w=0.1667  #
+                owl:    5 samples  w=0.1667  #
+                  p:    5 samples  w=0.1667  #
+          parachute:    5 samples  w=0.1667  #
+          paragraph:    5 samples  w=0.1667  #
+           parallel:    5 samples  w=0.1667  #
+      pay attention:    5 samples  w=0.1667  #
+              peace:    5 samples  w=0.1667  #
+      peanut butter:    5 samples  w=0.1667  #
+            perfume:    5 samples  w=0.1667  #
+        personality:    5 samples  w=0.1667  #
+                pet:    5 samples  w=0.1667  #
+       philadelphia:    5 samples  w=0.1667  #
+          physician:    5 samples  w=0.1667  #
+              piece:    5 samples  w=0.1667  #
+               pity:    5 samples  w=0.1667  #
+              plant:    5 samples  w=0.1667  #
+             plenty:    5 samples  w=0.1667  #
+          pneumonia:    5 samples  w=0.1667  #
+           politics:    5 samples  w=0.1667  #
+           position:    5 samples  w=0.1667  #
+              pound:    5 samples  w=0.1667  #
+               pour:    5 samples  w=0.1667  #
+             praise:    5 samples  w=0.1667  #
+             preach:    5 samples  w=0.1667  #
+           preacher:    5 samples  w=0.1667  #
+             prefer:    5 samples  w=0.1667  #
+           pressure:    5 samples  w=0.1667  #
+          principal:    5 samples  w=0.1667  #
+           priority:    5 samples  w=0.1667  #
+       professional:    5 samples  w=0.1667  #
+          professor:    5 samples  w=0.1667  #
+            promote:    5 samples  w=0.1667  #
+         prostitute:    5 samples  w=0.1667  #
+              proud:    5 samples  w=0.1667  #
+              quote:    5 samples  w=0.1667  #
+            receive:    5 samples  w=0.1667  #
+             recent:    5 samples  w=0.1667  #
+             reduce:    5 samples  w=0.1667  #
+              refer:    5 samples  w=0.1667  #
+            referee:    5 samples  w=0.1667  #
+             relate:    5 samples  w=0.1667  #
+              relax:    5 samples  w=0.1667  #
+     remote control:    5 samples  w=0.1667  #
+               rent:    5 samples  w=0.1667  #
+         reputation:    5 samples  w=0.1667  #
+             resign:    5 samples  w=0.1667  #
+        responsible:    5 samples  w=0.1667  #
+         ridiculous:    5 samples  w=0.1667  #
+               road:    5 samples  w=0.1667  #
+              robot:    5 samples  w=0.1667  #
+             rubber:    5 samples  w=0.1667  #
+               safe:    5 samples  w=0.1667  #
+              sauce:    5 samples  w=0.1667  #
+            sausage:    5 samples  w=0.1667  #
+              scold:    5 samples  w=0.1667  #
+             senior:    5 samples  w=0.1667  #
+          september:    5 samples  w=0.1667  #
+            several:    5 samples  w=0.1667  #
+              shame:    5 samples  w=0.1667  #
+              shave:    5 samples  w=0.1667  #
+              shoot:    5 samples  w=0.1667  #
+           shoulder:    5 samples  w=0.1667  #
+             silver:    5 samples  w=0.1667  #
+             simple:    5 samples  w=0.1667  #
+              siren:    5 samples  w=0.1667  #
+               size:    5 samples  w=0.1667  #
+              skate:    5 samples  w=0.1667  #
+               skin:    5 samples  w=0.1667  #
+              skunk:    5 samples  w=0.1667  #
+              slice:    5 samples  w=0.1667  #
+             smooth:    5 samples  w=0.1667  #
+              snack:    5 samples  w=0.1667  #
+            snowman:    5 samples  w=0.1667  #
+            society:    5 samples  w=0.1667  #
+            someone:    5 samples  w=0.1667  #
+               song:    5 samples  w=0.1667  #
+        sore throat:    5 samples  w=0.1667  #
+      south america:    5 samples  w=0.1667  #
+            spanish:    5 samples  w=0.1667  #
+              speak:    5 samples  w=0.1667  #
+              speed:    5 samples  w=0.1667  #
+              spell:    5 samples  w=0.1667  #
+              spoon:    5 samples  w=0.1667  #
+             spring:    5 samples  w=0.1667  #
+           standard:    5 samples  w=0.1667  #
+         statistics:    5 samples  w=0.1667  #
+             sticky:    5 samples  w=0.1667  #
+              still:    5 samples  w=0.1667  #
+            stretch:    5 samples  w=0.1667  #
+            surgeon:    5 samples  w=0.1667  #
+             sweden:    5 samples  w=0.1667  #
+           swimsuit:    5 samples  w=0.1667  #
+           sympathy:    5 samples  w=0.1667  #
+         take turns:    5 samples  w=0.1667  #
+            take up:    5 samples  w=0.1667  #
+         technology:    5 samples  w=0.1667  #
+             temple:    5 samples  w=0.1667  #
+             tender:    5 samples  w=0.1667  #
+           thailand:    5 samples  w=0.1667  #
+            theater:    5 samples  w=0.1667  #
+               them:    5 samples  w=0.1667  #
+              theme:    5 samples  w=0.1667  #
+              thick:    5 samples  w=0.1667  #
+               this:    5 samples  w=0.1667  #
+             throat:    5 samples  w=0.1667  #
+             tissue:    5 samples  w=0.1667  #
+             tongue:    5 samples  w=0.1667  #
+            tonight:    5 samples  w=0.1667  #
+            tornado:    5 samples  w=0.1667  #
+              tower:    5 samples  w=0.1667  #
+           tranquil:    5 samples  w=0.1667  #
+          transform:    5 samples  w=0.1667  #
+              tutor:    5 samples  w=0.1667  #
+               twin:    5 samples  w=0.1667  #
+      united states:    4 samples  w=0.2000  #
+              value:    5 samples  w=0.1667  #
+            visitor:    5 samples  w=0.1667  #
+             waiter:    5 samples  w=0.1667  #
+            wake up:    5 samples  w=0.1667  #
+             wallet:    5 samples  w=0.1667  #
+             wander:    5 samples  w=0.1667  #
+          wash face:    5 samples  w=0.1667  #
+             weight:    5 samples  w=0.1667  #
+              whale:    5 samples  w=0.1667  #
+           whatever:    5 samples  w=0.1667  #
+             within:    5 samples  w=0.1667  #
+             wonder:    5 samples  w=0.1667  #
+             worker:    5 samples  w=0.1667  #
+          worthless:    5 samples  w=0.1667  #
+               wrap:    5 samples  w=0.1667  #
+             accent:    5 samples  w=0.1667  #
+                act:    5 samples  w=0.1667  #
+              adapt:    5 samples  w=0.1667  #
+          adjective:    5 samples  w=0.1667  #
+             adjust:    5 samples  w=0.1667  #
+             admire:    5 samples  w=0.1667  #
+              admit:    5 samples  w=0.1667  #
+           advanced:    5 samples  w=0.1667  #
+             adverb:    5 samples  w=0.1667  #
+          agreement:    5 samples  w=0.1667  #
+                aid:    5 samples  w=0.1667  #
+          alligator:    5 samples  w=0.1667  #
+           amputate:    5 samples  w=0.1667  #
+            anatomy:    5 samples  w=0.1667  #
+              annoy:    5 samples  w=0.1667  #
+             anyway:    5 samples  w=0.1667  #
+           approach:    5 samples  w=0.1667  #
+            arizona:    5 samples  w=0.1667  #
+             assist:    5 samples  w=0.1667  #
+             assume:    5 samples  w=0.1667  #
+           attorney:    5 samples  w=0.1667  #
+        audiologist:    5 samples  w=0.1667  #
+          audiology:    5 samples  w=0.1667  #
+            austria:    5 samples  w=0.1667  #
+             author:    5 samples  w=0.1667  #
+          available:    5 samples  w=0.1667  #
+              award:    5 samples  w=0.1667  #
+              aware:    5 samples  w=0.1667  #
+               bank:    5 samples  w=0.1667  #
+            baptize:    5 samples  w=0.1667  #
+              basic:    5 samples  w=0.1667  #
+            battery:    5 samples  w=0.1667  #
+              berry:    5 samples  w=0.1667  #
+             beside:    5 samples  w=0.1667  #
+            between:    5 samples  w=0.1667  #
+         binoculars:    5 samples  w=0.1667  #
+               blow:    5 samples  w=0.1667  #
+              boast:    5 samples  w=0.1667  #
+               boil:    5 samples  w=0.1667  #
+          bookshelf:    5 samples  w=0.1667  #
+          bookstore:    5 samples  w=0.1667  #
+             boxing:    5 samples  w=0.1667  #
+              braid:    5 samples  w=0.1667  #
+              brain:    5 samples  w=0.1667  #
+          breakdown:    4 samples  w=0.2000  #
+          breakfast:    5 samples  w=0.1667  #
+             breeze:    5 samples  w=0.1667  #
+              bribe:    5 samples  w=0.1667  #
+           brochure:    5 samples  w=0.1667  #
+            buffalo:    5 samples  w=0.1667  #
+               burp:    5 samples  w=0.1667  #
+               bush:    5 samples  w=0.1667  #
+                bye:    5 samples  w=0.1667  #
+              camel:    5 samples  w=0.1667  #
+          candidate:    5 samples  w=0.1667  #
+             cannot:    5 samples  w=0.1667  #
+            captain:    5 samples  w=0.1667  #
+           carnival:    5 samples  w=0.1667  #
+        caterpillar:    5 samples  w=0.1667  #
+        cheerleader:    5 samples  w=0.1667  #
+           chemical:    5 samples  w=0.1667  #
+            chicago:    5 samples  w=0.1667  #
+              choke:    5 samples  w=0.1667  #
+             christ:    5 samples  w=0.1667  #
+              click:    5 samples  w=0.1667  #
+             closet:    5 samples  w=0.1667  #
+           clueless:    5 samples  w=0.1667  #
+             clumsy:    5 samples  w=0.1667  #
+            collect:    5 samples  w=0.1667  #
+              comma:    5 samples  w=0.1667  #
+            comment:    5 samples  w=0.1667  #
+             commit:    5 samples  w=0.1667  #
+          committee:    5 samples  w=0.1667  #
+       common sense:    5 samples  w=0.1667  #
+            compete:    5 samples  w=0.1667  #
+        concentrate:    5 samples  w=0.1667  #
+    congratulations:    5 samples  w=0.1667  #
+           consider:    5 samples  w=0.1667  #
+          construct:    5 samples  w=0.1667  #
+            consume:    5 samples  w=0.1667  #
+            contest:    5 samples  w=0.1667  #
+       conversation:    5 samples  w=0.1667  #
+            convert:    5 samples  w=0.1667  #
+          cooperate:    5 samples  w=0.1667  #
+            counsel:    5 samples  w=0.1667  #
+          counselor:    5 samples  w=0.1667  #
+              crave:    5 samples  w=0.1667  #
+             create:    5 samples  w=0.1667  #
+          crocodile:    5 samples  w=0.1667  #
+              crown:    5 samples  w=0.1667  #
+               cuba:    5 samples  w=0.1667  #
+            curtain:    5 samples  w=0.1667  #
+           customer:    5 samples  w=0.1667  #
+                  d:    5 samples  w=0.1667  #
+             damage:    5 samples  w=0.1667  #
+             dancer:    5 samples  w=0.1667  #
+             danger:    5 samples  w=0.1667  #
+          dangerous:    5 samples  w=0.1667  #
+               dawn:    5 samples  w=0.1667  #
+              death:    5 samples  w=0.1667  #
+             debate:    5 samples  w=0.1667  #
+               debt:    5 samples  w=0.1667  #
+            deliver:    5 samples  w=0.1667  #
+           democrat:    5 samples  w=0.1667  #
+            descend:    5 samples  w=0.1667  #
+             design:    5 samples  w=0.1667  #
+          detective:    5 samples  w=0.1667  #
+              devil:    5 samples  w=0.1667  #
+               dice:    5 samples  w=0.1667  #
+          difficult:    5 samples  w=0.1667  #
+        dining room:    5 samples  w=0.1667  #
+         discipline:    5 samples  w=0.1667  #
+           discount:    5 samples  w=0.1667  #
+          disgusted:    5 samples  w=0.1667  #
+            disturb:    5 samples  w=0.1667  #
+           division:    5 samples  w=0.1667  #
+               done:    5 samples  w=0.1667  #
+               drag:    5 samples  w=0.1667  #
+             dragon:    5 samples  w=0.1667  #
+              drama:    5 samples  w=0.1667  #
+               drug:    5 samples  w=0.1667  #
+                due:    5 samples  w=0.1667  #
+               dull:    5 samples  w=0.1667  #
+               dusk:    5 samples  w=0.1667  #
+                dvd:    5 samples  w=0.1667  #
+                dye:    5 samples  w=0.1667  #
+                  e:    5 samples  w=0.1667  #
+             either:    5 samples  w=0.1667  #
+        electricity:    5 samples  w=0.1667  #
+         elementary:    5 samples  w=0.1667  #
+               else:    5 samples  w=0.1667  #
+          emergency:    5 samples  w=0.1667  #
+             engine:    5 samples  w=0.1667  #
+           enormous:    5 samples  w=0.1667  #
+             eraser:    5 samples  w=0.1667  #
+       every monday:    5 samples  w=0.1667  #
+      every tuesday:    5 samples  w=0.1667  #
+         everything:    5 samples  w=0.1667  #
+             except:    5 samples  w=0.1667  #
+            exhibit:    5 samples  w=0.1667  #
+            explode:    5 samples  w=0.1667  #
+            express:    5 samples  w=0.1667  #
+                  f:    5 samples  w=0.1667  #
+              fairy:    5 samples  w=0.1667  #
+           familiar:    5 samples  w=0.1667  #
+           festival:    5 samples  w=0.1667  #
+            finance:    5 samples  w=0.1667  #
+        fingerspell:    5 samples  w=0.1667  #
+               fire:    5 samples  w=0.1667  #
+        firefighter:    5 samples  w=0.1667  #
+               five:    5 samples  w=0.1667  #
+            flatter:    5 samples  w=0.1667  #
+               fool:    5 samples  w=0.1667  #
+            forgive:    5 samples  w=0.1667  #
+             former:    5 samples  w=0.1667  #
+            freeway:    5 samples  w=0.1667  #
+        from now on:    5 samples  w=0.1667  #
+                  g:    5 samples  w=0.1667  #
+               gang:    5 samples  w=0.1667  #
+                gay:    5 samples  w=0.1667  #
+           geometry:    5 samples  w=0.1667  #
+             get up:    5 samples  w=0.1667  #
+               gift:    5 samples  w=0.1667  #
+               grab:    5 samples  w=0.1667  #
+         graduation:    5 samples  w=0.1667  #
+           grateful:    5 samples  w=0.1667  #
+               grey:    5 samples  w=0.1667  #
+         gymnastics:    5 samples  w=0.1667  #
+                  h:    5 samples  w=0.1667  #
+            hang up:    5 samples  w=0.1667  #
+           hanukkah:    5 samples  w=0.1667  #
+               heap:    5 samples  w=0.1667  #
+       heart attack:    5 samples  w=0.1667  #
+               hill:    5 samples  w=0.1667  #
+               holy:    5 samples  w=0.1667  #
+                hop:    5 samples  w=0.1667  #
+               host:    5 samples  w=0.1667  #
+            hot dog:    5 samples  w=0.1667  #
+              human:    5 samples  w=0.1667  #
+                  i:    5 samples  w=0.1667  #
+                ill:    5 samples  w=0.1667  #
+            illegal:    5 samples  w=0.1667  #
+             impact:    5 samples  w=0.1667  #
+         individual:    5 samples  w=0.1667  #
+            inspect:    5 samples  w=0.1667  #
+            inspire:    5 samples  w=0.1667  #
+       intersection:    5 samples  w=0.1667  #
+            ireland:    5 samples  w=0.1667  #
+               iron:    5 samples  w=0.1667  #
+                  j:    5 samples  w=0.1667  #
+            jewelry:    5 samples  w=0.1667  #
+            journey:    5 samples  w=0.1667  #
+                joy:    5 samples  w=0.1667  #
+               july:    5 samples  w=0.1667  #
+                  k:    5 samples  w=0.1667  #
+                kid:    5 samples  w=0.1667  #
+       kindergarten:    5 samples  w=0.1667  #
+               lady:    5 samples  w=0.1667  #
+               lamp:    5 samples  w=0.1667  #
+          last week:    5 samples  w=0.1667  #
+            laundry:    5 samples  w=0.1667  #
+             leader:    5 samples  w=0.1667  #
+             league:    5 samples  w=0.1667  #
+               leak:    5 samples  w=0.1667  #
+              legal:    5 samples  w=0.1667  #
+                let:    5 samples  w=0.1667  #
+          liability:    5 samples  w=0.1667  #
+          librarian:    5 samples  w=0.1667  #
+            license:    5 samples  w=0.1667  #
+         little bit:    5 samples  w=0.1667  #
+               loan:    5 samples  w=0.1667  #
+            look at:    5 samples  w=0.1667  #
+           look for:    5 samples  w=0.1667  #
+               lord:    5 samples  w=0.1667  #
+                  m:    5 samples  w=0.1667  #
+            meaning:    5 samples  w=0.1667  #
+             melody:    5 samples  w=0.1667  #
+               melt:    5 samples  w=0.1667  #
+            mention:    5 samples  w=0.1667  #
+         microscope:    5 samples  w=0.1667  #
+           midnight:    5 samples  w=0.1667  #
+           military:    5 samples  w=0.1667  #
+               mine:    5 samples  w=0.1667  #
+            mistake:    5 samples  w=0.1667  #
+               mock:    5 samples  w=0.1667  #
+              moose:    5 samples  w=0.1667  #
+           mosquito:    5 samples  w=0.1667  #
+           motivate:    5 samples  w=0.1667  #
+             murder:    5 samples  w=0.1667  #
+                  n:    5 samples  w=0.1667  #
+             narrow:    5 samples  w=0.1667  #
+          necessary:    5 samples  w=0.1667  #
+          negotiate:    5 samples  w=0.1667  #
+           new york:    5 samples  w=0.1667  #
+               nine:    5 samples  w=0.1667  #
+          northwest:    5 samples  w=0.1667  #
+            not yet:    5 samples  w=0.1667  #
+             notice:    5 samples  w=0.1667  #
+           numerous:    5 samples  w=0.1667  #
+                nun:    5 samples  w=0.1667  #
+                  o:    5 samples  w=0.1667  #
+          objective:    5 samples  w=0.1667  #
+             obsess:    5 samples  w=0.1667  #
+             obtain:    5 samples  w=0.1667  #
+              occur:    5 samples  w=0.1667  #
+               odor:    5 samples  w=0.1667  #
+           olympics:    5 samples  w=0.1667  #
+                 or:    5 samples  w=0.1667  #
+               oral:    5 samples  w=0.1667  #
+                our:    5 samples  w=0.1667  #
+           overcome:    5 samples  w=0.1667  #
+               pack:    5 samples  w=0.1667  #
+            painter:    5 samples  w=0.1667  #
+               part:    5 samples  w=0.1667  #
+              pause:    5 samples  w=0.1667  #
+           peaceful:    5 samples  w=0.1667  #
+               pear:    5 samples  w=0.1667  #
+               peel:    5 samples  w=0.1667  #
+            penalty:    5 samples  w=0.1667  #
+       pennsylvania:    5 samples  w=0.1667  #
+              penny:    5 samples  w=0.1667  #
+             permit:    5 samples  w=0.1667  #
+             phrase:    5 samples  w=0.1667  #
+             pickle:    5 samples  w=0.1667  #
+              pilot:    5 samples  w=0.1667  #
+             player:    5 samples  w=0.1667  #
+         polar bear:    5 samples  w=0.1667  #
+          policeman:    5 samples  w=0.1667  #
+               poop:    5 samples  w=0.1667  #
+               post:    5 samples  w=0.1667  #
+          potential:    5 samples  w=0.1667  #
+            poverty:    5 samples  w=0.1667  #
+           precious:    5 samples  w=0.1667  #
+      precipitation:    5 samples  w=0.1667  #
+            precise:    5 samples  w=0.1667  #
+          preschool:    4 samples  w=0.2000  #
+              pride:    5 samples  w=0.1667  #
+             prince:    5 samples  w=0.1667  #
+           princess:    5 samples  w=0.1667  #
+          principle:    5 samples  w=0.1667  #
+            process:    5 samples  w=0.1667  #
+             profit:    5 samples  w=0.1667  #
+           progress:    5 samples  w=0.1667  #
+         propaganda:    5 samples  w=0.1667  #
+             proper:    5 samples  w=0.1667  #
+       psychologist:    5 samples  w=0.1667  #
+             public:    5 samples  w=0.1667  #
+            publish:    5 samples  w=0.1667  #
+           purchase:    5 samples  w=0.1667  #
+               pure:    5 samples  w=0.1667  #
+             pursue:    5 samples  w=0.1667  #
+            put off:    5 samples  w=0.1667  #
+                  q:    5 samples  w=0.1667  #
+            quality:    5 samples  w=0.1667  #
+            quarrel:    5 samples  w=0.1667  #
+            quarter:    5 samples  w=0.1667  #
+                  r:    5 samples  w=0.1667  #
+               rage:    5 samples  w=0.1667  #
+             rather:    5 samples  w=0.1667  #
+               real:    5 samples  w=0.1667  #
+           recliner:    5 samples  w=0.1667  #
+          recommend:    5 samples  w=0.1667  #
+            recover:    5 samples  w=0.1667  #
+            regular:    5 samples  w=0.1667  #
+            release:    5 samples  w=0.1667  #
+             relief:    5 samples  w=0.1667  #
+               rely:    5 samples  w=0.1667  #
+              reply:    5 samples  w=0.1667  #
+             rescue:    5 samples  w=0.1667  #
+             resist:    5 samples  w=0.1667  #
+           restroom:    5 samples  w=0.1667  #
+            retreat:    5 samples  w=0.1667  #
+               roar:    5 samples  w=0.1667  #
+             robber:    5 samples  w=0.1667  #
+           roommate:    5 samples  w=0.1667  #
+               rose:    5 samples  w=0.1667  #
+               ruin:    5 samples  w=0.1667  #
+                  s:    5 samples  w=0.1667  #
+             salary:    5 samples  w=0.1667  #
+                saw:    5 samples  w=0.1667  #
+               scan:    5 samples  w=0.1667  #
+             scream:    5 samples  w=0.1667  #
+          sculpture:    5 samples  w=0.1667  #
+                sea:    5 samples  w=0.1667  #
+             seldom:    5 samples  w=0.1667  #
+           sequence:    5 samples  w=0.1667  #
+             settle:    5 samples  w=0.1667  #
+              shout:    5 samples  w=0.1667  #
+             shovel:    5 samples  w=0.1667  #
+                sin:    5 samples  w=0.1667  #
+             singer:    5 samples  w=0.1667  #
+            sixteen:    5 samples  w=0.1667  #
+                ski:    5 samples  w=0.1667  #
+               skip:    5 samples  w=0.1667  #
+            smoking:    5 samples  w=0.1667  #
+               sofa:    5 samples  w=0.1667  #
+            soldier:    5 samples  w=0.1667  #
+              solve:    5 samples  w=0.1667  #
+            someday:    5 samples  w=0.1667  #
+          something:    5 samples  w=0.1667  #
+          somewhere:    5 samples  w=0.1667  #
+               soul:    5 samples  w=0.1667  #
+              spill:    5 samples  w=0.1667  #
+               spit:    5 samples  w=0.1667  #
+             spread:    5 samples  w=0.1667  #
+             sprint:    5 samples  w=0.1667  #
+            squeeze:    5 samples  w=0.1667  #
+            stadium:    5 samples  w=0.1667  #
+         stepfather:    5 samples  w=0.1667  #
+              sting:    5 samples  w=0.1667  #
+               stir:    5 samples  w=0.1667  #
+             stitch:    5 samples  w=0.1667  #
+              stuck:    5 samples  w=0.1667  #
+                sue:    5 samples  w=0.1667  #
+           sunshine:    5 samples  w=0.1667  #
+           superman:    5 samples  w=0.1667  #
+          surrender:    5 samples  w=0.1667  #
+            suspend:    5 samples  w=0.1667  #
+           swimming:    5 samples  w=0.1667  #
+                  t:    5 samples  w=0.1667  #
+             talent:    5 samples  w=0.1667  #
+          telescope:    5 samples  w=0.1667  #
+              tempt:    5 samples  w=0.1667  #
+                ten:    5 samples  w=0.1667  #
+               tend:    5 samples  w=0.1667  #
+            testify:    5 samples  w=0.1667  #
+              texas:    5 samples  w=0.1667  #
+               text:    5 samples  w=0.1667  #
+               than:    5 samples  w=0.1667  #
+          therefore:    5 samples  w=0.1667  #
+             thrill:    5 samples  w=0.1667  #
+            tobacco:    5 samples  w=0.1667  #
+       toilet paper:    5 samples  w=0.1667  #
+           tolerate:    5 samples  w=0.1667  #
+            torture:    5 samples  w=0.1667  #
+              towel:    5 samples  w=0.1667  #
+               trip:    5 samples  w=0.1667  #
+              truth:    5 samples  w=0.1667  #
+               turn:    5 samples  w=0.1667  #
+                 tv:    5 samples  w=0.1667  #
+                  u:    5 samples  w=0.1667  #
+             unique:    5 samples  w=0.1667  #
+           upstairs:    5 samples  w=0.1667  #
+                  v:    5 samples  w=0.1667  #
+             vacant:    5 samples  w=0.1667  #
+              vague:    5 samples  w=0.1667  #
+             valley:    5 samples  w=0.1667  #
+            vampire:    5 samples  w=0.1667  #
+               very:    5 samples  w=0.1667  #
+     vice president:    5 samples  w=0.1667  #
+          viewpoint:    5 samples  w=0.1667  #
+          visualize:    5 samples  w=0.1667  #
+               vlog:    5 samples  w=0.1667  #
+         volleyball:    5 samples  w=0.1667  #
+                  w:    5 samples  w=0.1667  #
+         washington:    5 samples  w=0.1667  #
+          waterfall:    5 samples  w=0.1667  #
+              weigh:    5 samples  w=0.1667  #
+         wheelchair:    5 samples  w=0.1667  #
+            whistle:    5 samples  w=0.1667  #
+  Max/min ratio: 29/4 = 7.2x
+  Model: tcn (1,909,072 params)
+  Loss: FocalLoss(alpha=1.0, gamma=2) + WeightedRandomSampler
+  Ep   1/300  loss=7.5856  t1=0.1%  |  v_t1=0.2%  v_t5=0.7%  lr=0.000122 *BEST*
+  Ep   2/300  loss=7.3563  t1=0.3%  |  v_t1=0.7%  v_t5=2.1%  lr=0.000245 *BEST*
+  Ep   3/300  loss=6.8849  t1=0.6%  |  v_t1=0.8%  v_t5=3.3%  lr=0.000367 *BEST*
+  Ep   4/300  loss=6.4861  t1=1.0%  |  v_t1=1.0%  v_t5=4.1%  lr=0.000489 *BEST*
+  Ep   5/300  loss=6.1874  t1=1.3%  |  v_t1=1.4%  v_t5=5.2%  lr=0.000612 *BEST*
+  Ep   6/300  loss=5.9187  t1=1.8%  |  v_t1=1.6%  v_t5=7.1%  lr=0.000734 *BEST*
+  Ep   7/300  loss=5.6479  t1=2.9%  |  v_t1=3.1%  v_t5=9.8%  lr=0.000856 *BEST*
+  Ep   8/300  loss=5.3414  t1=3.9%  |  v_t1=3.3%  v_t5=12.0%  lr=0.000979 *BEST*
+  Ep   9/300  loss=5.0557  t1=5.5%  |  v_t1=4.2%  v_t5=13.3%  lr=0.001101 *BEST*
+  Ep  10/300  loss=4.7713  t1=7.3%  |  v_t1=5.5%  v_t5=16.3%  lr=0.001223 *BEST*
+  Ep  11/300  loss=4.3975  t1=10.2%  |  v_t1=6.0%  v_t5=19.0%  lr=0.001223 *BEST*
+  Ep  12/300  loss=4.1205  t1=12.3%  |  v_t1=7.5%  v_t5=23.0%  lr=0.001223 *BEST*
+  Ep  13/300  loss=3.8521  t1=14.6%  |  v_t1=8.5%  v_t5=25.1%  lr=0.001223 *BEST*
+  Ep  14/300  loss=3.5639  t1=17.2%  |  v_t1=9.3%  v_t5=26.5%  lr=0.001223 *BEST*
+  Ep  15/300  loss=3.3548  t1=20.2%  |  v_t1=11.4%  v_t5=30.7%  lr=0.001223 *BEST*
+  Ep  16/300  loss=3.1416  t1=22.9%  |  v_t1=11.2%  v_t5=30.5%  lr=0.001222
+  Ep  17/300  loss=2.9533  t1=24.7%  |  v_t1=12.5%  v_t5=32.4%  lr=0.001222 *BEST*
+  Ep  18/300  loss=2.7385  t1=28.1%  |  v_t1=13.7%  v_t5=35.2%  lr=0.001221 *BEST*
+  Ep  19/300  loss=2.5977  t1=29.9%  |  v_t1=12.3%  v_t5=34.8%  lr=0.001221
+  Ep  20/300  loss=2.4542  t1=32.2%  |  v_t1=14.3%  v_t5=37.5%  lr=0.001220 *BEST*
+  Ep  21/300  loss=2.3442  t1=34.2%  |  v_t1=14.8%  v_t5=39.1%  lr=0.001219 *BEST*
+  Ep  22/300  loss=2.1744  t1=36.6%  |  v_t1=15.5%  v_t5=39.9%  lr=0.001219 *BEST*
+  Ep  23/300  loss=2.0627  t1=38.7%  |  v_t1=16.1%  v_t5=41.7%  lr=0.001218 *BEST*
+  Ep  24/300  loss=1.9561  t1=40.3%  |  v_t1=17.0%  v_t5=41.9%  lr=0.001217 *BEST*
+  Ep  25/300  loss=1.8657  t1=42.4%  |  v_t1=16.3%  v_t5=41.5%  lr=0.001216
+  Ep  26/300  loss=1.7527  t1=44.2%  |  v_t1=17.7%  v_t5=42.5%  lr=0.001215 *BEST*
+  Ep  27/300  loss=1.6731  t1=45.5%  |  v_t1=18.0%  v_t5=43.7%  lr=0.001214 *BEST*
+  Ep  28/300  loss=1.5796  t1=48.2%  |  v_t1=17.0%  v_t5=42.7%  lr=0.001213
+  Ep  29/300  loss=1.4947  t1=49.5%  |  v_t1=18.0%  v_t5=43.5%  lr=0.001212 *BEST*
+  Ep  30/300  loss=1.4290  t1=51.2%  |  v_t1=17.9%  v_t5=43.3%  lr=0.001210
+  Ep  31/300  loss=1.3807  t1=51.7%  |  v_t1=20.5%  v_t5=46.2%  lr=0.001209 *BEST*
+  Ep  32/300  loss=1.3124  t1=53.2%  |  v_t1=19.6%  v_t5=46.4%  lr=0.001207
+  Ep  33/300  loss=1.2556  t1=55.3%  |  v_t1=20.2%  v_t5=46.8%  lr=0.001206
+  Ep  34/300  loss=1.1864  t1=56.3%  |  v_t1=20.2%  v_t5=46.4%  lr=0.001204
+  Ep  35/300  loss=1.1479  t1=57.2%  |  v_t1=19.9%  v_t5=47.1%  lr=0.001203
+  Ep  36/300  loss=1.1018  t1=59.0%  |  v_t1=19.6%  v_t5=47.7%  lr=0.001201
+  Ep  37/300  loss=1.0677  t1=59.3%  |  v_t1=20.7%  v_t5=48.2%  lr=0.001199 *BEST*
+  Ep  38/300  loss=1.0153  t1=60.9%  |  v_t1=20.0%  v_t5=48.0%  lr=0.001198
+  Ep  39/300  loss=0.9961  t1=61.5%  |  v_t1=20.8%  v_t5=48.1%  lr=0.001196 *BEST*
+  Ep  40/300  loss=0.9385  t1=62.5%  |  v_t1=21.9%  v_t5=49.6%  lr=0.001194 *BEST*
+  Ep  41/300  loss=0.8930  t1=63.6%  |  v_t1=20.7%  v_t5=47.4%  lr=0.001192
+  Ep  42/300  loss=0.8784  t1=64.2%  |  v_t1=20.6%  v_t5=48.7%  lr=0.001190
+  Ep  43/300  loss=0.8603  t1=65.0%  |  v_t1=21.6%  v_t5=49.4%  lr=0.001188
+  Ep  44/300  loss=0.8240  t1=65.8%  |  v_t1=22.7%  v_t5=49.7%  lr=0.001186 *BEST*
+  Ep  45/300  loss=0.7947  t1=66.4%  |  v_t1=22.2%  v_t5=49.8%  lr=0.001183
+  Ep  46/300  loss=0.7610  t1=67.3%  |  v_t1=21.7%  v_t5=49.4%  lr=0.001181
+  Ep  47/300  loss=0.7335  t1=68.3%  |  v_t1=21.8%  v_t5=50.2%  lr=0.001179
+  Ep  48/300  loss=0.7095  t1=69.3%  |  v_t1=21.9%  v_t5=49.9%  lr=0.001176
+  Ep  49/300  loss=0.6907  t1=69.8%  |  v_t1=22.3%  v_t5=50.4%  lr=0.001174
+  Ep  50/300  loss=0.6627  t1=70.3%  |  v_t1=21.7%  v_t5=50.2%  lr=0.001171
+  Ep  51/300  loss=0.6535  t1=70.8%  |  v_t1=22.3%  v_t5=49.9%  lr=0.001169
+  Ep  52/300  loss=0.6439  t1=71.0%  |  v_t1=22.4%  v_t5=50.7%  lr=0.001166
+  Ep  53/300  loss=0.6247  t1=71.9%  |  v_t1=23.0%  v_t5=50.5%  lr=0.001163 *BEST*
+  Ep  54/300  loss=0.6018  t1=72.7%  |  v_t1=22.0%  v_t5=50.5%  lr=0.001160
+  Ep  55/300  loss=0.5898  t1=72.7%  |  v_t1=22.1%  v_t5=52.0%  lr=0.001157
+  Ep  56/300  loss=0.5732  t1=73.7%  |  v_t1=22.0%  v_t5=51.1%  lr=0.001155
+  Ep  57/300  loss=0.5544  t1=73.9%  |  v_t1=22.9%  v_t5=51.6%  lr=0.001152
+  Ep  58/300  loss=0.5407  t1=74.4%  |  v_t1=22.4%  v_t5=50.6%  lr=0.001149
+  Ep  59/300  loss=0.5139  t1=75.2%  |  v_t1=23.6%  v_t5=51.9%  lr=0.001145 *BEST*
+  Ep  60/300  loss=0.5016  t1=76.0%  |  v_t1=23.0%  v_t5=51.4%  lr=0.001142
+  Ep  61/300  loss=0.5103  t1=75.5%  |  v_t1=22.6%  v_t5=51.1%  lr=0.001139
+  Ep  62/300  loss=0.4804  t1=76.4%  |  v_t1=22.8%  v_t5=51.7%  lr=0.001136
+  Ep  63/300  loss=0.4793  t1=76.6%  |  v_t1=23.0%  v_t5=52.0%  lr=0.001133
+  Ep  64/300  loss=0.4572  t1=77.8%  |  v_t1=23.5%  v_t5=52.6%  lr=0.001129
+  Ep  65/300  loss=0.4409  t1=77.6%  |  v_t1=23.4%  v_t5=52.7%  lr=0.001126
+  Ep  66/300  loss=0.4384  t1=77.9%  |  v_t1=24.4%  v_t5=52.7%  lr=0.001122 *BEST*
+  Ep  67/300  loss=0.4338  t1=78.2%  |  v_t1=23.6%  v_t5=52.3%  lr=0.001119
+  Ep  68/300  loss=0.4251  t1=78.3%  |  v_t1=23.8%  v_t5=52.4%  lr=0.001115
+  Ep  69/300  loss=0.4178  t1=79.2%  |  v_t1=23.8%  v_t5=53.3%  lr=0.001112
+  Ep  70/300  loss=0.4086  t1=78.9%  |  v_t1=23.8%  v_t5=53.3%  lr=0.001108
+  Ep  71/300  loss=0.3980  t1=79.7%  |  v_t1=23.4%  v_t5=52.5%  lr=0.001104
+  Ep  72/300  loss=0.4027  t1=79.4%  |  v_t1=23.4%  v_t5=51.9%  lr=0.001100
+  Ep  73/300  loss=0.3756  t1=80.2%  |  v_t1=23.5%  v_t5=52.9%  lr=0.001096
+  Ep  74/300  loss=0.3876  t1=80.3%  |  v_t1=23.4%  v_t5=53.2%  lr=0.001092
+  Ep  75/300  loss=0.3685  t1=80.6%  |  v_t1=23.5%  v_t5=52.9%  lr=0.001089
+  Ep  76/300  loss=0.3587  t1=81.2%  |  v_t1=23.2%  v_t5=52.4%  lr=0.001085
+  Ep  77/300  loss=0.3460  t1=81.7%  |  v_t1=23.8%  v_t5=53.0%  lr=0.001080
+  Ep  78/300  loss=0.3412  t1=82.0%  |  v_t1=23.8%  v_t5=53.4%  lr=0.001076
+  Ep  79/300  loss=0.3392  t1=82.0%  |  v_t1=23.9%  v_t5=54.0%  lr=0.001072
+  Ep  80/300  loss=0.3347  t1=82.5%  |  v_t1=24.3%  v_t5=52.8%  lr=0.001068
+  Ep  81/300  loss=0.3308  t1=82.6%  |  v_t1=24.0%  v_t5=52.9%  lr=0.001064
+  Ep  82/300  loss=0.3099  t1=83.3%  |  v_t1=22.9%  v_t5=52.8%  lr=0.001059
+  Ep  83/300  loss=0.3244  t1=82.6%  |  v_t1=24.7%  v_t5=52.5%  lr=0.001055 *BEST*
+  Ep  84/300  loss=0.3077  t1=82.9%  |  v_t1=24.0%  v_t5=53.1%  lr=0.001051
+  Ep  85/300  loss=0.2984  t1=83.3%  |  v_t1=23.8%  v_t5=53.8%  lr=0.001046
+  Ep  86/300  loss=0.3038  t1=83.5%  |  v_t1=24.5%  v_t5=54.0%  lr=0.001042
+  Ep  87/300  loss=0.2937  t1=83.7%  |  v_t1=23.7%  v_t5=52.4%  lr=0.001037
+  Ep  88/300  loss=0.2933  t1=84.1%  |  v_t1=23.6%  v_t5=54.2%  lr=0.001032
+  Ep  89/300  loss=0.2819  t1=84.2%  |  v_t1=24.3%  v_t5=53.6%  lr=0.001028
+  Ep  90/300  loss=0.2775  t1=84.6%  |  v_t1=24.7%  v_t5=54.2%  lr=0.001023 *BEST*
+  Ep  91/300  loss=0.2727  t1=84.4%  |  v_t1=24.0%  v_t5=53.5%  lr=0.001018
+  Ep  92/300  loss=0.2806  t1=84.6%  |  v_t1=24.0%  v_t5=53.5%  lr=0.001014
+  Ep  93/300  loss=0.2766  t1=84.5%  |  v_t1=24.8%  v_t5=55.2%  lr=0.001009 *BEST*
+  Ep  94/300  loss=0.2647  t1=84.7%  |  v_t1=24.9%  v_t5=54.1%  lr=0.001004 *BEST*
+  Ep  95/300  loss=0.2512  t1=85.4%  |  v_t1=24.8%  v_t5=54.8%  lr=0.000999
+  Ep  96/300  loss=0.2499  t1=85.2%  |  v_t1=25.2%  v_t5=54.4%  lr=0.000994 *BEST*
+  Ep  97/300  loss=0.2466  t1=85.5%  |  v_t1=24.8%  v_t5=55.0%  lr=0.000989
+  Ep  98/300  loss=0.2472  t1=85.8%  |  v_t1=25.2%  v_t5=54.7%  lr=0.000984
+  Ep  99/300  loss=0.2493  t1=85.4%  |  v_t1=24.6%  v_t5=53.1%  lr=0.000979
+  Ep 100/300  loss=0.2337  t1=86.0%  |  v_t1=24.6%  v_t5=53.6%  lr=0.000974
+  Ep 101/300  loss=0.2380  t1=86.3%  |  v_t1=24.1%  v_t5=54.5%  lr=0.000969
+  Ep 102/300  loss=0.2434  t1=85.7%  |  v_t1=25.0%  v_t5=54.2%  lr=0.000964
+  Ep 103/300  loss=0.2203  t1=87.0%  |  v_t1=23.3%  v_t5=53.6%  lr=0.000958
+  Ep 104/300  loss=0.2248  t1=86.9%  |  v_t1=24.2%  v_t5=54.3%  lr=0.000953
+  Ep 105/300  loss=0.2216  t1=86.6%  |  v_t1=25.0%  v_t5=54.0%  lr=0.000948
+  Ep 106/300  loss=0.2280  t1=86.7%  |  v_t1=26.0%  v_t5=55.9%  lr=0.000942 *BEST*
+  Ep 107/300  loss=0.2161  t1=87.4%  |  v_t1=24.0%  v_t5=54.3%  lr=0.000937
+  Ep 108/300  loss=0.2205  t1=87.1%  |  v_t1=24.3%  v_t5=54.7%  lr=0.000932
+  Ep 109/300  loss=0.2085  t1=87.6%  |  v_t1=24.9%  v_t5=54.8%  lr=0.000926
+  Ep 110/300  loss=0.2058  t1=87.2%  |  v_t1=24.4%  v_t5=54.4%  lr=0.000921
+  Ep 111/300  loss=0.2057  t1=87.6%  |  v_t1=24.9%  v_t5=54.8%  lr=0.000915
+  Ep 112/300  loss=0.2124  t1=86.8%  |  v_t1=23.9%  v_t5=54.5%  lr=0.000910
+  Ep 113/300  loss=0.1986  t1=87.7%  |  v_t1=24.4%  v_t5=54.0%  lr=0.000904
+  Ep 114/300  loss=0.2063  t1=87.5%  |  v_t1=25.7%  v_t5=55.0%  lr=0.000898
+  Ep 115/300  loss=0.1954  t1=87.9%  |  v_t1=25.3%  v_t5=55.0%  lr=0.000893
+  Ep 116/300  loss=0.1911  t1=87.8%  |  v_t1=25.5%  v_t5=54.9%  lr=0.000887
+  Ep 117/300  loss=0.1973  t1=88.0%  |  v_t1=25.8%  v_t5=55.0%  lr=0.000881
+  Ep 118/300  loss=0.1848  t1=88.3%  |  v_t1=25.5%  v_t5=54.9%  lr=0.000876
+  Ep 119/300  loss=0.1900  t1=88.1%  |  v_t1=25.6%  v_t5=53.8%  lr=0.000870
+  Ep 120/300  loss=0.1855  t1=88.3%  |  v_t1=25.6%  v_t5=54.2%  lr=0.000864
+  Ep 121/300  loss=0.1807  t1=88.3%  |  v_t1=25.3%  v_t5=54.6%  lr=0.000858
+  Ep 122/300  loss=0.1865  t1=88.7%  |  v_t1=25.1%  v_t5=55.1%  lr=0.000853
+  Ep 123/300  loss=0.1845  t1=88.3%  |  v_t1=25.4%  v_t5=55.3%  lr=0.000847
+  Ep 124/300  loss=0.1788  t1=88.7%  |  v_t1=25.1%  v_t5=54.8%  lr=0.000841
+  Ep 125/300  loss=0.1693  t1=89.0%  |  v_t1=24.9%  v_t5=55.9%  lr=0.000835
+  Ep 126/300  loss=0.1715  t1=89.1%  |  v_t1=25.1%  v_t5=55.0%  lr=0.000829
+  Ep 127/300  loss=0.1728  t1=88.8%  |  v_t1=24.9%  v_t5=55.4%  lr=0.000823
+  Ep 128/300  loss=0.1632  t1=89.5%  |  v_t1=27.0%  v_t5=55.8%  lr=0.000817 *BEST*
+  Ep 129/300  loss=0.1577  t1=89.7%  |  v_t1=25.7%  v_t5=55.1%  lr=0.000811
+  Ep 130/300  loss=0.1654  t1=89.3%  |  v_t1=25.9%  v_t5=55.6%  lr=0.000805
+  Ep 131/300  loss=0.1687  t1=89.0%  |  v_t1=24.8%  v_t5=55.6%  lr=0.000799
+  Ep 132/300  loss=0.1648  t1=89.3%  |  v_t1=25.7%  v_t5=54.8%  lr=0.000793
+  Ep 133/300  loss=0.1507  t1=90.3%  |  v_t1=25.1%  v_t5=55.3%  lr=0.000787
+  Ep 134/300  loss=0.1576  t1=89.5%  |  v_t1=25.0%  v_t5=54.8%  lr=0.000781
+  Ep 135/300  loss=0.1560  t1=89.7%  |  v_t1=25.1%  v_t5=55.1%  lr=0.000775
+  Ep 136/300  loss=0.1479  t1=90.4%  |  v_t1=25.6%  v_t5=55.7%  lr=0.000768
+  Ep 137/300  loss=0.1474  t1=90.0%  |  v_t1=25.4%  v_t5=55.0%  lr=0.000762
+  Ep 138/300  loss=0.1499  t1=89.9%  |  v_t1=25.3%  v_t5=55.4%  lr=0.000756
+  Ep 139/300  loss=0.1468  t1=90.1%  |  v_t1=25.5%  v_t5=55.3%  lr=0.000750
+  Ep 140/300  loss=0.1389  t1=90.1%  |  v_t1=26.3%  v_t5=55.8%  lr=0.000744
+  Ep 141/300  loss=0.1357  t1=90.9%  |  v_t1=25.7%  v_t5=56.1%  lr=0.000738
+  Ep 142/300  loss=0.1395  t1=90.5%  |  v_t1=25.3%  v_t5=55.9%  lr=0.000731
+  Ep 143/300  loss=0.1336  t1=90.6%  |  v_t1=25.7%  v_t5=55.7%  lr=0.000725
+  Ep 144/300  loss=0.1412  t1=90.1%  |  v_t1=25.0%  v_t5=56.2%  lr=0.000719
+  Ep 145/300  loss=0.1326  t1=90.8%  |  v_t1=25.0%  v_t5=56.1%  lr=0.000713
+  Ep 146/300  loss=0.1379  t1=90.5%  |  v_t1=25.8%  v_t5=56.0%  lr=0.000706
+  Ep 147/300  loss=0.1335  t1=90.8%  |  v_t1=25.1%  v_t5=56.8%  lr=0.000700
+  Ep 148/300  loss=0.1281  t1=90.7%  |  v_t1=25.9%  v_t5=55.9%  lr=0.000694
+  Ep 149/300  loss=0.1281  t1=90.8%  |  v_t1=25.7%  v_t5=55.9%  lr=0.000687
+  Ep 150/300  loss=0.1235  t1=91.4%  |  v_t1=25.2%  v_t5=56.4%  lr=0.000681
+  Ep 151/300  loss=0.1311  t1=90.8%  |  v_t1=26.1%  v_t5=55.9%  lr=0.000675
+  Ep 152/300  loss=0.1297  t1=90.6%  |  v_t1=25.5%  v_t5=55.8%  lr=0.000669
+  Ep 153/300  loss=0.1215  t1=91.5%  |  v_t1=25.7%  v_t5=55.5%  lr=0.000662
+  Ep 154/300  loss=0.1254  t1=91.0%  |  v_t1=25.4%  v_t5=55.9%  lr=0.000656
+  Ep 155/300  loss=0.1191  t1=91.2%  |  v_t1=25.5%  v_t5=55.5%  lr=0.000650
+  Ep 156/300  loss=0.1115  t1=91.6%  |  v_t1=25.7%  v_t5=55.9%  lr=0.000643
+  Ep 157/300  loss=0.1181  t1=91.4%  |  v_t1=26.1%  v_t5=56.7%  lr=0.000637
+  Ep 158/300  loss=0.1185  t1=91.2%  |  v_t1=26.3%  v_t5=56.7%  lr=0.000631
+  Ep 159/300  loss=0.1243  t1=91.0%  |  v_t1=25.8%  v_t5=56.4%  lr=0.000624
+  Ep 160/300  loss=0.1133  t1=91.8%  |  v_t1=25.3%  v_t5=56.8%  lr=0.000618
+  Ep 161/300  loss=0.1155  t1=91.3%  |  v_t1=25.5%  v_t5=56.3%  lr=0.000612
+  Ep 162/300  loss=0.1147  t1=91.7%  |  v_t1=25.9%  v_t5=56.5%  lr=0.000605
+  Ep 163/300  loss=0.1148  t1=91.8%  |  v_t1=25.5%  v_t5=56.2%  lr=0.000599
+  Ep 164/300  loss=0.1084  t1=91.9%  |  v_t1=26.3%  v_t5=56.6%  lr=0.000593
+  Ep 165/300  loss=0.1082  t1=91.6%  |  v_t1=25.6%  v_t5=56.5%  lr=0.000586
+  Ep 166/300  loss=0.1049  t1=91.9%  |  v_t1=25.9%  v_t5=56.8%  lr=0.000580
+  Ep 167/300  loss=0.1098  t1=91.9%  |  v_t1=25.2%  v_t5=57.0%  lr=0.000574
+  Ep 168/300  loss=0.1010  t1=92.1%  |  v_t1=25.5%  v_t5=57.1%  lr=0.000567
+
+  >>> Early stop at ep 168 (patience=40, best=26.99%)
+
+  RESULT: tcn val=26.99% test_t1=24.33% test_t5=54.04%
+  Best epoch: 128, Time: 2333s
+
+  Per-class accuracy:
+               book:  50.0% (2/4)
+              drink:  50.0% (2/4)
+           computer:  50.0% (2/4)
+             before:   0.0% (0/4)
+              chair:  50.0% (1/2)
+                 go: 100.0% (2/2)
+            clothes:  50.0% (1/2)
+                who:   0.0% (0/2)
+              candy:  33.3% (1/3)
+             cousin:  33.3% (1/3)
+               deaf: 100.0% (2/2)
+               fine:  50.0% (1/2)
+               help:  50.0% (1/2)
+                 no: 100.0% (2/2)
+               thin:  33.3% (1/3)
+               walk:  50.0% (1/2)
+               year: 100.0% (3/3)
+                yes:   0.0% (0/2)
+                all:  66.7% (2/3)
+              black:  50.0% (1/2)
+               cool: 100.0% (2/2)
+             finish:   0.0% (0/1)
+                hot:  50.0% (1/2)
+               like:   0.0% (0/3)
+               many:  50.0% (1/2)
+             mother: 100.0% (2/2)
+                now:   0.0% (0/2)
+             orange:  50.0% (1/2)
+              table:  66.7% (2/3)
+       thanksgiving:  66.7% (2/3)
+               what:  33.3% (1/3)
+              woman: 100.0% (2/2)
+                bed:   0.0% (0/1)
+               blue: 100.0% (1/1)
+            bowling:   0.0% (0/1)
+                can: 100.0% (2/2)
+                dog:   0.0% (0/3)
+             family:   0.0% (0/1)
+               fish:   0.0% (0/2)
+           graduate: 100.0% (1/1)
+                hat: 100.0% (1/1)
+            hearing:   0.0% (0/2)
+               kiss:   0.0% (0/3)
+           language:  66.7% (2/3)
+              later:  50.0% (1/2)
+                man: 100.0% (1/1)
+              shirt:  33.3% (1/3)
+              study: 100.0% (1/1)
+               tall:  50.0% (1/2)
+              white: 100.0% (1/1)
+              wrong:   0.0% (0/1)
+           accident:   0.0% (0/3)
+              apple: 100.0% (1/1)
+               bird: 100.0% (1/1)
+             change:   0.0% (0/1)
+              color:   0.0% (0/1)
+               corn:  33.3% (1/3)
+                cow:   0.0% (0/2)
+              dance:   0.0% (0/1)
+               dark:  66.7% (2/3)
+             doctor:  66.7% (2/3)
+                eat:   0.0% (0/1)
+              enjoy:   0.0% (0/1)
+             forget: 100.0% (2/2)
+               give:   0.0% (0/2)
+               last:  33.3% (1/3)
+               meet: 100.0% (1/1)
+               pink:  33.3% (1/3)
+              pizza:   0.0% (0/2)
+               play:   0.0% (0/2)
+             school: 100.0% (1/1)
+          secretary:  33.3% (1/3)
+              short:  50.0% (1/2)
+               time:   0.0% (0/1)
+               want:   0.0% (0/1)
+               work: 100.0% (1/1)
+             africa:   0.0% (0/3)
+         basketball: 100.0% (1/1)
+           birthday:  33.3% (1/3)
+              brown: 100.0% (1/1)
+                but:  33.3% (1/3)
+              cheat:  50.0% (1/2)
+               city:   0.0% (0/1)
+               full: 100.0% (1/1)
+                how: 100.0% (2/2)
+             jacket:   0.0% (0/2)
+             letter:   0.0% (0/2)
+           medicine:  50.0% (1/2)
+              paint:   0.0% (0/1)
+              paper:   0.0% (0/1)
+               pull:   0.0% (0/1)
+             purple:   0.0% (0/1)
+              right:   0.0% (0/2)
+               same:   0.0% (0/3)
+                son: 100.0% (1/1)
+               tell:   0.0% (0/1)
+              visit: 100.0% (1/1)
+               wait:  50.0% (1/2)
+              water:   0.0% (0/1)
+             yellow:   0.0% (0/1)
+           backpack:   0.0% (0/2)
+                bar:  33.3% (1/3)
+            brother:   0.0% (0/1)
+                cat:   0.0% (0/1)
+              check:   0.0% (0/3)
+              class:   0.0% (0/1)
+                cry:   0.0% (0/1)
+          different: 100.0% (1/1)
+              green:   0.0% (0/1)
+               hair: 100.0% (1/1)
+               have:   0.0% (0/1)
+           headache: 100.0% (1/1)
+             inform:  33.3% (1/3)
+              laugh:  33.3% (1/3)
+              learn: 100.0% (1/1)
+              movie: 100.0% (1/1)
+             rabbit:  66.7% (2/3)
+               read: 100.0% (1/1)
+                red:   0.0% (0/1)
+               room:   0.0% (0/2)
+                run:  50.0% (1/2)
+               show: 100.0% (1/1)
+               sick: 100.0% (1/1)
+               snow:   0.0% (0/1)
+               take:   0.0% (0/3)
+                tea: 100.0% (1/1)
+            teacher: 100.0% (1/1)
+               week: 100.0% (1/1)
+               with: 100.0% (1/1)
+              write:   0.0% (0/1)
+          yesterday:   0.0% (0/1)
+              again: 100.0% (1/1)
+                bad: 100.0% (1/1)
+               ball: 100.0% (1/1)
+           bathroom:   0.0% (0/1)
+            blanket:   0.0% (0/1)
+                buy:   0.0% (0/1)
+               call:   0.0% (0/2)
+               cold:  50.0% (1/2)
+            college: 100.0% (1/1)
+               copy:   0.0% (0/1)
+               cute:   0.0% (0/1)
+            example:  50.0% (1/2)
+                far:   0.0% (0/2)
+              first:   0.0% (0/1)
+             friend: 100.0% (1/1)
+               good:   0.0% (0/2)
+              happy:   0.0% (0/1)
+               home:   0.0% (0/1)
+               know:   0.0% (0/1)
+              leave:   0.0% (0/2)
+               list:   0.0% (0/1)
+             losear:   0.0% (0/2)
+               name:  50.0% (1/2)
+                old:   0.0% (0/1)
+             person:   0.0% (0/1)
+            problem:   0.0% (0/1)
+           remember: 100.0% (1/1)
+              share:   0.0% (0/1)
+               soon:   0.0% (0/2)
+               stay: 100.0% (1/1)
+               test: 100.0% (1/1)
+              tired:   0.0% (0/1)
+              trade:   0.0% (0/1)
+             travel: 100.0% (1/1)
+             window: 100.0% (1/1)
+                you:   0.0% (0/1)
+              about:   0.0% (0/2)
+            approve:   0.0% (0/2)
+             arrive: 100.0% (2/2)
+            balance:   0.0% (0/2)
+             banana:  50.0% (1/2)
+              beard: 100.0% (2/2)
+            because:   0.0% (0/2)
+                boy:  50.0% (1/2)
+           business:  50.0% (1/2)
+            careful:   0.0% (0/2)
+             center:  50.0% (1/2)
+               chat:  50.0% (1/2)
+           children:  50.0% (1/2)
+          christmas: 100.0% (1/1)
+              clock:   0.0% (0/2)
+              close:   0.0% (0/2)
+           convince:   0.0% (0/2)
+            country:  50.0% (1/2)
+              crash:   0.0% (0/2)
+                day: 100.0% (2/2)
+            discuss: 100.0% (2/2)
+              dress:  50.0% (1/2)
+              drive:   0.0% (0/1)
+               drop:  50.0% (1/2)
+                fat:   0.0% (0/2)
+               feel:   0.0% (0/2)
+           football:   0.0% (0/2)
+             future:   0.0% (0/2)
+               game:  50.0% (1/2)
+               girl:  50.0% (1/2)
+         government: 100.0% (2/2)
+               hear:   0.0% (0/2)
+               here:  50.0% (1/2)
+               hope:  50.0% (1/2)
+              house:   0.0% (0/2)
+            husband:  50.0% (1/2)
+           interest:   0.0% (0/2)
+               join:  50.0% (1/2)
+              light:   0.0% (0/2)
+               live:   0.0% (0/1)
+               make:  50.0% (1/2)
+               mean:   0.0% (0/2)
+               more:   0.0% (0/2)
+               most:  50.0% (1/2)
+              music:   0.0% (0/2)
+                new: 100.0% (2/2)
+               none: 100.0% (2/2)
+             office:   0.0% (0/2)
+              order:   0.0% (0/2)
+              pants:   0.0% (0/2)
+              party:   0.0% (0/2)
+               past:   0.0% (0/2)
+             pencil: 100.0% (2/2)
+               plan:  50.0% (1/2)
+             please:   0.0% (0/2)
+           practice:  50.0% (1/2)
+          president: 100.0% (2/2)
+         restaurant:   0.0% (0/2)
+               ride:   0.0% (0/2)
+             russia:  50.0% (1/2)
+               salt:   0.0% (0/2)
+           sandwich:  50.0% (1/2)
+               sign:  50.0% (1/2)
+              since:  50.0% (1/2)
+              small:   0.0% (0/2)
+               some:  50.0% (1/2)
+              south: 100.0% (2/2)
+            student:  50.0% (1/2)
+              teach:   0.0% (0/2)
+             theory: 100.0% (2/2)
+             tomato:  50.0% (1/2)
+              train:   0.0% (0/2)
+               ugly:  50.0% (1/2)
+                war:  50.0% (1/2)
+              where: 100.0% (2/2)
+               your:  50.0% (1/2)
+             always: 100.0% (2/2)
+             animal:  50.0% (1/2)
+              argue:   0.0% (0/2)
+               baby:   0.0% (0/2)
+               back:  50.0% (1/2)
+               bake:  50.0% (1/2)
+               bath:   0.0% (0/2)
+             behind:  50.0% (1/2)
+              bring:   0.0% (0/2)
+              catch:   0.0% (0/2)
+             cereal:   0.0% (0/2)
+           champion:   0.0% (0/2)
+             cheese:   0.0% (0/2)
+              cough:  50.0% (1/2)
+              crazy:   0.0% (0/2)
+              delay:   0.0% (0/2)
+          delicious:   0.0% (0/2)
+          disappear:   0.0% (0/2)
+            divorce:  50.0% (1/2)
+               draw:   0.0% (0/2)
+               east:  50.0% (1/2)
+               easy:  50.0% (1/2)
+                egg:   0.0% (0/2)
+        environment:   0.0% (0/2)
+             father:  50.0% (1/2)
+              fault:  50.0% (1/2)
+             flower:   0.0% (0/2)
+           friendly:  50.0% (1/2)
+            glasses: 100.0% (2/2)
+          halloween: 100.0% (1/1)
+               hard:   0.0% (0/2)
+              heart:   0.0% (0/1)
+               hour:   0.0% (0/2)
+             humble:  50.0% (1/2)
+              hurry:  50.0% (1/2)
+            improve:  50.0% (1/2)
+           internet: 100.0% (2/2)
+               jump:  50.0% (1/2)
+               kill:   0.0% (0/2)
+                law:  50.0% (1/2)
+              match:   0.0% (0/2)
+               meat: 100.0% (2/2)
+               milk:  50.0% (1/2)
+              money:  50.0% (1/2)
+              month:   0.0% (0/2)
+               moon:  50.0% (1/2)
+               move: 100.0% (2/2)
+               near:   0.0% (0/2)
+             nephew: 100.0% (2/2)
+               nice:  50.0% (1/2)
+              niece: 100.0% (2/2)
+               noon:   0.0% (0/2)
+              north:  50.0% (1/2)
+                not:   0.0% (0/2)
+              nurse:  50.0% (1/2)
+                off:   0.0% (0/2)
+                 ok:   0.0% (0/2)
+            patient:   0.0% (0/2)
+                pay:   0.0% (0/2)
+        perspective:   0.0% (0/2)
+             potato:   0.0% (0/2)
+                sad: 100.0% (2/2)
+           saturday:   0.0% (0/2)
+               save:   0.0% (0/2)
+           scissors:   0.0% (0/2)
+             secret:   0.0% (0/2)
+              shoes:  50.0% (1/2)
+               shop:   0.0% (0/2)
+              silly:   0.0% (0/2)
+             sister:   0.0% (0/2)
+              sleep:   0.0% (0/2)
+              sorry:  50.0% (1/2)
+           straight:  50.0% (1/2)
+              sweet:   0.0% (0/2)
+               talk:  50.0% (1/2)
+        temperature:  50.0% (1/2)
+               tent:   0.0% (0/2)
+          thank you:   0.0% (0/2)
+              think:   0.0% (0/2)
+              throw:   0.0% (0/2)
+              today: 100.0% (2/2)
+            traffic:  50.0% (1/2)
+         understand:   0.0% (0/2)
+                use: 100.0% (2/2)
+              voice: 100.0% (2/2)
+              vomit:   0.0% (0/2)
+               vote:   0.0% (0/2)
+          wednesday:   0.0% (0/2)
+               west:   0.0% (0/2)
+                wet:   0.0% (0/2)
+               when:   0.0% (0/2)
+              which:   0.0% (0/2)
+                win: 100.0% (2/2)
+               word:   0.0% (0/2)
+          afternoon:   0.0% (0/2)
+                age:  50.0% (1/2)
+              alone:   0.0% (0/2)
+        appointment:  50.0% (1/2)
+          australia:  50.0% (1/2)
+              avoid:   0.0% (0/2)
+            balloon:   0.0% (0/2)
+           basement:  50.0% (1/2)
+               bear:  50.0% (1/2)
+            believe:   0.0% (0/2)
+             better:  50.0% (1/2)
+              blind:   0.0% (0/2)
+              bored:   0.0% (0/2)
+               bowl:   0.0% (0/2)
+                box:   0.0% (0/2)
+           bracelet:  50.0% (1/2)
+              bread:  50.0% (1/2)
+          cafeteria: 100.0% (2/2)
+                car:  50.0% (1/2)
+            chicken:  50.0% (1/2)
+              child: 100.0% (2/2)
+             choose:   0.0% (0/2)
+             church:   0.0% (0/2)
+             cookie: 100.0% (2/2)
+                cup:   0.0% (0/2)
+                cut:   0.0% (0/2)
+           decorate:   0.0% (0/2)
+               deep:  50.0% (1/2)
+               deer:  50.0% (1/2)
+            dentist:   0.0% (0/2)
+              dirty:   0.0% (0/2)
+               dive:   0.0% (0/2)
+               down:  50.0% (1/2)
+                dry:  50.0% (1/2)
+                ear:   0.0% (0/2)
+               earn:  50.0% (1/2)
+            earring:   0.0% (0/2)
+           elephant:  50.0% (1/2)
+            english:   0.0% (0/2)
+             escape:   0.0% (0/2)
+          expensive:   0.0% (0/2)
+            explain:   0.0% (0/2)
+               fast:   0.0% (0/2)
+              fight:   0.0% (0/2)
+               find:  50.0% (1/2)
+            fishing:   0.0% (0/2)
+              floor:   0.0% (0/2)
+                fly:   0.0% (0/2)
+             follow:   0.0% (0/2)
+               from: 100.0% (2/2)
+                get:   0.0% (0/2)
+             happen:   0.0% (0/2)
+              hello:  50.0% (1/2)
+                hit:   0.0% (0/2)
+           hospital:   0.0% (0/2)
+               idea:  50.0% (1/2)
+          important: 100.0% (2/2)
+        investigate:   0.0% (0/2)
+              japan:   0.0% (0/2)
+            jealous:   0.0% (0/2)
+               king:  50.0% (1/2)
+            kitchen:   0.0% (0/2)
+              large:   0.0% (0/2)
+          last year:  50.0% (1/2)
+              lemon:   0.0% (0/2)
+            lettuce:  50.0% (1/2)
+              marry:  50.0% (1/2)
+            meeting:   0.0% (0/2)
+             minute:   0.0% (0/2)
+             mirror: 100.0% (2/2)
+               miss:   0.0% (0/2)
+             monkey:   0.0% (0/2)
+            morning:  50.0% (1/2)
+         motorcycle:   0.0% (0/2)
+           necklace:   0.0% (0/2)
+              never:   0.0% (0/2)
+          newspaper:  50.0% (1/2)
+              night:   0.0% (0/2)
+              onion:   0.0% (0/2)
+             people:   0.0% (0/2)
+             pepper:   0.0% (0/2)
+              phone:   0.0% (0/2)
+            picture: 100.0% (2/2)
+               plus:   0.0% (0/2)
+              point:   0.0% (0/2)
+               poor:   0.0% (0/2)
+           possible:   0.0% (0/2)
+              quiet:   0.0% (0/2)
+               rain:   0.0% (0/2)
+              ready: 100.0% (2/2)
+           research:   0.0% (0/2)
+             scared:   0.0% (0/2)
+            science:  50.0% (1/2)
+              score:   0.0% (0/2)
+           sentence:   0.0% (0/1)
+              shape:  50.0% (1/2)
+                sit:   0.0% (0/2)
+               slow:   0.0% (0/2)
+              snake:  50.0% (1/2)
+               soap:  50.0% (1/2)
+               soda: 100.0% (2/2)
+             speech:   0.0% (0/2)
+               star: 100.0% (2/2)
+              stink:   0.0% (0/2)
+           struggle:   0.0% (0/2)
+           stubborn: 100.0% (2/2)
+             sunset:  50.0% (1/2)
+            surgery:   0.0% (0/2)
+              there:  50.0% (1/2)
+              tiger: 100.0% (2/2)
+              toast:   0.0% (0/2)
+             toilet:   0.0% (0/2)
+           tomorrow:  50.0% (1/2)
+               town: 100.0% (1/1)
+           transfer:  50.0% (1/2)
+               tree:  50.0% (1/2)
+              truck: 100.0% (1/1)
+              uncle: 100.0% (2/2)
+           vacation: 100.0% (2/2)
+            weather:  50.0% (1/2)
+            weekend:  50.0% (1/2)
+             accept:   0.0% (0/2)
+              adult:   0.0% (0/1)
+              after:   0.0% (0/2)
+                ago:  50.0% (1/2)
+              allow:   0.0% (0/2)
+            america:  50.0% (1/2)
+              angel:   0.0% (0/2)
+             answer:   0.0% (0/2)
+                any:   0.0% (0/2)
+               area:   0.0% (0/2)
+                art:   0.0% (0/2)
+                asl:   0.0% (0/2)
+               aunt:   0.0% (0/2)
+              awful:   0.0% (0/2)
+            awkward:   0.0% (0/2)
+              bacon:   0.0% (0/2)
+               bark:   0.0% (0/2)
+            bedroom:  50.0% (1/2)
+               beer:   0.0% (0/2)
+               belt: 100.0% (2/2)
+                big:   0.0% (0/2)
+             bitter:   0.0% (0/2)
+               both:  50.0% (1/2)
+               cake:  50.0% (1/2)
+         california:   0.0% (0/2)
+             canada:   0.0% (0/2)
+             carrot:   0.0% (0/2)
+              cause:   0.0% (0/2)
+          challenge:  50.0% (1/2)
+              cheap:   0.0% (0/2)
+          chocolate:  50.0% (1/2)
+              clean:   0.0% (0/2)
+              cloud:   0.0% (0/2)
+            compare:  50.0% (1/2)
+            complex:  50.0% (1/2)
+            contact:   0.0% (0/2)
+           continue:   0.0% (0/2)
+             corner:   0.0% (0/2)
+            correct:   0.0% (0/2)
+              curse:  50.0% (1/2)
+               dead:  50.0% (1/2)
+             demand:   0.0% (0/2)
+             depend:   0.0% (0/2)
+             desert:  50.0% (1/2)
+               desk:   0.0% (0/2)
+            develop:   0.0% (0/2)
+         dictionary:   0.0% (0/2)
+               doll:   0.0% (0/2)
+               duty: 100.0% (2/2)
+             easter:   0.0% (0/2)
+              egypt:   0.0% (0/2)
+           elevator:  50.0% (1/2)
+              email:  50.0% (1/2)
+                end:   0.0% (0/2)
+              enter: 100.0% (2/2)
+             europe:   0.0% (0/2)
+              event:   0.0% (0/1)
+           exchange:   0.0% (0/2)
+         experience:  50.0% (1/2)
+               face:  50.0% (1/2)
+               fail:   0.0% (0/2)
+               feed:   0.0% (0/2)
+                few:   0.0% (0/2)
+               flag:  50.0% (1/2)
+               food:   0.0% (0/2)
+                for:   0.0% (0/2)
+               form:   0.0% (0/2)
+             freeze:   0.0% (0/2)
+             friday:   0.0% (0/2)
+              front: 100.0% (2/2)
+            giraffe:   0.0% (0/2)
+                god:  50.0% (1/2)
+            grammar:   0.0% (0/2)
+        grandfather:  50.0% (1/2)
+              great:   0.0% (0/2)
+             greece:   0.0% (0/2)
+              guess:  50.0% (1/2)
+             guitar: 100.0% (2/2)
+             hammer:  50.0% (1/2)
+         helicopter:  50.0% (1/2)
+               high:   0.0% (0/2)
+            history:   0.0% (0/2)
+             hungry:   0.0% (0/2)
+               hurt:   0.0% (0/2)
+          introduce:  50.0% (1/2)
+             invest:   0.0% (0/2)
+               lazy:  50.0% (1/2)
+            library:  50.0% (1/2)
+                lie:  50.0% (1/2)
+            lobster:   0.0% (0/2)
+               love:   0.0% (0/2)
+              lucky:   0.0% (0/2)
+           magazine:  50.0% (1/2)
+            measure:   0.0% (0/2)
+          microwave:   0.0% (0/2)
+                 my:   0.0% (0/2)
+           neighbor:   0.0% (0/2)
+             number: 100.0% (2/2)
+                one:   0.0% (0/2)
+            outside:   0.0% (0/1)
+              peach:   0.0% (0/2)
+                pig:   0.0% (0/2)
+             polite:  50.0% (1/2)
+           postpone:   0.0% (0/1)
+              power:   0.0% (0/1)
+            present:   0.0% (0/2)
+              price:   0.0% (0/1)
+             prison:   0.0% (0/2)
+               push: 100.0% (2/2)
+            raccoon:  50.0% (1/2)
+             really:   0.0% (0/2)
+             reason:   0.0% (0/2)
+           religion:   0.0% (0/2)
+            respect:   0.0% (0/2)
+               rule:   0.0% (0/2)
+              salad:  50.0% (1/2)
+           schedule: 100.0% (2/2)
+               sell:   0.0% (0/2)
+            serious:   0.0% (0/2)
+             shower:   0.0% (0/2)
+             single:   0.0% (0/2)
+              smart:   0.0% (0/2)
+              smile:   0.0% (0/2)
+               soft:   0.0% (0/2)
+              sound:   0.0% (0/2)
+               soup:  50.0% (1/2)
+              spain:   0.0% (0/2)
+              spray:   0.0% (0/2)
+           squirrel:   0.0% (0/2)
+            stomach:   0.0% (0/2)
+              story:  50.0% (1/2)
+            strange:   0.0% (0/2)
+             street:   0.0% (0/2)
+             stress:   0.0% (0/2)
+             strict:   0.0% (0/2)
+             strong:   0.0% (0/2)
+              sugar:   0.0% (0/2)
+             summer:   0.0% (0/2)
+            suspect:   0.0% (0/2)
+         sweetheart:  50.0% (1/2)
+              tease:   0.0% (0/2)
+               that:  50.0% (1/2)
+         themselves:   0.0% (0/2)
+            therapy:   0.0% (0/2)
+            thirsty:   0.0% (0/2)
+             ticket:   0.0% (0/2)
+                top:   0.0% (0/2)
+            tuesday:   0.0% (0/2)
+             turkey: 100.0% (2/2)
+         university:   0.0% (0/2)
+              until:   0.0% (0/2)
+              watch:   0.0% (0/2)
+               weak:   0.0% (0/2)
+            wedding: 100.0% (2/2)
+               will:  50.0% (1/2)
+               wind:   0.0% (0/2)
+              world:  50.0% (1/2)
+              worry:   0.0% (0/2)
+                wow:   0.0% (0/2)
+              young: 100.0% (2/2)
+                add: 100.0% (2/2)
+           airplane:   0.0% (0/1)
+            already: 100.0% (1/1)
+               also:   0.0% (0/1)
+            analyze:   0.0% (0/1)
+                and:   0.0% (0/1)
+              angry:   0.0% (0/1)
+             appear:   0.0% (0/1)
+                arm:   0.0% (0/1)
+               army:   0.0% (0/1)
+             arrest:   0.0% (0/2)
+               asia:  50.0% (1/2)
+                ask:   0.0% (0/1)
+           attitude:   0.0% (0/1)
+            attract:   0.0% (0/1)
+               bald:   0.0% (0/1)
+             barely:   0.0% (0/2)
+           baseball: 100.0% (1/1)
+                beg:   0.0% (0/1)
+            benefit: 100.0% (1/1)
+               bite:   0.0% (0/1)
+              blame:   0.0% (0/1)
+               boat: 100.0% (1/1)
+               body:   0.0% (0/1)
+             borrow:   0.0% (0/1)
+               boss:   0.0% (0/1)
+             bother:   0.0% (0/1)
+             bottle:   0.0% (0/1)
+             bottom: 100.0% (1/1)
+               brag:   0.0% (0/1)
+              build: 100.0% (1/1)
+                bus:   0.0% (0/1)
+             butter:   0.0% (0/1)
+               calm:   0.0% (0/1)
+             cancel:   0.0% (0/1)
+             candle: 100.0% (1/1)
+              cards:   0.0% (0/1)
+             choice: 100.0% (1/1)
+               comb:   0.0% (0/1)
+        comfortable:   0.0% (0/1)
+           conflict:  50.0% (1/2)
+              cover:   0.0% (0/1)
+          deodorant:   0.0% (0/1)
+            dessert:   0.0% (0/1)
+            destroy:   0.0% (0/1)
+            diamond:   0.0% (0/2)
+             dollar:   0.0% (0/1)
+             drawer:   0.0% (0/2)
+              dream:   0.0% (0/1)
+              drunk: 100.0% (1/1)
+               duck:   0.0% (0/1)
+             during:   0.0% (0/1)
+              eagle:   0.0% (0/2)
+              early:   0.0% (0/1)
+              equal:   0.0% (0/1)
+              every: 100.0% (1/1)
+            excited:   0.0% (0/1)
+           exercise:  50.0% (1/2)
+         experiment:   0.0% (0/1)
+             expert:   0.0% (0/1)
+               fact:   0.0% (0/1)
+               fear:   0.0% (0/1)
+           feedback:   0.0% (0/1)
+               fold:   0.0% (0/2)
+             forest:   0.0% (0/1)
+             france: 100.0% (1/1)
+               frog:   0.0% (0/1)
+              funny:   0.0% (0/1)
+             garage: 100.0% (1/1)
+               goal: 100.0% (1/1)
+               golf:   0.0% (0/1)
+               gone:   0.0% (0/1)
+             gossip:   0.0% (0/1)
+        grandmother:   0.0% (0/1)
+             grapes:   0.0% (0/1)
+              group:   0.0% (0/2)
+             guilty:   0.0% (0/2)
+          hamburger:   0.0% (0/1)
+               hate:   0.0% (0/1)
+               head:   0.0% (0/1)
+                her:   0.0% (0/2)
+              horse: 100.0% (1/1)
+             ignore:   0.0% (0/1)
+         impossible:   0.0% (0/1)
+                 in:   0.0% (0/1)
+        independent: 100.0% (1/1)
+             inside:   0.0% (0/1)
+          insurance:   0.0% (0/1)
+             island:   0.0% (0/1)
+            lecture:   0.0% (0/1)
+             lesson:   0.0% (0/1)
+              limit:   0.0% (0/1)
+               lion: 100.0% (1/1)
+             listen:   0.0% (0/2)
+              march:   0.0% (0/2)
+               math: 100.0% (1/1)
+              maybe:   0.0% (0/2)
+           mechanic: 100.0% (1/1)
+                mom:   0.0% (0/2)
+              mouse:   0.0% (0/2)
+               much:  50.0% (1/2)
+             muscle:   0.0% (0/1)
+             museum:   0.0% (0/1)
+               must:   0.0% (0/1)
+           mustache: 100.0% (1/1)
+           negative:   0.0% (0/1)
+            nervous:   0.0% (0/1)
+            neutral:   0.0% (0/1)
+               nose:   0.0% (0/1)
+              often:   0.0% (0/1)
+            operate:   0.0% (0/2)
+            opinion: 100.0% (1/1)
+              other:   0.0% (0/1)
+               pass:   0.0% (0/2)
+             pillow:   0.0% (0/2)
+            prepare:   0.0% (0/1)
+             pretty:   0.0% (0/1)
+             priest:   0.0% (0/1)
+            program: 100.0% (1/1)
+            promise:   0.0% (0/1)
+                put:   0.0% (0/1)
+              queen:   0.0% (0/1)
+               quit:   0.0% (0/1)
+              radio:   0.0% (0/1)
+                rat:   0.0% (0/1)
+             reject:   0.0% (0/1)
+            require: 100.0% (1/1)
+               rest:   0.0% (0/2)
+             retire:   0.0% (0/1)
+               rise:   0.0% (0/1)
+              river:   0.0% (0/1)
+              rough:   0.0% (0/1)
+                see:   0.0% (0/1)
+               seem: 100.0% (1/1)
+               send:   0.0% (0/1)
+                sew:   0.0% (0/1)
+              sheep:   0.0% (0/1)
+              shine:  50.0% (1/2)
+              shock:   0.0% (0/1)
+             should:   0.0% (0/1)
+             silent:  50.0% (1/2)
+             skinny:   0.0% (0/1)
+              skirt:   0.0% (0/1)
+                sky: 100.0% (2/2)
+               sour:   0.0% (0/1)
+            special:   0.0% (0/1)
+             spirit: 100.0% (1/1)
+              staff:   0.0% (0/1)
+              stand:   0.0% (0/1)
+              steal: 100.0% (1/1)
+               stop:   0.0% (0/1)
+             stupid:   0.0% (0/1)
+             summon:   0.0% (0/1)
+            sunrise: 100.0% (1/1)
+            swallow:   0.0% (0/1)
+         television:   0.0% (0/1)
+                 to: 100.0% (1/1)
+           together:   0.0% (0/1)
+          translate: 100.0% (1/1)
+           triangle:   0.0% (0/2)
+             turtle:   0.0% (0/1)
+          underwear:  50.0% (1/2)
+                 up:   0.0% (0/1)
+              upset: 100.0% (1/1)
+             violin:   0.0% (0/1)
+          volunteer:   0.0% (0/1)
+               warm:   0.0% (0/1)
+               warn:   0.0% (0/1)
+               wash:   0.0% (0/1)
+               wine:   0.0% (0/1)
+            witness:   0.0% (0/1)
+               wood: 100.0% (1/1)
+               zero:   0.0% (0/2)
+             across:   0.0% (0/1)
+              actor:   0.0% (0/1)
+              agree: 100.0% (1/1)
+              alarm: 100.0% (1/1)
+            allergy:   0.0% (0/1)
+             almost: 100.0% (1/1)
+           announce:   0.0% (0/1)
+          apartment:   0.0% (0/1)
+          attention:   0.0% (0/1)
+           audience: 100.0% (1/1)
+             august: 100.0% (1/1)
+             autumn: 100.0% (1/1)
+               away:   0.0% (0/1)
+          beautiful:   0.0% (0/1)
+             become: 100.0% (1/1)
+              below:   0.0% (0/1)
+               best:   0.0% (0/1)
+                bet:   0.0% (0/1)
+            bicycle:   0.0% (0/1)
+            biology: 100.0% (1/1)
+          boyfriend: 100.0% (1/1)
+              break:   0.0% (0/1)
+             bridge: 100.0% (1/1)
+              brush:   0.0% (0/1)
+           building:   0.0% (0/1)
+               busy:   0.0% (0/1)
+             camera:   0.0% (0/1)
+               camp:   0.0% (0/1)
+            caption:   0.0% (0/1)
+               care: 100.0% (1/1)
+              carry:   0.0% (0/1)
+          celebrate: 100.0% (1/1)
+        certificate: 100.0% (1/1)
+              chain:   0.0% (0/1)
+             chance:   0.0% (0/1)
+          character: 100.0% (1/1)
+              chase: 100.0% (1/1)
+          classroom: 100.0% (1/1)
+              clear:   0.0% (0/1)
+              climb: 100.0% (1/1)
+            command:   0.0% (0/1)
+          community:   0.0% (0/1)
+           complain:   0.0% (0/1)
+         compromise:   0.0% (0/1)
+         contribute:   0.0% (0/1)
+                cop: 100.0% (1/1)
+               cost:   0.0% (0/1)
+              couch:   0.0% (0/1)
+            cracker:   0.0% (0/1)
+            curious:   0.0% (0/1)
+         curriculum: 100.0% (1/1)
+                dad:   0.0% (0/1)
+               deny:   0.0% (0/1)
+           describe:   0.0% (0/1)
+             diaper: 100.0% (1/1)
+           diarrhea:   0.0% (0/1)
+           disagree:   0.0% (0/1)
+           dissolve: 100.0% (1/1)
+             divide:   0.0% (0/1)
+            dolphin:   0.0% (0/1)
+             double:   0.0% (0/1)
+              doubt:   0.0% (0/1)
+               dumb: 100.0% (1/1)
+              earth:   0.0% (0/1)
+         earthquake: 100.0% (1/1)
+              eight: 100.0% (1/1)
+          embarrass: 100.0% (1/1)
+            emotion: 100.0% (1/1)
+          encourage:   0.0% (0/1)
+             energy:   0.0% (0/1)
+             enough:   0.0% (0/1)
+           evaluate:   0.0% (0/1)
+           evidence:   0.0% (0/1)
+              exact:   0.0% (0/1)
+         exaggerate:   0.0% (0/1)
+             expect:   0.0% (0/1)
+              fancy:   0.0% (0/1)
+           favorite:   0.0% (0/1)
+            finally:   0.0% (0/1)
+                fox:   0.0% (0/1)
+             french:   0.0% (0/1)
+              fruit:   0.0% (0/1)
+           function:   0.0% (0/1)
+             gather:   0.0% (0/2)
+            germany:   0.0% (0/1)
+             gloves: 100.0% (1/1)
+               goat: 100.0% (1/1)
+            goodbye:   0.0% (0/1)
+               grow: 100.0% (1/1)
+                gum:   0.0% (0/1)
+               half:   0.0% (0/1)
+             hawaii:   0.0% (0/2)
+            herself:   0.0% (0/2)
+            highway:   0.0% (0/1)
+           homework: 100.0% (1/1)
+              honor:   0.0% (0/1)
+          ice cream: 100.0% (1/1)
+                 if:   0.0% (0/1)
+           increase:   0.0% (0/1)
+              india:   0.0% (0/1)
+        information:   0.0% (0/1)
+          interpret:   0.0% (0/1)
+          interview: 100.0% (1/1)
+             invite:   0.0% (0/1)
+             israel: 100.0% (1/1)
+              jesus:   0.0% (0/1)
+               keep:   0.0% (0/1)
+           keyboard:   0.0% (0/1)
+               land:   0.0% (0/1)
+             lawyer: 100.0% (1/1)
+               lead: 100.0% (1/1)
+            lesbian:   0.0% (0/1)
+               line:   0.0% (0/1)
+               lock:   0.0% (0/1)
+               loud:   0.0% (0/1)
+              lousy: 100.0% (1/1)
+              lunch: 100.0% (1/1)
+            machine:   0.0% (0/1)
+                mad:   0.0% (0/1)
+           memorize:   0.0% (0/1)
+              minus: 100.0% (1/1)
+             monday:   0.0% (0/1)
+           mountain:   0.0% (0/1)
+              mouth:   0.0% (0/1)
+           mushroom:   0.0% (0/1)
+             napkin:   0.0% (0/1)
+               neck:   0.0% (0/1)
+               next: 100.0% (1/1)
+              ocean:   0.0% (0/1)
+               open:   0.0% (0/1)
+          overwhelm:   0.0% (0/1)
+                owe:   0.0% (0/1)
+               page:   0.0% (0/1)
+               pain:   0.0% (0/1)
+             parade: 100.0% (1/1)
+            parents: 100.0% (1/1)
+            perfect: 100.0% (1/1)
+             period:   0.0% (0/1)
+         philosophy:   0.0% (0/1)
+       photographer: 100.0% (1/1)
+              place:   0.0% (0/1)
+             policy:   0.0% (0/1)
+            popular:   0.0% (0/1)
+               pray: 100.0% (1/1)
+            predict:   0.0% (0/1)
+       presentation:   0.0% (0/1)
+              print:   0.0% (0/1)
+            printer:   0.0% (0/1)
+            private:   0.0% (0/1)
+      procrastinate:   0.0% (0/1)
+            project:   0.0% (0/1)
+            protect:   0.0% (0/1)
+              prove:   0.0% (0/1)
+            provide:   0.0% (0/1)
+         psychology: 100.0% (1/1)
+             punish:   0.0% (0/1)
+            puzzled:   0.0% (0/1)
+           question:   0.0% (0/1)
+              quick:   0.0% (0/1)
+            rainbow:   0.0% (0/1)
+               rake:   0.0% (0/1)
+           rehearse:   0.0% (0/1)
+             remove: 100.0% (1/1)
+            revenge:   0.0% (0/1)
+             review:   0.0% (0/1)
+               rich:   0.0% (0/1)
+               roof: 100.0% (1/1)
+            rooster:   0.0% (0/1)
+               rude:   0.0% (0/1)
+                say:   0.0% (0/1)
+          scientist: 100.0% (1/1)
+           scotland:   0.0% (0/1)
+        screwdriver:   0.0% (0/1)
+             second:   0.0% (0/1)
+             senate:   0.0% (0/1)
+           separate: 100.0% (1/1)
+            service:   0.0% (0/1)
+             shrimp: 100.0% (1/1)
+                shy:   0.0% (0/1)
+               side: 100.0% (1/1)
+          situation: 100.0% (1/1)
+              slave: 100.0% (1/1)
+             soccer: 100.0% (1/1)
+              socks:   0.0% (0/1)
+              solid:   0.0% (0/1)
+          sometimes:   0.0% (0/1)
+             spider:   0.0% (0/1)
+               spin:   0.0% (0/2)
+             square: 100.0% (1/1)
+             stairs:   0.0% (0/1)
+              stare:   0.0% (0/1)
+              start: 100.0% (1/1)
+              store:   0.0% (0/1)
+              straw:   0.0% (0/1)
+          structure:   0.0% (0/1)
+            suggest:   0.0% (0/1)
+                sun:   0.0% (0/1)
+            support:   0.0% (0/1)
+            suppose:   0.0% (0/1)
+               sure:   0.0% (0/1)
+           surprise: 100.0% (1/1)
+            sweater:   0.0% (0/1)
+               swim: 100.0% (1/1)
+             symbol:   0.0% (0/1)
+              taste:   0.0% (0/1)
+               team:   0.0% (0/1)
+          telephone:   0.0% (0/1)
+             tennis:   0.0% (0/1)
+              their:   0.0% (0/1)
+               then:   0.0% (0/1)
+        thermometer:   0.0% (0/1)
+              thing:   0.0% (0/2)
+              third:   0.0% (0/1)
+           thousand:   0.0% (0/1)
+              three:   0.0% (0/1)
+                tie: 100.0% (1/1)
+              topic:   0.0% (0/1)
+              touch:   0.0% (0/1)
+         tournament:   0.0% (0/1)
+                try:   0.0% (0/1)
+                two:   0.0% (0/1)
+               type:   0.0% (0/2)
+           umbrella:   0.0% (0/1)
+          vegetable: 100.0% (1/1)
+         vocabulary:   0.0% (0/1)
+              waste:   0.0% (0/1)
+                 we:   0.0% (0/1)
+               wear:   0.0% (0/2)
+             weekly:   0.0% (0/1)
+            welcome: 100.0% (1/1)
+             winter:   0.0% (0/1)
+            without: 100.0% (1/1)
+               wolf:   0.0% (0/1)
+               worm: 100.0% (1/1)
+         wristwatch:   0.0% (0/1)
+           yourself:   0.0% (0/1)
+              above:   0.0% (0/1)
+         accomplish: 100.0% (1/1)
+              adopt:   0.0% (0/1)
+          advantage:   0.0% (0/1)
+           alphabet:   0.0% (0/1)
+        anniversary:   0.0% (0/1)
+            another:   0.0% (0/1)
+        appropriate:   0.0% (0/1)
+           arrogant:   0.0% (0/1)
+             artist: 100.0% (1/1)
+         background:   0.0% (0/1)
+                bee:   0.0% (0/1)
+           behavior:   0.0% (0/1)
+               bell:   0.0% (0/1)
+              birth:   0.0% (0/1)
+              bless:   0.0% (0/1)
+              blood:   0.0% (0/1)
+              boots:   0.0% (0/1)
+              brave:   0.0% (0/1)
+            breathe:   0.0% (0/1)
+             bright: 100.0% (1/1)
+               bull:   0.0% (0/1)
+          butterfly: 100.0% (1/1)
+               card:   0.0% (0/1)
+           category:   0.0% (0/1)
+           catholic: 100.0% (1/1)
+               cent:   0.0% (0/1)
+          chemistry:   0.0% (0/1)
+             cherry:   0.0% (0/1)
+              china:   0.0% (0/1)
+               chop:   0.0% (0/1)
+          christian:   0.0% (0/1)
+          cigarette:   0.0% (0/1)
+             clever:   0.0% (0/1)
+              clown:   0.0% (0/1)
+              coach:   0.0% (0/1)
+               coat:   0.0% (0/1)
+    cochlear implant:   0.0% (0/1)
+            coconut: 100.0% (1/1)
+             common:   0.0% (0/1)
+            commute: 100.0% (1/1)
+            control:   0.0% (0/1)
+              count:   0.0% (0/1)
+            culture:   0.0% (0/1)
+              daily:   0.0% (0/1)
+             defend:   0.0% (0/1)
+             degree:   0.0% (0/1)
+        demonstrate:   0.0% (0/1)
+         department:   0.0% (0/1)
+                die:   0.0% (0/1)
+                dig:   0.0% (0/1)
+             dinner: 100.0% (1/1)
+           dinosaur:   0.0% (0/1)
+            diploma:   0.0% (0/1)
+           director:   0.0% (0/1)
+         disconnect:   0.0% (0/1)
+           discover:   0.0% (0/1)
+         don't want:   0.0% (0/1)
+               drum:   0.0% (0/1)
+               each: 100.0% (1/1)
+            educate:   0.0% (0/1)
+        electrician:   0.0% (0/1)
+              empty:   0.0% (0/1)
+            england:   0.0% (0/1)
+          establish:   0.0% (0/1)
+             excuse:   0.0% (0/1)
+         eyeglasses: 100.0% (1/1)
+            faculty: 100.0% (1/1)
+       fall in love:   0.0% (0/1)
+             famous:   0.0% (0/1)
+               farm:   0.0% (0/1)
+              fence:   0.0% (0/1)
+                fix:   0.0% (0/1)
+           flexible:   0.0% (0/1)
+              flirt:   0.0% (0/1)
+              flood: 100.0% (1/1)
+               fork:   0.0% (0/1)
+               four:   0.0% (0/1)
+                fun: 100.0% (1/1)
+            funeral:   0.0% (0/1)
+          furniture:   0.0% (0/1)
+          gallaudet:   0.0% (0/1)
+            general:   0.0% (0/1)
+              ghost:   0.0% (0/1)
+            give up:   0.0% (0/1)
+              glass:   0.0% (0/1)
+            gorilla:   0.0% (0/1)
+               gray:   0.0% (0/1)
+              guide:   0.0% (0/1)
+              habit:   0.0% (0/1)
+             health:   0.0% (0/1)
+        hearing aid:   0.0% (0/1)
+             heaven:   0.0% (0/1)
+              heavy:   0.0% (0/1)
+             helmet:   0.0% (0/1)
+               hide:   0.0% (0/1)
+        high school:   0.0% (0/1)
+             hockey: 100.0% (1/1)
+               hold:   0.0% (0/1)
+             honest:   0.0% (0/1)
+                hug:   0.0% (0/1)
+               hunt:   0.0% (0/1)
+              image:   0.0% (0/1)
+          influence:   0.0% (0/1)
+        interesting:   0.0% (0/1)
+        interpreter: 100.0% (1/1)
+               iran:   0.0% (0/1)
+              italy:   0.0% (0/1)
+             jewish:   0.0% (0/1)
+              judge:   0.0% (0/1)
+                key:   0.0% (0/1)
+              label: 100.0% (1/1)
+               leaf:   0.0% (0/1)
+               left:   0.0% (0/1)
+               lend:   0.0% (0/1)
+               less: 100.0% (1/1)
+        linguistics:   0.0% (0/1)
+             lonely:   0.0% (0/1)
+               long:   0.0% (0/1)
+              magic:   0.0% (0/1)
+         mainstream:   0.0% (0/1)
+              major:   0.0% (0/1)
+            manager:   0.0% (0/1)
+            maximum:   0.0% (0/1)
+                 me:   0.0% (0/1)
+             mexico:   0.0% (0/1)
+             middle: 100.0% (1/1)
+               mind: 100.0% (1/1)
+      misunderstand:   0.0% (0/1)
+            monster: 100.0% (1/1)
+           multiply:   0.0% (0/1)
+             myself:   0.0% (0/1)
+            nothing:   0.0% (0/1)
+            october:   0.0% (0/1)
+                odd:   0.0% (0/1)
+              offer:   0.0% (0/1)
+                 on:   0.0% (0/1)
+               only:   0.0% (0/1)
+           opposite: 100.0% (1/1)
+                out:   0.0% (0/1)
+           overlook: 100.0% (1/1)
+               path:   0.0% (0/1)
+            percent:   0.0% (0/1)
+            physics:   0.0% (0/1)
+              piano:   0.0% (0/1)
+               pick:   0.0% (0/1)
+                pie:   0.0% (0/1)
+              plate:   0.0% (0/1)
+             pocket: 100.0% (1/1)
+            popcorn:   0.0% (0/1)
+           positive:   0.0% (0/1)
+           pregnant:   0.0% (0/1)
+            prevent: 100.0% (1/1)
+              proof:   0.0% (0/1)
+            pumpkin:   0.0% (0/1)
+            purpose: 100.0% (1/1)
+               race:   0.0% (0/1)
+            realize:   0.0% (0/1)
+          recognize:   0.0% (0/1)
+             refuse:   0.0% (0/1)
+       relationship:   0.0% (0/1)
+             repeat:   0.0% (0/1)
+            replace:   0.0% (0/1)
+             report:   0.0% (0/1)
+          represent:   0.0% (0/1)
+            request:   0.0% (0/1)
+     responsibility:   0.0% (0/1)
+             result:   0.0% (0/1)
+             reveal:   0.0% (0/1)
+               ring:   0.0% (0/1)
+                rob:   0.0% (0/1)
+               rock: 100.0% (1/1)
+               role:   0.0% (0/1)
+               rope: 100.0% (1/1)
+               rush:   0.0% (0/1)
+             salute:   0.0% (0/1)
+            satisfy:   0.0% (0/1)
+             search:   0.0% (0/1)
+            selfish:   0.0% (0/1)
+          sensitive:   0.0% (0/1)
+              serve:   0.0% (0/1)
+              seven:   0.0% (0/1)
+            shampoo:   0.0% (0/1)
+                she:   0.0% (0/1)
+              shelf:   0.0% (0/1)
+           shopping:   0.0% (0/1)
+      sign language: 100.0% (1/1)
+            similar:   0.0% (0/1)
+               sing:   0.0% (0/1)
+                six:   0.0% (0/1)
+           skeleton:   0.0% (0/1)
+             sketch:   0.0% (0/1)
+              skill:   0.0% (0/1)
+             sleepy:   0.0% (0/1)
+               slip:   0.0% (0/1)
+              smell: 100.0% (1/1)
+             sneeze:   0.0% (0/1)
+               snob:   0.0% (0/1)
+           specific:   0.0% (0/1)
+              stamp:   0.0% (0/1)
+              steel:   0.0% (0/1)
+         strawberry:   0.0% (0/1)
+           subtract:   0.0% (0/1)
+             subway:   0.0% (0/1)
+             suffer:   0.0% (0/1)
+            surface:   0.0% (0/1)
+              sweep: 100.0% (1/1)
+              swing:   0.0% (0/1)
+        switzerland:   0.0% (0/1)
+               tale:   0.0% (0/1)
+                tan:   0.0% (0/1)
+              teeth:   0.0% (0/1)
+           terrible:   0.0% (0/1)
+           thankful:   0.0% (0/1)
+               they:   0.0% (0/1)
+            through:   0.0% (0/1)
+             tiptoe:   0.0% (0/1)
+              title:   0.0% (0/1)
+              tooth:   0.0% (0/1)
+         toothbrush:   0.0% (0/1)
+              total:   0.0% (0/1)
+              tough:   0.0% (0/1)
+          tradition:   0.0% (0/1)
+             trophy:   0.0% (0/1)
+            trouble: 100.0% (1/1)
+               true:   0.0% (0/1)
+              trust:   0.0% (0/1)
+              under:   0.0% (0/1)
+               verb:   0.0% (0/1)
+               wall:   0.0% (0/1)
+         watermelon: 100.0% (1/1)
+                way:   0.0% (0/1)
+              weird:   0.0% (0/1)
+              while:   0.0% (0/1)
+               wide:   0.0% (0/1)
+            willing:   0.0% (0/1)
+               wish: 100.0% (1/1)
+          wonderful:   0.0% (0/1)
+           workshop: 100.0% (1/1)
+              worse:   0.0% (0/1)
+             wrench: 100.0% (1/1)
+                  a: 100.0% (1/1)
+              a lot:   0.0% (0/1)
+            abdomen: 100.0% (1/1)
+               able:   0.0% (0/1)
+         accountant:   0.0% (0/1)
+             action:   0.0% (0/1)
+             active:   0.0% (0/1)
+           activity:   0.0% (0/1)
+            address: 100.0% (1/1)
+             affect:   0.0% (0/1)
+             afraid:   0.0% (0/1)
+            against:   0.0% (0/1)
+             agenda:   0.0% (0/1)
+              ahead:   0.0% (0/1)
+                aim:   0.0% (0/1)
+            alcohol:   0.0% (0/1)
+            algebra:   0.0% (0/1)
+            all day:   0.0% (0/1)
+            amazing:   0.0% (0/1)
+              angle:   0.0% (0/1)
+              apart:   0.0% (0/1)
+         apostrophe:   0.0% (0/1)
+           appetite:   0.0% (0/1)
+         appreciate:   0.0% (0/1)
+              april:   0.0% (0/1)
+            archery:   0.0% (0/1)
+             around: 100.0% (1/1)
+            article:   0.0% (0/1)
+          assistant:   0.0% (0/1)
+             attend:   0.0% (0/1)
+            auction:   0.0% (0/1)
+          authority:   0.0% (0/1)
+            average:   0.0% (0/1)
+              awake:   0.0% (0/1)
+                  b:   0.0% (0/1)
+         babysitter:   0.0% (0/1)
+             battle:   0.0% (0/1)
+          beginning: 100.0% (1/1)
+             belief:   0.0% (0/1)
+              bible:   0.0% (0/1)
+               bike: 100.0% (1/1)
+              blend:   0.0% (0/1)
+               bone:   0.0% (0/1)
+                bra: 100.0% (1/1)
+              brief:   0.0% (0/1)
+              broke:   0.0% (0/1)
+                bug:   0.0% (0/1)
+              bully:   0.0% (0/1)
+             button: 100.0% (1/1)
+            cabbage:   0.0% (0/1)
+            cabinet:   0.0% (0/1)
+          calculate:   0.0% (0/1)
+         calculator:   0.0% (0/1)
+           calculus:   0.0% (0/1)
+            camping:   0.0% (0/1)
+              canoe:   0.0% (0/1)
+            ceiling:   0.0% (0/1)
+           cemetery: 100.0% (1/1)
+            chapter:   0.0% (0/1)
+              choir:   0.0% (0/1)
+             circle:   0.0% (0/1)
+               come:   0.0% (0/1)
+          come here:   0.0% (0/1)
+            company:   0.0% (0/1)
+           complete:   0.0% (0/1)
+            concept:   0.0% (0/1)
+            concern:   0.0% (0/1)
+           confront: 100.0% (1/1)
+           confused:   0.0% (0/1)
+           congress:   0.0% (0/1)
+            connect:   0.0% (0/1)
+            conquer:   0.0% (0/1)
+       constitution: 100.0% (1/1)
+           contract:   0.0% (0/1)
+               crab:   0.0% (0/1)
+              cross:   0.0% (0/1)
+              cruel: 100.0% (1/1)
+              crush:   0.0% (0/1)
+               date: 100.0% (1/1)
+           december:   0.0% (0/1)
+           decrease:   0.0% (0/1)
+             deduct:   0.0% (0/1)
+             defeat:   0.0% (0/1)
+            deposit: 100.0% (1/1)
+             detach:   0.0% (0/1)
+          determine:   0.0% (0/1)
+           diabetes:   0.0% (0/1)
+               dime:   0.0% (0/1)
+            disgust:   0.0% (0/1)
+            dismiss:   0.0% (0/1)
+              dizzy:   0.0% (0/1)
+           document:   0.0% (0/1)
+               dorm:   0.0% (0/1)
+          dormitory: 100.0% (1/1)
+         downstairs:   0.0% (0/1)
+            economy:   0.0% (0/1)
+          education:   0.0% (0/1)
+             effort:   0.0% (0/1)
+           eighteen:   0.0% (0/1)
+             engage:   0.0% (0/1)
+         engagement:   0.0% (0/1)
+           engineer: 100.0% (1/1)
+           envelope: 100.0% (1/1)
+              erase:   0.0% (0/1)
+           eternity: 100.0% (1/1)
+            evening:   0.0% (0/1)
+           everyday:   0.0% (0/1)
+             expand:   0.0% (0/1)
+                eye:   0.0% (0/1)
+               eyes:   0.0% (0/1)
+               fake: 100.0% (1/1)
+             farmer: 100.0% (1/1)
+           february: 100.0% (1/1)
+            federal:   0.0% (0/1)
+              final: 100.0% (1/1)
+            florida:   0.0% (0/1)
+              flute:   0.0% (0/1)
+             forbid:   0.0% (0/1)
+            forever:   0.0% (0/1)
+             fourth:   0.0% (0/1)
+               free: 100.0% (1/1)
+       french fries:   0.0% (0/1)
+             gamble:   0.0% (0/1)
+                gas:   0.0% (0/1)
+           gasoline:   0.0% (0/1)
+         generation:   0.0% (0/1)
+          geography:   0.0% (0/1)
+             german:   0.0% (0/1)
+         girlfriend: 100.0% (1/1)
+               gold:   0.0% (0/1)
+            grandma:   0.0% (0/1)
+              grass:   0.0% (0/1)
+            grow up:   0.0% (0/1)
+                gun:   0.0% (0/1)
+            haircut:   0.0% (0/1)
+    hard of hearing:   0.0% (0/1)
+       hippopotamus:   0.0% (0/1)
+                his:   0.0% (0/1)
+              honey:   0.0% (0/1)
+          hurricane:   0.0% (0/1)
+           identify: 100.0% (1/1)
+            include:   0.0% (0/1)
+          infection:   0.0% (0/1)
+           innocent:   0.0% (0/1)
+             insect:   0.0% (0/1)
+            instead:   0.0% (0/1)
+          institute:   0.0% (0/1)
+      international:   0.0% (0/1)
+          interrupt:   0.0% (0/1)
+            involve: 100.0% (1/1)
+               jail:   0.0% (0/1)
+            january: 100.0% (1/1)
+               joke:   0.0% (0/1)
+               june:   0.0% (0/1)
+           kangaroo:   0.0% (0/1)
+             karate:   0.0% (0/1)
+               kick: 100.0% (1/1)
+              kneel:   0.0% (0/1)
+              knock: 100.0% (1/1)
+             laptop:   0.0% (0/1)
+               lift: 100.0% (1/1)
+          lightning:   0.0% (0/1)
+                lip:   0.0% (0/1)
+           lipstick:   0.0% (0/1)
+              local:   0.0% (0/1)
+             manage:   0.0% (0/1)
+             mature:   0.0% (0/1)
+             member:   0.0% (0/1)
+            message:   0.0% (0/1)
+              metal: 100.0% (1/1)
+         microphone:   0.0% (0/1)
+                mix: 100.0% (1/1)
+            monthly:   0.0% (0/1)
+              motor: 100.0% (1/1)
+             nation:   0.0% (0/1)
+            network:   0.0% (0/1)
+             nickel:   0.0% (0/1)
+           nineteen:   0.0% (0/1)
+             normal:   0.0% (0/1)
+           november:   0.0% (0/1)
+                nut:   0.0% (0/1)
+            octopus: 100.0% (1/1)
+               once:   0.0% (0/1)
+           organize:   0.0% (0/1)
+               over:   0.0% (0/1)
+                owl: 100.0% (1/1)
+                  p:   0.0% (0/1)
+          parachute:   0.0% (0/1)
+          paragraph:   0.0% (0/1)
+           parallel:   0.0% (0/1)
+      pay attention:   0.0% (0/1)
+              peace: 100.0% (1/1)
+      peanut butter:   0.0% (0/1)
+            perfume:   0.0% (0/1)
+        personality:   0.0% (0/1)
+                pet: 100.0% (1/1)
+          physician:   0.0% (0/1)
+              piece:   0.0% (0/1)
+               pity:   0.0% (0/1)
+              plant:   0.0% (0/1)
+             plenty:   0.0% (0/1)
+          pneumonia:   0.0% (0/1)
+           politics:   0.0% (0/1)
+           position:   0.0% (0/1)
+              pound:   0.0% (0/1)
+               pour:   0.0% (0/1)
+             praise:   0.0% (0/1)
+             preach:   0.0% (0/1)
+           preacher:   0.0% (0/1)
+             prefer:   0.0% (0/1)
+           pressure: 100.0% (1/1)
+          principal:   0.0% (0/1)
+           priority:   0.0% (0/1)
+       professional: 100.0% (1/1)
+          professor:   0.0% (0/1)
+            promote:   0.0% (0/1)
+         prostitute:   0.0% (0/1)
+              proud:   0.0% (0/1)
+              quote: 100.0% (1/1)
+            receive:   0.0% (0/1)
+             recent:   0.0% (0/1)
+             reduce:   0.0% (0/1)
+              refer:   0.0% (0/1)
+            referee:   0.0% (0/1)
+             relate:   0.0% (0/1)
+              relax:   0.0% (0/1)
+     remote control:   0.0% (0/1)
+               rent:   0.0% (0/1)
+         reputation:   0.0% (0/1)
+             resign: 100.0% (1/1)
+        responsible:   0.0% (0/1)
+         ridiculous:   0.0% (0/1)
+               road:   0.0% (0/1)
+              robot:   0.0% (0/1)
+             rubber:   0.0% (0/1)
+               safe: 100.0% (1/1)
+              sauce:   0.0% (0/1)
+            sausage: 100.0% (1/1)
+              scold:   0.0% (0/1)
+             senior: 100.0% (1/1)
+          september: 100.0% (1/1)
+              shame:   0.0% (0/1)
+              shave:   0.0% (0/1)
+              shoot:   0.0% (0/1)
+           shoulder:   0.0% (0/1)
+             silver:   0.0% (0/1)
+             simple:   0.0% (0/1)
+              siren: 100.0% (1/1)
+               size: 100.0% (1/1)
+              skate:   0.0% (0/1)
+               skin: 100.0% (1/1)
+              skunk:   0.0% (0/1)
+              slice:   0.0% (0/1)
+             smooth:   0.0% (0/1)
+              snack:   0.0% (0/1)
+            snowman:   0.0% (0/1)
+            society: 100.0% (1/1)
+               song:   0.0% (0/1)
+        sore throat:   0.0% (0/1)
+      south america: 100.0% (1/1)
+            spanish:   0.0% (0/1)
+              speak:   0.0% (0/1)
+              speed:   0.0% (0/1)
+              spell:   0.0% (0/1)
+              spoon:   0.0% (0/1)
+             spring:   0.0% (0/1)
+           standard:   0.0% (0/1)
+         statistics:   0.0% (0/1)
+             sticky: 100.0% (1/1)
+              still:   0.0% (0/1)
+            stretch:   0.0% (0/1)
+            surgeon: 100.0% (1/1)
+             sweden:   0.0% (0/1)
+           swimsuit:   0.0% (0/1)
+           sympathy:   0.0% (0/1)
+         take turns:   0.0% (0/1)
+            take up:   0.0% (0/1)
+         technology: 100.0% (1/1)
+             tender:   0.0% (0/1)
+           thailand: 100.0% (1/1)
+            theater:   0.0% (0/1)
+               them:   0.0% (0/1)
+              theme:   0.0% (0/1)
+              thick:   0.0% (0/1)
+               this:   0.0% (0/1)
+             throat:   0.0% (0/1)
+             tissue:   0.0% (0/1)
+             tongue:   0.0% (0/1)
+            tonight:   0.0% (0/1)
+            tornado:   0.0% (0/1)
+              tower: 100.0% (1/1)
+           tranquil:   0.0% (0/1)
+          transform:   0.0% (0/1)
+              tutor: 100.0% (1/1)
+               twin:   0.0% (0/1)
+      united states:   0.0% (0/1)
+              value: 100.0% (1/1)
+            visitor:   0.0% (0/1)
+            wake up:   0.0% (0/1)
+             wallet:   0.0% (0/1)
+             wander:   0.0% (0/1)
+          wash face: 100.0% (1/1)
+             weight:   0.0% (0/1)
+              whale: 100.0% (1/1)
+           whatever:   0.0% (0/1)
+             within:   0.0% (0/1)
+             wonder:   0.0% (0/1)
+             worker: 100.0% (1/1)
+          worthless:   0.0% (0/1)
+               wrap:   0.0% (0/1)
+                act:   0.0% (0/1)
+              adapt:   0.0% (0/1)
+             adjust:   0.0% (0/1)
+             admire:   0.0% (0/1)
+              admit:   0.0% (0/1)
+          agreement:   0.0% (0/1)
+                aid:   0.0% (0/1)
+          alligator:   0.0% (0/1)
+           amputate:   0.0% (0/1)
+            austria: 100.0% (1/1)
+               bank:   0.0% (0/1)
+            battery: 100.0% (1/1)
+               blow:   0.0% (0/1)
+              boast:   0.0% (0/1)
+          bookshelf:   0.0% (0/1)
+              braid:   0.0% (0/1)
+          breakfast:   0.0% (0/1)
+             breeze:   0.0% (0/1)
+            buffalo:   0.0% (0/1)
+               bush:   0.0% (0/1)
+                bye:   0.0% (0/1)
+              camel:   0.0% (0/1)
+             cannot: 100.0% (1/1)
+            captain:   0.0% (0/1)
+              click:   0.0% (0/1)
+             closet:   0.0% (0/1)
+           clueless:   0.0% (0/1)
+             clumsy:   0.0% (0/1)
+            collect:   0.0% (0/1)
+            comment:   0.0% (0/1)
+             commit:   0.0% (0/1)
+            compete:   0.0% (0/1)
+    congratulations:   0.0% (0/1)
+          construct:   0.0% (0/1)
+            consume: 100.0% (1/1)
+       conversation:   0.0% (0/1)
+            convert:   0.0% (0/1)
+              crave:   0.0% (0/1)
+             create:   0.0% (0/1)
+          crocodile:   0.0% (0/1)
+               cuba:   0.0% (0/1)
+                  d:   0.0% (0/1)
+             damage:   0.0% (0/1)
+          dangerous:   0.0% (0/1)
+              death:   0.0% (0/1)
+               debt:   0.0% (0/1)
+               dice:   0.0% (0/1)
+         discipline:   0.0% (0/1)
+          disgusted:   0.0% (0/1)
+            disturb:   0.0% (0/1)
+               done:   0.0% (0/1)
+             dragon: 100.0% (1/1)
+              drama: 100.0% (1/1)
+               drug:   0.0% (0/1)
+               dull: 100.0% (1/1)
+               dusk: 100.0% (1/1)
+                dvd:   0.0% (0/1)
+                  e:   0.0% (0/1)
+        electricity:   0.0% (0/1)
+           enormous:   0.0% (0/1)
+             eraser:   0.0% (0/1)
+            exhibit:   0.0% (0/1)
+                  f:   0.0% (0/1)
+              fairy:   0.0% (0/1)
+           festival:   0.0% (0/1)
+        fingerspell:   0.0% (0/1)
+               fire: 100.0% (1/1)
+        firefighter: 100.0% (1/1)
+               five:   0.0% (0/1)
+               fool: 100.0% (1/1)
+            freeway:   0.0% (0/1)
+        from now on:   0.0% (0/1)
+                  g:   0.0% (0/1)
+                gay:   0.0% (0/1)
+           geometry:   0.0% (0/1)
+             get up:   0.0% (0/1)
+         graduation:   0.0% (0/1)
+               grey:   0.0% (0/1)
+         gymnastics: 100.0% (1/1)
+                  h:   0.0% (0/1)
+            hang up:   0.0% (0/1)
+           hanukkah: 100.0% (1/1)
+               heap:   0.0% (0/1)
+               holy:   0.0% (0/1)
+            hot dog: 100.0% (1/1)
+                  i:   0.0% (0/1)
+                ill:   0.0% (0/1)
+             impact:   0.0% (0/1)
+            inspect:   0.0% (0/1)
+            inspire: 100.0% (1/1)
+       intersection:   0.0% (0/1)
+               iron:   0.0% (0/1)
+                  j:   0.0% (0/1)
+                joy:   0.0% (0/1)
+                  k:   0.0% (0/1)
+                kid:   0.0% (0/1)
+       kindergarten:   0.0% (0/1)
+               lady:   0.0% (0/1)
+               leak:   0.0% (0/1)
+                  m:   0.0% (0/1)
+            meaning:   0.0% (0/1)
+         microscope:   0.0% (0/1)
+           midnight: 100.0% (1/1)
+               mine: 100.0% (1/1)
+              moose: 100.0% (1/1)
+           mosquito:   0.0% (0/1)
+           motivate: 100.0% (1/1)
+                  n:   0.0% (0/1)
+               nine: 100.0% (1/1)
+            not yet: 100.0% (1/1)
+             notice:   0.0% (0/1)
+           numerous:   0.0% (0/1)
+                  o:   0.0% (0/1)
+          objective:   0.0% (0/1)
+             obsess: 100.0% (1/1)
+             obtain:   0.0% (0/1)
+               pack:   0.0% (0/1)
+              pause:   0.0% (0/1)
+           peaceful:   0.0% (0/1)
+              penny:   0.0% (0/1)
+             phrase:   0.0% (0/1)
+         polar bear: 100.0% (1/1)
+          policeman:   0.0% (0/1)
+               poop:   0.0% (0/1)
+               post:   0.0% (0/1)
+      precipitation:   0.0% (0/1)
+              pride: 100.0% (1/1)
+            publish:   0.0% (0/1)
+           purchase:   0.0% (0/1)
+               pure:   0.0% (0/1)
+                  q:   0.0% (0/1)
+            quality:   0.0% (0/1)
+            quarter: 100.0% (1/1)
+                  r:   0.0% (0/1)
+           recliner:   0.0% (0/1)
+            regular:   0.0% (0/1)
+            release:   0.0% (0/1)
+           roommate:   0.0% (0/1)
+               rose:   0.0% (0/1)
+                  s:   0.0% (0/1)
+                saw:   0.0% (0/1)
+               scan:   0.0% (0/1)
+                sea:   0.0% (0/1)
+            sixteen:   0.0% (0/1)
+            smoking:   0.0% (0/1)
+            soldier:   0.0% (0/1)
+            someday:   0.0% (0/1)
+               soul:   0.0% (0/1)
+             spread:   0.0% (0/1)
+             sprint:   0.0% (0/1)
+            stadium:   0.0% (0/1)
+           superman: 100.0% (1/1)
+           swimming:   0.0% (0/1)
+                  t:   0.0% (0/1)
+          telescope:   0.0% (0/1)
+                ten:   0.0% (0/1)
+               text:   0.0% (0/1)
+               trip:   0.0% (0/1)
+              truth:   0.0% (0/1)
+                 tv:   0.0% (0/1)
+                  u:   0.0% (0/1)
+                  v:   0.0% (0/1)
+             vacant:   0.0% (0/1)
+            vampire:   0.0% (0/1)
+               very: 100.0% (1/1)
+               vlog:   0.0% (0/1)
+                  w:   0.0% (0/1)
+         wheelchair:   0.0% (0/1)
+
+  Worst 5 avg: 0.0%
+  Saved: G:\HK2N4\BOBSL_Lightweight\dl_model_wlasl\runs_wlasl2000\tcn_wlasl2000_result.json
+
+============================================================
+  FINAL SUMMARY
+============================================================
+           tcn: val=26.99%  test=24.33%  ep=128  params=1,909,072
+
+  Results saved: G:\HK2N4\BOBSL_Lightweight\dl_model_wlasl\runs_wlasl2000\wlasl2000_all_results.json
+  Done: 2026-04-13 14:19:40

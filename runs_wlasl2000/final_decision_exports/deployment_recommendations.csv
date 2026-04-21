@@ -1,0 +1,4 @@
+Scenario,Recommended Model,Score (0-1)
+Accuracy-First,TRANSFORMER,0.949
+Balanced Production,TRANSFORMER,0.964
+Edge / Mobile,TRANSFORMER,0.978

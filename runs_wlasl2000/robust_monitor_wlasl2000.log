@@ -1,0 +1,606 @@
+[2026-03-18 13:56:19] monitor_start variant=wlasl2000 poll=20s state=robust_state_wlasl2000.json log=robust_pipeline_wlasl2000.log
+[2026-03-18 13:56:19] tune model=hybrid status=ok
+[2026-03-18 13:56:19] tune model=tcn status=ok
+[2026-03-18 13:56:19] tune_progress model=tcn trial=50/50
+[2026-03-18 13:56:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 13:56:59] tune_progress model=bilstm trial=1/1
+[2026-03-18 13:57:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 13:58:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 13:59:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:00:19] tune_progress model=bilstm trial=2/2
+[2026-03-18 14:00:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:01:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:02:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:03:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:03:59] tune_progress model=bilstm trial=3/3
+[2026-03-18 14:04:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:05:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:06:19] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:07:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:08:00] tune_progress model=bilstm trial=4/4
+[2026-03-18 14:08:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:09:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:10:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:11:20] tune_progress model=bilstm trial=5/5
+[2026-03-18 14:11:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:12:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:13:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:14:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:15:00] tune_progress model=bilstm trial=6/6
+[2026-03-18 14:15:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:16:00] tune_progress model=bilstm trial=7/7
+[2026-03-18 14:16:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:17:20] tune_progress model=bilstm trial=8/8
+[2026-03-18 14:17:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:18:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:19:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:20:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:20:40] tune_progress model=bilstm trial=9/9
+[2026-03-18 14:21:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:22:00] tune_progress model=bilstm trial=10/10
+[2026-03-18 14:22:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:23:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:24:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:25:20] tune_progress model=bilstm trial=11/11
+[2026-03-18 14:25:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:26:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:27:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:28:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:28:40] tune_progress model=bilstm trial=12/12
+[2026-03-18 14:29:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:30:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:31:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:32:20] tune_progress model=bilstm trial=13/13
+[2026-03-18 14:32:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:33:20] tune_progress model=bilstm trial=14/14
+[2026-03-18 14:33:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:34:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:35:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:36:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:36:40] tune_progress model=bilstm trial=15/15
+[2026-03-18 14:37:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:38:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:39:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:40:00] tune_progress model=bilstm trial=16/16
+[2026-03-18 14:40:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:41:20] tune_progress model=bilstm trial=17/17
+[2026-03-18 14:41:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:42:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:43:00] tune_progress model=bilstm trial=18/18
+[2026-03-18 14:43:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:44:00] tune_progress model=bilstm trial=19/19
+[2026-03-18 14:44:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:45:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:46:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:47:20] tune_progress model=bilstm trial=20/20
+[2026-03-18 14:47:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:48:20] tune_progress model=bilstm trial=21/21
+[2026-03-18 14:48:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:49:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:50:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:51:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:52:00] tune_progress model=bilstm trial=22/22
+[2026-03-18 14:52:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:53:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:54:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:55:20] tune_progress model=bilstm trial=23/23
+[2026-03-18 14:55:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:56:20] tune_progress model=bilstm trial=24/24
+[2026-03-18 14:56:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:57:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:58:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:59:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 14:59:40] tune_progress model=bilstm trial=25/25
+[2026-03-18 15:00:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:01:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:02:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:03:00] tune_progress model=bilstm trial=26/26
+[2026-03-18 15:03:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:04:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:05:20] tune_progress model=bilstm trial=27/27
+[2026-03-18 15:05:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:06:20] tune_progress model=bilstm trial=28/28
+[2026-03-18 15:06:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:07:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:07:40] tune_progress model=bilstm trial=29/29
+[2026-03-18 15:08:20] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:08:41] tune_progress model=bilstm trial=30/30
+[2026-03-18 15:09:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:09:41] tune_progress model=bilstm trial=31/31
+[2026-03-18 15:10:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:11:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:12:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:13:01] tune_progress model=bilstm trial=32/32
+[2026-03-18 15:13:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:14:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:15:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:16:21] tune_progress model=bilstm trial=33/33
+[2026-03-18 15:16:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:17:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:18:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:19:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:20:01] tune_progress model=bilstm trial=34/34
+[2026-03-18 15:20:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:21:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:22:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:23:21] tune_progress model=bilstm trial=35/35
+[2026-03-18 15:23:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:24:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:25:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:26:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:26:41] tune_progress model=bilstm trial=36/36
+[2026-03-18 15:27:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:28:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:29:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:30:21] tune_progress model=bilstm trial=37/37
+[2026-03-18 15:30:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:31:21] tune_progress model=bilstm trial=38/38
+[2026-03-18 15:31:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:32:21] tune_progress model=bilstm trial=39/39
+[2026-03-18 15:32:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:33:21] tune_progress model=bilstm trial=40/40
+[2026-03-18 15:33:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:34:21] tune_progress model=bilstm trial=41/41
+[2026-03-18 15:34:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:35:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:36:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:37:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:38:01] tune_progress model=bilstm trial=42/42
+[2026-03-18 15:38:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:39:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:40:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:41:21] tune_progress model=bilstm trial=43/43
+[2026-03-18 15:41:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:42:21] tune_progress model=bilstm trial=44/44
+[2026-03-18 15:42:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:43:21] tune_progress model=bilstm trial=45/45
+[2026-03-18 15:43:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:44:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:45:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:46:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:46:41] tune_progress model=bilstm trial=46/46
+[2026-03-18 15:47:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:48:01] tune_progress model=bilstm trial=47/47
+[2026-03-18 15:48:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:49:01] tune_progress model=bilstm trial=48/48
+[2026-03-18 15:49:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:50:01] tune_progress model=bilstm trial=49/49
+[2026-03-18 15:50:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:51:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:52:21] heartbeat tuned=2 trained=0 optimized=False evaluated=False
+[2026-03-18 15:53:21] tune model=bilstm status=ok
+[2026-03-18 15:53:21] tune_progress model=bilstm trial=50/50
+[2026-03-18 15:53:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 15:54:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 15:55:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 15:56:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 15:57:21] tune_progress model=transformer trial=1/1
+[2026-03-18 15:57:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 15:58:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 15:59:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:00:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:01:01] tune_progress model=transformer trial=2/2
+[2026-03-18 16:01:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:02:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:03:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:04:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:04:41] tune_progress model=transformer trial=3/3
+[2026-03-18 16:05:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:06:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:07:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:08:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:08:41] tune_progress model=transformer trial=4/4
+[2026-03-18 16:09:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:10:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:11:21] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:12:22] tune_progress model=transformer trial=5/5
+[2026-03-18 16:12:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:13:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:14:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:15:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:16:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:17:22] tune_progress model=transformer trial=6/6
+[2026-03-18 16:17:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:18:22] tune_progress model=transformer trial=7/7
+[2026-03-18 16:18:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:19:22] tune_progress model=transformer trial=8/8
+[2026-03-18 16:19:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:20:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:21:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:22:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:23:02] tune_progress model=transformer trial=9/9
+[2026-03-18 16:23:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:24:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:25:02] tune_progress model=transformer trial=10/10
+[2026-03-18 16:25:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:26:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:27:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:28:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:29:02] tune_progress model=transformer trial=11/11
+[2026-03-18 16:29:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:30:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:31:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:32:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:33:02] tune_progress model=transformer trial=12/12
+[2026-03-18 16:33:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:34:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:35:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:36:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:37:02] tune_progress model=transformer trial=13/13
+[2026-03-18 16:37:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:38:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:39:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:40:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:41:02] tune_progress model=transformer trial=14/14
+[2026-03-18 16:41:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:42:02] tune_progress model=transformer trial=15/15
+[2026-03-18 16:42:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:43:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:44:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:45:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:46:02] tune_progress model=transformer trial=16/16
+[2026-03-18 16:46:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:47:02] tune_progress model=transformer trial=17/17
+[2026-03-18 16:47:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:48:22] tune_progress model=transformer trial=18/18
+[2026-03-18 16:48:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:49:22] tune_progress model=transformer trial=19/19
+[2026-03-18 16:49:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:50:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:51:22] tune_progress model=transformer trial=20/20
+[2026-03-18 16:51:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:52:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:52:42] tune_progress model=transformer trial=21/21
+[2026-03-18 16:53:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:54:02] tune_progress model=transformer trial=22/22
+[2026-03-18 16:54:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:55:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:56:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:57:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:57:42] tune_progress model=transformer trial=23/23
+[2026-03-18 16:58:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 16:59:02] tune_progress model=transformer trial=24/24
+[2026-03-18 16:59:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:00:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:01:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:02:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:03:02] tune_progress model=transformer trial=25/25
+[2026-03-18 17:03:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:04:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:05:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:06:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:06:42] tune_progress model=transformer trial=26/26
+[2026-03-18 17:07:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:08:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:09:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:10:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:10:42] tune_progress model=transformer trial=27/27
+[2026-03-18 17:11:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:12:22] tune_progress model=transformer trial=28/28
+[2026-03-18 17:12:22] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:13:23] tune_progress model=transformer trial=29/29
+[2026-03-18 17:13:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:14:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:15:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:16:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:17:03] tune_progress model=transformer trial=30/30
+[2026-03-18 17:17:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:18:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:19:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:20:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:21:03] tune_progress model=transformer trial=31/31
+[2026-03-18 17:21:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:22:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:23:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:24:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:24:43] tune_progress model=transformer trial=32/32
+[2026-03-18 17:25:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:26:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:27:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:28:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:29:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:29:43] tune_progress model=transformer trial=33/33
+[2026-03-18 17:30:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:31:23] tune_progress model=transformer trial=34/34
+[2026-03-18 17:31:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:32:23] tune_progress model=transformer trial=35/35
+[2026-03-18 17:32:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:33:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:34:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:35:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:36:03] tune_progress model=transformer trial=36/36
+[2026-03-18 17:36:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:37:03] tune_progress model=transformer trial=37/37
+[2026-03-18 17:37:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:38:03] tune_progress model=transformer trial=38/38
+[2026-03-18 17:38:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:39:23] tune_progress model=transformer trial=39/39
+[2026-03-18 17:39:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:40:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:41:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:41:43] tune_progress model=transformer trial=40/40
+[2026-03-18 17:42:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:42:43] tune_progress model=transformer trial=41/41
+[2026-03-18 17:43:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:43:43] tune_progress model=transformer trial=42/42
+[2026-03-18 17:44:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:45:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:46:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:47:23] tune_progress model=transformer trial=43/43
+[2026-03-18 17:47:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:48:23] tune_progress model=transformer trial=44/44
+[2026-03-18 17:48:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:49:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:50:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:51:03] tune_progress model=transformer trial=45/45
+[2026-03-18 17:51:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:52:03] tune_progress model=transformer trial=46/46
+[2026-03-18 17:52:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:53:23] tune_progress model=transformer trial=47/47
+[2026-03-18 17:53:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:54:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:55:03] tune_progress model=transformer trial=48/48
+[2026-03-18 17:55:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:56:03] tune_progress model=transformer trial=49/49
+[2026-03-18 17:56:23] heartbeat tuned=3 trained=0 optimized=False evaluated=False
+[2026-03-18 17:57:03] tune model=transformer status=ok
+[2026-03-18 17:57:03] tune_progress model=transformer trial=50/50
+[2026-03-18 17:57:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 17:58:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 17:59:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:00:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:01:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:02:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:03:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:04:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:05:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:06:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:07:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:08:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:09:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:10:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:11:23] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:12:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:13:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:14:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:15:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:16:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:17:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:18:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:19:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:20:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:21:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:22:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:23:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:24:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:25:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:26:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:27:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:28:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:29:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:30:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:31:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:32:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:33:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:34:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:35:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:36:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:37:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:38:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:39:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:40:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:41:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:42:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:43:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:44:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:45:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:46:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:47:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:48:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:49:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:50:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:51:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:52:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:53:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:54:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:55:24] heartbeat tuned=4 trained=0 optimized=False evaluated=False
+[2026-03-18 18:56:24] train model=hybrid status=ok
+[2026-03-18 18:56:24] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 18:57:24] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 18:58:24] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 18:59:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:00:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:01:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:02:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:03:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:04:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:05:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:06:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:07:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:08:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:09:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:10:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:11:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:12:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:13:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:14:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:15:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:16:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:17:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:18:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:19:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:20:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:21:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:22:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:23:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:24:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:25:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:26:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:27:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:28:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:29:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:30:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:31:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:32:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:33:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:34:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:35:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:36:25] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:37:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:38:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:39:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:40:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:41:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:42:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:43:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:44:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:45:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:46:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:47:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:48:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:49:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:50:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:51:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:52:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:53:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:54:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:55:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:56:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:57:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:58:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 19:59:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 20:00:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 20:01:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 20:02:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 20:03:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 20:04:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 20:05:26] heartbeat tuned=4 trained=1 optimized=False evaluated=False
+[2026-03-18 20:05:46] train model=tcn status=ok
+[2026-03-18 20:06:26] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:07:26] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:08:26] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:09:26] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:10:26] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:11:26] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:12:26] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:13:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:14:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:15:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:16:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:17:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:18:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:19:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:20:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:21:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:22:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:23:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:24:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:25:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:26:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:27:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:28:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:29:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:30:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:31:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:32:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:33:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:34:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:35:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:36:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:37:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:38:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:39:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:40:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:41:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:42:27] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:43:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:44:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:45:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:46:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:47:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:48:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:49:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:50:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:51:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:52:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:53:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:54:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:55:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:56:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:57:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:58:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 20:59:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 21:00:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 21:01:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 21:02:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 21:03:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 21:04:28] heartbeat tuned=4 trained=2 optimized=False evaluated=False
+[2026-03-18 21:05:08] train model=bilstm status=ok
+[2026-03-18 21:05:28] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:06:28] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:07:28] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:08:28] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:09:28] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:10:28] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:11:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:12:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:13:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:14:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:15:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:16:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:17:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:18:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:19:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:20:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:21:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:22:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:23:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:24:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:25:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:26:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:27:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:28:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:29:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:30:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:31:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:32:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:33:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:34:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:35:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:36:29] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:37:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:38:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:39:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:40:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:41:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:42:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:43:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:44:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:45:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:46:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:47:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:48:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:49:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:50:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:51:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:52:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:53:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:54:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:55:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:56:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:57:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:58:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 21:59:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 22:00:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 22:01:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 22:02:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 22:03:30] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 22:04:31] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 22:05:31] heartbeat tuned=4 trained=3 optimized=False evaluated=False
+[2026-03-18 22:06:31] train model=transformer status=ok
+[2026-03-18 22:06:31] heartbeat tuned=4 trained=4 optimized=False evaluated=False
+[2026-03-18 22:07:31] heartbeat tuned=4 trained=4 optimized=False evaluated=False
+[2026-03-18 22:08:11] phase_complete optimize=true
+[2026-03-18 22:08:11] phase_complete evaluate=true
+[2026-03-18 22:08:11] pipeline_complete completed_at=2026-03-18 22:08:00
+[2026-03-18 22:08:11] monitor_stop reason=pipeline_complete

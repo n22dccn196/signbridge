@@ -1,0 +1,12 @@
+{
+  "model": "bilstm",
+  "val_top1": 12.525021446954533,
+  "lr": 0.002280477945725429,
+  "weight_decay": 2.4984462717786138e-06,
+  "batch_size": 32,
+  "label_smoothing": 0.19807834868958257,
+  "grad_clip": 1.9477483393790878,
+  "hidden_size": 128,
+  "num_layers": 1,
+  "dropout": 0.10043596894109591
+}

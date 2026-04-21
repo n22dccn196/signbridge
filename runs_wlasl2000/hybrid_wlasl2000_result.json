@@ -1,0 +1,13 @@
+{
+  "model": "hybrid",
+  "best_val": 21.64712610809265,
+  "best_epoch": 277,
+  "test_top1": 19.83753740914921,
+  "test_top5": 46.85763146643865,
+  "total_time_s": 5260.600769042969,
+  "num_classes": 2000,
+  "num_params": 515576,
+  "dataset": "wlasl2000",
+  "dry_run": false,
+  "timestamp": "2026-04-13 17:30:22"
+}

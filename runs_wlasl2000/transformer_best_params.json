@@ -1,0 +1,13 @@
+{
+  "model": "transformer",
+  "val_top1": 4.861309694023449,
+  "lr": 0.0033250383290805326,
+  "weight_decay": 0.004818777268819101,
+  "batch_size": 32,
+  "label_smoothing": 0.11054011587003588,
+  "grad_clip": 2.344632246280217,
+  "d_model": 64,
+  "nhead": 8,
+  "num_layers": 2,
+  "dropout": 0.10555602067622902
+}
