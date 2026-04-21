@@ -23,7 +23,7 @@ DEMO_OUTPUT_DIR = os.path.join(DL_DIR, "demo_output")
 
 # ─── BOBSL Download ───────────────────────────────────────────
 TAR_URL     = "https://thor.robots.ox.ac.uk/bobsl/v1.4/original_data/bobsl_v1_4_videos_mp4.tar"
-AUTH_HEADER = "Authorization: Basic Ym9ic2wtMDAyMzQ6YVBob28zYWk="
+AUTH_HEADER = "Authorization:Có cc t này m Auth"
 
 # ─── Data ─────────────────────────────────────────────────────
 # 36 classes — manual-annotation verified subset (≥20 expert-verified samples each)
