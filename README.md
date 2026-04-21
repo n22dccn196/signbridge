@@ -1,3 +1,33 @@
+# SignBridge: WLASL-2000 Sign Language Recognition
+
+This project is a large-scale sign language recognition system built on MediaPipe landmarks for the WLASL-2000 dataset. It trains four deep learning models and combines them using an Ensemble approach to optimize accuracy.
+
+## 1. Model Performance
+
+The project utilizes a combination of 4 network architectures: **Hybrid, TCN, BiLSTM, and Transformer**.
+
+* **Ensemble Test Top-1:** 29.37%
+* **Ensemble Test Top-5:** 57.72%
+* **Ensemble Test Top-10:** 68.36%
+* **Number of Classes:** 2000
+* **Optimized Ensemble Weights:** Hybrid 0.15, TCN 0.35, BiLSTM 0.15, Transformer 0.35
+
+## 2. Core Structure
+
+The repository has been streamlined to focus on the main execution flows:
+* `orchestrate_wlasl_robust.py`: The main orchestrator that runs the entire pipeline (Tune, Train, Optimize, Evaluate).
+* `train_wlasl.py`: Handles the training of individual component models.
+* `tune.py`: Performs hyperparameter tuning.
+* `optimize_ensemble_wlasl.py` & `eval_ensemble_wlasl.py`: Optimizes and evaluates the final ensemble results.
+* `demo_camera.py`: Runs real-time recognition via webcam.
+* `inference_antibias.py`: Anti-bias module for real-time execution.
+
+## 3. Usage Guide
+
+### 3.1. Environment Setup
+```bash
+pip install -r requirements.txt
+
 # WLASL Training and Deployment Guide (VI/EN)
 
 Tai lieu nay mo ta chi tiet pipeline train/retrain WLASL2000, toi uu ensemble,
@@ -214,3 +244,5 @@ If missing, run optimization/evaluation phase again via orchestrator.
 
 For runtime web operation details, see:
 - `../sign_language_web/sign_language_web/README.md`
+
+
